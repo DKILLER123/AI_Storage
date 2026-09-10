@@ -1,0 +1,282 @@
+{
+ "baek-sion": {
+  "name": "Baek Si-on",
+  "role": "The protagonist · Debt collector, then actor",
+  "meta": "Korean-American · 22 · reincarnated",
+  "desc": "Raised between Seoul and Los Angeles, pushed onto the stage by a father who believed the Hallyu wave would carry his son to the top. He spent two years in the Korean military, then woke up carrying the name — and the memory — of a life he never lived.",
+  "img": "baek-sion.jpg"
+ },
+ "yoon-hyeja": {
+  "name": "Yoon Hye-ja",
+  "role": "Si-on's mother",
+  "meta": "Mid-40s · steel behind a calm face",
+  "desc": "Short hair, hard eyes, and a way of putting two billion won on the table because she doesn't want her son eating meatless lunchboxes on set.",
+  "img": "yoon-hyeja.jpg"
+ },
+ "baek-jeonghun": {
+  "name": "Baek Jeong-hun",
+  "role": "Uncle & indie film director",
+  "meta": "37 · Green Bottle Fly",
+  "desc": "Too thin, too tired, a pencil behind his ear and a screenplay six years in the making. With a nephew he barely knows, he finally climbs the stairs of his brother's house.",
+  "img": "baek-jeonghun.jpg"
+ },
+ "lee-ji-eun": {
+  "name": "Lee Ji-eun (IU)",
+  "role": "Singer-songwriter · Actor · LOEN Entertainment",
+  "meta": "The Nation's Little Sister · real-name counterpart",
+  "desc": "The one the whole country calls its little sister. When a fan letter about a half-basement and a debt collector reaches her hands, she does the one thing her manager warns her against: she decides to help.",
+  "img": "iu.jpg"
+ },
+ "kim-sejeong": {
+  "name": "Kim Se-jeong",
+  "role": "The debtor's daughter, dreaming of the stage",
+  "meta": "She works the grill · idolises IU",
+  "desc": "She counts the hours and hides a letter to her favourite singer under her mattress. The worst thing in the world and the best thing in the world can be the same person.",
+  "img": "sejeong.jpg"
+ },
+ "goo-hara": {
+  "name": "Goo Hara",
+  "role": "Singer · Dancer · KARA",
+  "meta": "KARA's visual, kind even under fire",
+  "desc": "Born 1991 in Gwangju. The one who, while her own group stood blockaded by fans, still had the presence of mind to hand a near-stranger a name and a number.",
+  "img": "goo-hara.jpg"
+ },
+ "song-qian": {
+  "name": "Song Qian (Victoria)",
+  "role": "Singer · Dancer · Leader of f(x)",
+  "meta": "Born Song Qian in Qingdao · on stage, Victoria",
+  "desc": "The first Chinese leader of an SM girl group. f(x)'s anchor — the one the practice room quietly leans on, and the one pressing record when the others have stopped.",
+  "img": "victoria.jpg"
+ },
+ "jung-jae-joon": {
+  "name": "Jung Jae-joon",
+  "role": "Independent producer · studio 401",
+  "meta": "The ear that finds the note",
+  "desc": "An underground producer working out of a cluttered fourth-floor studio. To Baek Si-on he is less a business partner than a translator, reading a picture in someone's head and writing it in sound.",
+  "img": "jung-jae-joon.jpg"
+ },
+ "son-namwon": {
+  "name": "Son Nam-won",
+  "role": "Editor-in-chief of OSEN's entertainment desk",
+  "meta": "The man who lives by the scoop",
+  "desc": "The kind of editor who dug with his mouth instead of his feet. Publicly bruised by Dispatch and afraid of losing a second exclusive, he is exactly the audience a half-exclusive was built for.",
+  "img": "son-nam-won.jpg"
+ },
+ "park-jihun": {
+  "name": "Park Ji-hun",
+  "role": "Stylist · JB Hair, Hapjeong-dong",
+  "meta": "Three years of artist styling at a Cheongdam-dong salon",
+  "desc": "The front-desk stylist who chased Baek Si-on out of the shop to offer himself. Three years in artist styling, a portfolio ready, and the good sense to read a million-won membership card for the door it was.",
+  "img": "park-jihun.jpg"
+ },
+ "irene": {
+  "name": "Irene",
+  "role": "Leader of Red Velvet",
+  "meta": "Real-name counterpart · Bae Joo-hyun",
+  "desc": "The calm at the centre of a debuting group, the one who calls \"one, two, three\" and makes four voices land on the same syllable. On the day Red Velvet debuted she sized up Baek Si-on's name on the sheet of A4, shut the nostalgia gate in her own head, and led the four of them through the bow.",
+  "img": "irene.jpg"
+ },
+ "seulgi": {
+  "name": "Kang Seul-gi",
+  "role": "Red Velvet",
+  "meta": "Real-name counterpart · Kang Seul-gi",
+  "desc": "The member who leans half her body out from behind the leader's shoulder to ask the question nobody else will — bright, unguarded, and the first to let her curiosity slip out before the politeness catches up.",
+  "img": "seulgi.jpg"
+ },
+ "wendy": {
+  "name": "Son Seung-wan",
+  "role": "Red Velvet",
+  "meta": "Real-name counterpart · Son Seung-wan",
+  "desc": "The kind of face that makes a room decide to be friendly; the member whose warmth reads even in a crowd of strangers, and the one who makes it okay to be nervous out loud.",
+  "img": "wendy.jpg"
+ },
+ "joy": {
+  "name": "Park Soo-young",
+  "role": "Red Velvet · maknae",
+  "meta": "Real-name counterpart · Park Soo-young",
+  "desc": "The maknae, the one who leans slightly toward Irene in the dark of a broadcast hall to ask whether Baek sunbae can really take number one. Her optimism comes in its youngest, least armoured form.",
+  "img": "joy.jpg"
+ },
+ "daddario": {
+  "name": "Alexandra Daddario",
+  "role": "American actress · main competition, Venice",
+  "meta": "Real-name counterpart · Alexandra Daddario",
+  "desc": "The woman who sits down across from the man eating alone in the dark and tells him he is either the least interested or the hungriest person on the beach. Direct in a way Seoul's politeness never is — and the first on that beach not to come away with a phone number.",
+  "img": "daddario.jpg"
+ },
+ "luisa-ranieri": {
+  "name": "Luisa Ranieri",
+  "role": "Italian actress · host & red carpet, Venice",
+  "meta": "Real-name counterpart · Luisa Ranieri",
+  "desc": "The face of the Venice red carpet — the Italian actress who draws the flashbulbs and opens the night. Warm, unhurried, and photographed against the Lido's sea-light; the woman who makes the premiere feel less like a competition and more like a night out.",
+  "img": "luisa-ranieri.jpg"
+ },
+ "tim-roth": {
+  "name": "Tim Roth",
+  "role": "British actor · president of the main competition, Venice",
+  "meta": "Real-name counterpart · Tim Roth",
+  "desc": "The jury president — an English actor with a name known to every filmmaker in the room, and a gaze that weighs a film in a single pass. Where he sits, the whole conversation between the jury and the press pivots.",
+  "img": "tim-roth.jpg"
+ },
+ "alexandre-desplat": {
+  "name": "Alexandre Desplat",
+  "role": "French composer · jury, Venice",
+  "meta": "Real-name counterpart · Alexandre Desplat",
+  "desc": "One of the great living film composers — the man whose name on a poster already promises a certain sound. On the jury he is the quiet one who listens for the score beneath the picture.",
+  "img": "alexandre-desplat.jpg"
+ },
+ "sandy-powell": {
+  "name": "Sandy Powell",
+  "role": "British costume designer · jury, Venice",
+  "meta": "Real-name counterpart · Sandy Powell",
+  "desc": "A costume designer with an Oscar shelf, and a sharp eye for what a single seam can do. The woman who will notice the gown before anyone else notices the wearer — and the voice that settles whether a red carpet is talk or is art.",
+  "img": "sandy-powell.jpg"
+ },
+ "jessica-hausner": {
+  "name": "Jessica Hausner",
+  "role": "Austrian director · jury, Venice",
+  "meta": "Real-name counterpart · Jessica Hausner",
+  "desc": "An Austrian director of precise, unsettling films. On the jury she is the one who looks at a picture the way a surgeon looks at a cut — calmly, and far too closely.",
+  "img": "jessica-hausner.jpg"
+ },
+ "philip-groning": {
+  "name": "Philip Gröning",
+  "role": "German director · jury, Venice",
+  "meta": "Real-name counterpart · Philip Gröning",
+  "desc": "A German documentarian of slow, patient films — the sort who can hold a shot long enough to watch a person change their mind. He brings the patience of the monastery to the prize table.",
+  "img": "philip-groning.jpg"
+ },
+ "elia-suleiman": {
+  "name": "Elia Suleiman",
+  "role": "Palestinian director · jury, Venice",
+  "meta": "Real-name counterpart · Elia Suleiman",
+  "desc": "A filmmaker of deadpan comic stillness, forever watching borders and the small absurdities in between. On the jury he is the one who laughs at the wrong moment — and is usually right to.",
+  "img": "elia-suleiman.jpg"
+ },
+ "dean-choi": {
+  "name": "Dean Choi",
+  "role": "Dean · School of Film, TV and Multimedia · K-Arts",
+  "meta": "OC · tortoise-shell glasses · a vanity that did its own typing",
+  "desc": "He invites a trophy into a school and would like the school to remember who opened the door. He speaks in complete sentences. The students have learned to wait for the full stop.",
+  "img": "dean-choi.jpg"
+ },
+ "seo-eunju": {
+  "name": "Seo Eun-ju",
+  "role": "Counsel · Kim & Chang · entertainment contracts",
+  "meta": "OC · she doesn’t do song splits · she does the other kind of money",
+  "desc": "Mid-thirties, a navy blazer, an ivory blouse, a chain so fine it only caught when she turned her head. Jeong Han-teuk sent the card. She does not do first meetings in offices. She does them over soft tofu, where a man has to put his phone down to use a spoon.",
+  "img": "seo-eunju.jpg"
+ },
+ "song-kangho": {
+  "name": "Song Kang-ho",
+  "role": "Actor · Memories of Murder, The Host, The Attorney",
+  "meta": "Real-name counterpart · the smoke he had been promised",
+  "desc": "The smile is not a performance. It is a decision to be in the room. He calls Bong Joon-ho Bong-suk the way a man calls a younger brother a name that will outlive both of them.",
+  "img": "song-kangho.jpg"
+ },
+ "lee-joonik": {
+  "name": "Lee Joon-ik",
+  "role": "Director · King and the Clown, Sado",
+  "meta": "Real-name counterpart · Buam, a kettle, a prince who has not yet been cast as a yes",
+  "desc": "Shaved head, round glasses, a mouth that smiles as if smiling were a way of not wasting a morning. He pours the tea first. The tea is the first scene.",
+  "img": "lee-joonik.jpg"
+ },
+ "scooter-braun": {
+  "name": "Scooter Braun",
+  "role": "Manager · SB Projects · the rooms that do not send e-mail when the question is a person",
+  "meta": "Real-name counterpart · West Hollywood, a table, twenty percent that is a map",
+  "desc": "He smiles as if smiling were a first clause. Justin. Ariana. A list that is not the point. The point is a week if you have a week, and a territory a cousin in Seoul cannot cover from a gate.",
+  "img": "scooter-braun.jpg"
+ },
+ "justin-bieber": {
+  "name": "Justin Bieber",
+  "role": "Singer · SB Projects · the man who still tweets at midnight",
+  "meta": "Real-name counterpart · Matsuhisa, a blonde head, a tweet that is a pipe",
+  "desc": "He eats like a boy who has been famous too long to remember being hungry. He tells a Best Actor to drop a song and then, three days later, does the work of telling a continent. Controversy and traffic have never been opposites.",
+  "img": "justin-bieber.jpg"
+ },
+ "ariana-grande": {
+  "name": "Ariana Grande",
+  "role": "Singer · SB Projects · a high note that arrives before the introduction is finished",
+  "meta": "Real-name counterpart · Matsuhisa, a ponytail, a nickname she hands over herself",
+  "desc": "She sits down as if sitting were a decision she had already made. She tells a Korean Best Actor to call her Ari. She does not ask whether the table is a table she is allowed to occupy.",
+  "img": "ariana-grande.jpg"
+ },
+ "park-jimin": {
+  "name": "Park Ji-min",
+  "role": "Vocal · Big Hit · Bangtan Sonyeondan · Jimin",
+  "meta": "Real-name counterpart · a small body that occupies more stage than the body should",
+  "desc": "He is listed on a sunset flyer under a name the West has not yet learned to say. He does not speak first. He does not need to. The body is the sentence.",
+  "img": "park-jimin.jpg"
+ },
+ "jeon-jungkook": {
+  "name": "Jeon Jung-kook",
+  "role": "Vocal · Big Hit · Bangtan Sonyeondan · Jungkook",
+  "meta": "Real-name counterpart · the maknae, a stare that has not yet learned to hide",
+  "desc": "He is the youngest. The flyer says so in a font that does not care. He watches a Best Actor the way a boy watches a door that has just opened in a wall he thought was solid.",
+  "img": "jeon-jungkook.jpg"
+ },
+ "min-yoongi": {
+  "name": "Min Yoon-gi",
+  "role": "Rapper · producer · Big Hit · Bangtan Sonyeondan · SUGA",
+  "meta": "Real-name counterpart · a mouth that does not waste a line, a beat that does not wait to be invited",
+  "desc": "He is the one who will later make a studio feel like a room that has opinions. Tonight he is a name on a flyer and a boy who does not clap because clapping is a sentence he has not decided to say.",
+  "img": "min-yoongi.jpg"
+ },
+ "jung-hoseok": {
+  "name": "Jung Ho-seok",
+  "role": "Rapper · dancer · Big Hit · Bangtan Sonyeondan · J-Hope",
+  "meta": "Real-name counterpart · a smile that does the work of a light, a body that does the work of a drum",
+  "desc": "He is the one the audience finds with the eyes first. Hope, on a flyer, looks like a slogan. On a stage it looks like a boy who has decided the sunset is a cue, not a mood.",
+  "img": "jung-hoseok.jpg"
+ },
+ "hwang-sooah": {
+  "name": "Hwang Soo-ah",
+  "role": "Director · Love Yourself MV",
+  "meta": "OC · nail holes, a MacBook, a snap when two people start a fire too early",
+  "desc": "She books apartments that have been lived in. She will not unmask an actor too soon. Natural, she says, and means a couple who actually dated.",
+  "img": "hwang-sooah.jpg"
+ },
+ "yoo-inna": {
+  "name": "Yoo In-na",
+  "role": "Actress · DJ · MBC Raise the Volume",
+  "meta": "Real · a honey voice, a chair that has already decided you will talk",
+  "desc": "Eleven years not debuting as a singer. Then the voice a nation leaves on in the car. She will not let a guest hide behind a prize.",
+  "img": "yoo-inna.jpg"
+ },
+ "jeanie-buss": {
+  "name": "Jeanie Buss",
+  "role": "President · Los Angeles Lakers",
+  "meta": "Real · Staples Center · the afternoon before the opener",
+  "desc": "The president who ends a stranger’s rehearsal by walking over to shake his hand, take one photo, and send her assistant after his sister with a business card. Partnership talks, she notes, are worth having later.",
+  "img": "jeanie-buss.jpg"
+ },
+ "james-harden": {
+  "name": "James Harden",
+  "role": "Guard · Houston Rockets",
+  "meta": "Real · October 2014 · the visitors’ tunnel",
+  "desc": "The Beard with two drives and a drawn foul who reminds twenty thousand people that Kobe’s comeback night is not a documentary. He plans the upset from the mouth of the tunnel and does not plan on losing.",
+  "img": "james-harden.jpg"
+ },
+ "dwight-howard": {
+  "name": "Dwight Howard",
+  "role": "Centre · Houston Rockets",
+  "meta": "Real · October 2014 · the elbow at the centre of everything",
+  "desc": "Elbows out, hands spread, grinning wider the louder the boos get. His defensive rebound starts the fight, and his elbow — swung from two hundred and sixty pounds away — is what nearly ends Baek Si-on’s night.",
+  "img": "dwight-howard.jpg"
+ },
+ "adam-levine": {
+  "name": "Adam Levine",
+  "role": "Frontman · Maroon 5",
+  "meta": "Real · courtside, VIP row one",
+  "desc": "The frontman who calls Baek Si-on’s pre-game show the best he has seen all year, presses a demo into his ear and asks him for a video idea — then spends the rest of the night physically keeping the same singer away from Dwight Howard.",
+  "img": "adam-levine.jpg"
+ },
+ "behati": {
+  "name": "Behati Prinsloo",
+  "role": "Victoria’s Secret model · Adam’s wife",
+  "meta": "Real · the one Adam calls Little Pumpkin",
+  "desc": "The Victoria’s Secret model who reaches across her husband to press down the same singer’s other arm — and then calls the whole near-death moment “sweet.”",
+  "img": "behati-prinsloo.jpg"
+ }
+}
