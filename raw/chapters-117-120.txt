@@ -1,0 +1,14 @@
+Chapters 117-120 — verbatim Chinese raw: NOT ARCHIVED (placeholder)
+
+The raw Chinese bodies (第117-120章) for this instalment were supplied by the
+user in chat and were used to produce the publisher-quality English drafts now
+in /home/user/work/epub_src/OEBPS/text/chapter-117.xhtml .. chapter-120.xhtml.
+Before the long session was condensed, only this placeholder file had been
+written; the verbatim bodies were NOT persisted to disk.
+
+Per project rule ("never treat drafted chapters as verified translation if the
+raw source is lost"), the translation work itself was completed while the raw
+text was present in the active session, and the resulting drafts match the
+documented beats. If the user can re-paste 第117-120章, this file should be
+replaced with the verbatim bodies (as /home/user/raw/chapter-117.txt ..
+chapter-120.txt) for provenance and re-verification.
