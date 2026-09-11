@@ -718,3 +718,17 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§56.6 Statement lines stay statements.** ch203 客气什么，我们俩谁跟谁。 ends with 。 though it paraphrases a question — EN shipped as "For what — between the two of us." (no ？). The ？-parity diff catches these as +1 mark/+1 line inserts; fix by de-marking the EN, never by marking the raw.
 
 **§56.7 Anchor-point reality check.** Post-wrap patching regexes must anchor on the paragraph's TRUE opening, not a remembered phrase: ch204's freeze-frame passage was one long wrapped `<p>` beginning "The director turned back to the freeze-frame…", not a standalone "Beautiful." paragraph; the music-player insert split mid-paragraph at "put it in. He pressed play." Grep the live file first, then patch with count==1 asserts.
+
+## §57 · V47 Rules (ch205–206 + the Raw-Transcription and Reconciliation Laws)
+
+**§57.1 Raw transcription is a code path.** Hand-copying raws can corrupt them (a line typed as 从合井洞 to 论岘洞). Post-save verification is not optional: run the ？-ledger AND verbatim probes on key lines (messages, punchlines, title lines) immediately after every raw save, before any drafting. Normalize raw artifacts only in EN (Jay—Z → Jay-Z); never edit the raw file.
+
+**§57.2 ？-reconciliation tooling: the ordered walk.** difflib SequenceMatcher degenerates on ？-ledger vectors full of repeated 1-mark lines (嗯？ ×4) — it can emit "everything unmatched" garbage. The reliable reconciler is the ordered greedy walk: walk raw ？-lines and EN ？-lines in parallel, each raw line consuming EN lines until cumulative marks match; report the first true mismatch and every raw line left unconsumed. It isolates exactly the three defect classes: extra EN mark (rhetorical 怎么 with no mark → "What's this? Shy?" must not double-mark), mark lost to "!" (你也太直接了吧？ ≠ "too direct!"), and statement-ized questions (就买了？ → "…and you already bought it?").
+
+**§57.3 Post-wrap conversions: slice the live file.** Generalizing §56.7: any second-pass rewrite of a WRAPPED chapter (upgrading prose to blocks) must cut boundaries by unique marker strings read from the CURRENT file, because the wrapper has already inserted anchor markup inside the target paragraphs. When rebuilding the block, carry the existing `<a class="chr-inline">` anchors into the new sv-lines/sv-notes.
+
+**§57.4 Block-ledger reconciliation (the consolidation trap).** The drafting pass silently consolidates planned blocks into prose/dialogue (ch206 drafted 8 blocks vs 11 planned; ch205's keywords list became dialogue). After drafting, diff the shipped block counts against the ledger BEFORE wrapping and run an upgrade pass — quoted/written/display material (a pen-and-paper list, a domestic wind-down sequence, an argument montage) belongs in display blocks. No compromise means the ledger is a checklist, not a suggestion.
+
+**§57.5 Off-screen pop-star precedent.** Ed Sheeran (6 shipped chapters, message-only presence) stays plain and UNCARDED, same as Meghan Trainor. Cards go to on-page speaking roles with scene presence (Yeri, Park Sang-min), even one-scene ones. Check `character-intro.xhtml` AND shipped-chapter greps for prior plainness before carding anyone.
+
+**§57.6 Carded-but-FORMS-less names.** Seul-gi / Seung-wan / Joy have been carded since their arc yet never had FORMS entries (ch162 was hand-anchored). Systematized in V47: FORMS now carries the full Red Velvet five + Park Sang-min. Before drafting any ensemble chapter, grep FORMS for every expected name — do not assume carded = wrapped.

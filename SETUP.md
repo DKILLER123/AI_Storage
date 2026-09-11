@@ -72,23 +72,23 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §94)
+## 6. State & next steps (from worklog §95)
 
-**SHIPPED: V46 = chapters 203–204.** epubcheck 0/0/0/0; epub 21,396,101 B; commit pushed; V45 epub deleted (in git history). Only `Seoul_Starting_With_Debt_Collection__Version_46.epub` on disk.
+**SHIPPED: V47 = chapters 205–206.** epubcheck 0/0/0/0 first pass; epub 21,806,759 B; commit pushed; V46 epub deleted (in git history). Only `Seoul_Starting_With_Debt_Collection__Version_47.epub` on disk.
 
 **Toolchain (reinstall each session):** `bash book/setup_workspace.sh`; then
 `git fetch origin arena/01a08c66-ai-storage && git reset -q FETCH_HEAD`; verify `git rev-parse --short HEAD` matches the last pushed commit (§55.1 pre-flight). epubcheck:
 `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar <ABSOLUTE epub>` — require the literal line "EPUBCheck completed".
 
-**V47 (chapters 205–206) checklist:**
-1. Save raws FIRST → `raw/chapter-205.txt`, `raw/chapter-206.txt` + ？-ledger + guard.
-2. §55.1 pre-flight (HEAD check); canon deep-greps BEFORE drafting (spelling drift incl.).
-3. Full standalone XHTML drafts; block ledger from raw display material (【】 = mandatory blocks; songs = lb full/half in ONE block; one call = one pc block; caller side = pc-me when Baek dials).
-4. ？-ledger SequenceMatcher diff → EXACT marks AND lines vs raw (§56.6: statements stay statements).
-5. wrap_v29_anchors.py + audit: XML/minidom, undef NONE, imgs-on-disk, CSS classes, CJK, bare &, unbal, framed-plain sweep, residual-plain (scope: classless + dialogue-line, §56.5).
-6. New carded characters: card+modal+portrait+FORMS+re-wrap (§56.3); check character-intro.xhtml for existing ids FIRST (Seo Eun-ju lesson: grep before assuming new).
-7. Registration: opf manifest items + spine itemrefs after last chapter; nav li ×2 word-form; ncx navPoints (np-209/np-210 if next batch); new images → explicit opf `<item>` entries (§56.2).
-8. Builder: clone build_epub_v46.py with EXPLICIT replaces (docstring "Version 46" + full OUT filename), run FROM REPO ROOT (§56.1).
-9. epubcheck (absolute paths) → 0/0/0/0; in-zip battery vs V46 baseline with §56.4-locked methodology: entries 353+delta, manifest 350+delta, spine/navPoints 208+2n, nav li 204+2n, images 118+n³, cards/modals 78+m³; ls469/sv171/pc87/pq79/mp31/lb29/chat substr delta 0/ct111/nv201/hn12; ？0; CJK 20 ch78; ？-parity EXACT for new chapters; ch195 chat-name 8; ls-time box in CSS.
+**V48 (chapters 207–208) checklist:**
+1. Save raws FIRST → `raw/chapter-207.txt`, `raw/chapter-208.txt` + ？-ledger + guard + VERBATIM PROBES on key lines (§57.1).
+2. §55.1 pre-flight (HEAD check); canon deep-greps BEFORE drafting; grep FORMS for every expected ensemble name (§57.6).
+3. Full standalone XHTML drafts; block ledger from raw display material; RECONCILE drafted block counts against the ledger before wrapping (§57.4).
+4. ？-ledger ordered walk (§57.2) → EXACT marks AND lines vs raw (§56.6: statements stay statements).
+5. wrap_v29_anchors.py + audit: XML/minidom, undef NONE, imgs-on-disk, CSS classes, CJK, bare &, unbal, framed-plain sweep, residual-plain (scope: classless + dialogue-line, §56.5). Post-wrap patches slice the LIVE file (§57.3).
+6. New carded characters: card+modal+portrait+FORMS+re-wrap (§56.3); grep intro page + shipped chapters FIRST (Ed Sheeran/Meghan precedent: off-screen presences stay plain, §57.5).
+7. Registration: opf manifest items + spine itemrefs after last chapter + EXPLICIT image `<item>` entries for new portraits (§56.2); nav li ×2 word-form; ncx navPoints np-211/np-212 if next batch.
+8. Builder: clone build_epub_v47.py with EXPLICIT replaces (docstring "Version 47" + full OUT filename), run FROM REPO ROOT (§56.1).
+9. epubcheck (absolute paths) → 0/0/0/0; in-zip battery vs V47 baseline, same-code deltas (§56.4): entries 357+delta, manifest 354+delta, spine/navPoints 210+2n, nav li 206+2n, images 120+n³, cards/modals 80+m³; ls475/sv186/pc89/pq88/mp32/lb29/chat128/ct111/nv201/hn12; ？0; CJK 20 ch78; ？-parity EXACT for new chapters; ch195 chat-name 8; ls-time box in CSS.
 10. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
-11. Delete previous epub AFTER validation; worklog §95 / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.
+11. Delete previous epub AFTER validation; worklog §96 / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.

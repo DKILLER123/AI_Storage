@@ -222,6 +222,8 @@
     <item id="ch202" href="text/chapter-202.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch203" href="text/chapter-203.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch204" href="text/chapter-204.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch205" href="text/chapter-205.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch206" href="text/chapter-206.xhtml" media-type="application/xhtml+xml"/>
     <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
     <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="cover-img" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
@@ -342,6 +344,8 @@
     <item id="img-kevin-hart" href="images/kevin-hart.jpg" media-type="image/jpeg"/>
     <item id="img-changbyunggyu" href="images/chang-byunggyu.jpg" media-type="image/jpeg"/>
     <item id="img-yeonsangho" href="images/yeon-sangho.jpg" media-type="image/jpeg"/>
+    <item id="img-yeri" href="images/yeri.jpg" media-type="image/jpeg"/>
+    <item id="img-parksangmin" href="images/park-sangmin.jpg" media-type="image/jpeg"/>
     <item id="font-BebasNeue-400" href="fonts/BebasNeue-400.woff" media-type="application/font-woff"/>
     <item id="font-Caveat-400" href="fonts/Caveat-400.woff" media-type="application/font-woff"/>
     <item id="font-Caveat-600" href="fonts/Caveat-600.woff" media-type="application/font-woff"/>
@@ -572,6 +576,8 @@
     <itemref idref="ch202"/>
     <itemref idref="ch203"/>
     <itemref idref="ch204"/>
+    <itemref idref="ch205"/>
+    <itemref idref="ch206"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="text/cover.xhtml"/>

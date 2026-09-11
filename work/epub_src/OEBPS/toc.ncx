@@ -854,6 +854,16 @@
       <content src="text/chapter-204.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-209" playOrder="209">
+      <navLabel><text>Chapter Two Hundred Five · Mouth-to-Mouth Chocolate</text></navLabel>
+      <content src="text/chapter-205.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-210" playOrder="210">
+      <navLabel><text>Chapter Two Hundred Six · Watermelon Princess-nim</text></navLabel>
+      <content src="text/chapter-206.xhtml"/>
+    </navPoint>
+
 
     
     
