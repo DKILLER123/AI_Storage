@@ -819,6 +819,14 @@
       <navLabel><text>Chapter One Hundred Ninety Six · Today Is Not a Day for Cindy</text></navLabel>
       <content src="text/chapter-196.xhtml"/>
     </navPoint>
+    <navPoint id="np-201" playOrder="201">
+      <navLabel><text>Chapter One Hundred Ninety Seven · Happy Birthday, Peach</text></navLabel>
+      <content src="text/chapter-197.xhtml"/>
+    </navPoint>
+    <navPoint id="np-202" playOrder="202">
+      <navLabel><text>Chapter One Hundred Ninety Eight · No Need to Go Home to Feed the Cat Tonight</text></navLabel>
+      <content src="text/chapter-198.xhtml"/>
+    </navPoint>
 
 
     
