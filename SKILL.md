@@ -691,3 +691,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 1. **Quoted display material NEVER ships as a plain paragraph.** Any raw 【】-quoted or explicitly-labeled headline, article, disclaimer, platform post, table, or notification MUST land in a display block: single headlines → `news-digest` (nd-source + nd-headline); article bodies/disclaimers → `news-digest` with `<p>` children (ch07 form); public posts → `official-post` (op-band/op-handle/op-body); search terms → `naver-search`; tables/inventories → `screen-view`. The raw's 【】 brackets are the signal. Packaging sweep: grep plain `<p>`s for em-dash-framed lines (`<p>— … —</p>`) and "headline:" intros — zero tolerance.
 2. **edit_file on wrapped chapters: re-derive old_text from the CURRENT file first** (the wrapper may have inserted anchors inside the target), and after ANY edit re-parse the XML and check the tail for duplication before building. Fuzzy-match residue can duplicate closing tags past `</html>` (expat: "junk after document element").
 3. **Amendments upward are the default repair:** when the user (or a sweep) finds missing blocks, add the blocks — never downgrade the material to prose.
+
+---
+
+## §55 · V45 Rules (ch201–202 + the Reset-Recovery Drill)
+
+1. **Fresh-session pre-flight:** if a build tool or path is suddenly missing (SRC symlink, jdk4py, epubcheck), run `bash book/setup_workspace.sh`, then check `git rev-parse --short HEAD` against origin — environment resets can roll HEAD to the base commit while leaving the worktree intact. Recovery: `git fetch origin arena/01a08c66-ai-storage && git reset -q FETCH_HEAD`, verify `git status` shows only the expected delta, then continue. Never commit from a rolled-back HEAD.
+2. **Raw echo fidelity extends to sentence TYPE:** a raw line ending in 。 is a statement — never upgrade it to a question in EN (the ？-ledger catches it as +1 mark with no raw line). V45: the signalman's line ("Am I a manager or a battlefield communications officer.") ships with its period.
+3. **Interior monologue question-stacks are ？-LINES, not one paragraph:** the ledger counts lines; compressing 什么火？/谁的火？ into one pc-note breaks line parity. Render one raw line per row/paragraph even inside display blocks.
+4. **Phone calls:** one call = one pc block; separate calls = separate blocks (§37). pc-head names parties + scene ("Lee Ji-eun → Baek Si-on's phone · voice · the third ring · answered by Jin-ri"). pc-me = protagonist side; when the protagonist's phone is answered by someone else, that answerer is pc-me for that block.
+5. **Nickname registers:** a side character's pet name for another (In-na's "Sulli" for Jin-ri) ships as the stage name — it is dialogue color, not a narration-form change; narration keeps the carded name.
+6. **Merch of the ledger:** when a draft merges or splits raw ？ lines, the two-way diff must return to EXACT before build — merges in display rows count the same as in prose.

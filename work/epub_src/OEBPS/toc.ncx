@@ -835,6 +835,14 @@
       <navLabel><text>Chapter Two Hundred · The Bloodbath Caused by the Tax News</text></navLabel>
       <content src="text/chapter-200.xhtml"/>
     </navPoint>
+    <navPoint id="np-205" playOrder="205">
+      <navLabel><text>Chapter Two Hundred One · The Justification for Hand-Building a Nuclear Bomb</text></navLabel>
+      <content src="text/chapter-201.xhtml"/>
+    </navPoint>
+    <navPoint id="np-206" playOrder="206">
+      <navLabel><text>Chapter Two Hundred Two · Early Romance Comes With Many Demands</text></navLabel>
+      <content src="text/chapter-202.xhtml"/>
+    </navPoint>
 
 
     
