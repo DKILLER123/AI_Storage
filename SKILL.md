@@ -485,3 +485,76 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 - Scene frame stays prose outside the block: ring/answer setup ("the nightstand rang", anchored "Caller ID: X."), and post-call meditation after hang-up.
 
 **Scan method that caught ch156:** grep call signals (`phone rang`, `Caller ID`, `picked up`, `receiver`) × per-chapter phone-call counts; then READ each suspect — hybrid scenes where quoted dialogue is NOT call audio (receiver-covered relay: ch152 "Cousin." = in-car relay, caller never speaks) stay prose. Anchor text inside would-be pc rows must use the SHORT speaker form check when splicing (ch169's final beat was `Adam</a>` short-form, not `Adam Levine</a>` — rfind the actual bytes, never assume full name).
+
+## §38 — V29 rules (ch171–172): product cards via album-card, the finance snapshot, split-call with mid-call consultation, the same-date two-morning stamp
+
+**Uncarded products get the album-card grammar.** A physical product a scene hands to the protagonist (Kobe's BodyArmor bottle) is an `.album-card`: `al-header` ("the bottle · handed over with expectations attached"), `al-cover` + generated image, `al-title` = brand name, `al-line` = the spec speech compressed, `al-release` = the hook ("A brand Baek Si-on has never heard of — yet."). Image is text-free per §33 and scene-matched (backyard table, hoop bokeh, palms). One card per product reveal; later mentions stay prose.
+
+**A live two-option decision may take ONE `.finance-block` snapshot** ("the choice, as the manager's blood pressure saw it") — exactly `fb-header` + `fb-row`(`fb-label`+`fb-value`), no `fb-note` (§22). It sits AFTER the prose arithmetic, as the distilled snapshot; never replace the prose reasoning with the block.
+
+**The raw's cute anonymity is kept:** 杭州马 = "the man from Hangzhou" — never "Jack Ma", never "Alibaba's founder" named. 麻辣鸡 = Nicki Minaj (plain cameo). Steph = "Steph" (plain).
+
+**Chapters set in two cities on the same calendar date get the two-morning stamp:** ls-date "December 22 · one Monday, two mornings" — KST morning and PST morning are the same date, 17 hours apart; verify MV-clock arithmetic (drop → +14h Seoul morning → +30h LA morning) against ONE clean reading and smooth the raw's timezone wobble into narration ("the recipient is dead to the world"), never into a false timestamp (§22 smoothing; §23 no re-dating).
+
+**A call interrupted by an in-person consultation splits into chained phone-call blocks around the bridge prose** (§21 pattern): block one ends at the demand, prose carries the mic-cover + schedule math + the manager's verdict, block two resumes "· the same call, continued" with the answer. The hamburger callback ("don't bring three hamburgers into my house") lands in block two with its pc-note beat ("Baek Si-on looked down at the hamburger in his own hand.").
+
+**Kobe-family canon:** Kobe/Kobe Bryant anchored (chr-kobe-bryant, "Kobe" bare form dominant); Vanessa, Natalia, Gi-Gi stay PLAIN (no cards — card creation is a deliberate user-visible step, §36); Gi-Gi's 'Legend' hum is a `lyric-block` ("Bang bang, bang bang—" canon hook, "as hummed courtside"); the steak race, the fist bump, and the farewell stay prose-first (§24) — blocks carry only the lyric, the bottle, and the deal snapshot.
+
+**Headline-flood chapters are block-parades:** counter refresh = `screen-view`; portal #1 = `naver-search` (fill rank terms + one `nv-note` timing gag from canon when the raw gives only "reached #1 in five minutes"); the push-alert list = `news-digest` with six real varied outlets (Naver/Daum/OSEN/Sports Seoul/Ilgan Sports/TV Report) and 《……》 rendered as a closing prose line ("The list went on."); checkout-TV broadcast = `live-stage`; the 99+ notification wall = one `chat-container` (three received bubbles under a single system name row + `chat-meta`); comment before/after = twin `comment-thread`s with the foreign languages DESCRIBED in English, never rendered non-Latin.
+
+**In-verse clock:** ch171–172 = Monday, December 22, 2014 (Seoul morning 7:00–9:00; LA pre-dawn message-viewing → 8 a.m. Escalade → noon Newport Coast, forty minutes). Christmas is three days away (ch170 was Dec 21). 'Love Yourself' MV dropped ≈ Dec 21, 6 p.m. KST; 14h ≈ 17M (Seoul morning), 30h ≈ 30M (LA morning), KBS 8 a.m. = 18M.
+
+## §39 — V30 rules (ch173–174): real-song freeze discipline, the flat-lay wardrobe image, the one-sided ring-off, and prose-first contract drama
+
+**A real-world future song may be "discovered" in-verse — freeze it at discovery.** 'See You Again' enters the book via Wiz's demo (music-player, two lines: "It's been a long day without you, my friend—" / "And I'll tell you all about it when I see you again—"). Those two lines are now frozen canon; any later performance/chapter reuses them verbatim. The raw's narrative translation of a lyric ("老朋友，没有你的日子太漫长") renders as the same English line in narration — never as a second variant.
+
+**Wardrobe images for UNCARDED people are faceless flat-lays.** The §25 rule (generate with the character's portrait as reference) applies only to cast with book portraits. Charlie Puth is PLAIN with no portrait: generate a product/still-life shot instead (three tagged garments + gift bag + peeling wall + rent envelope — the scene's thesis in objects). NEVER fabricate a face for an uncarded person; card-creation remains a deliberate user-visible step (§36). The same image file may serve an `al-cover` and a `wd-photo` role — one manifest entry, referenced twice, is fine.
+
+**A call whose audio never reaches the POV renders ONE one-sided block** (§20: block only when the line actually speaks — to this POV). Scooter's 30-second ring-off at LAX: pc-head "Scooter Braun ← Justin's side · LAX · incoming", pc-me rows only (his half: "Mm." / "…You're kidding." / "Fine. Don't let him near any statements. I'm on my way."), pc-notes carry the face journey (normal → resigned → palm-over-forehead). Do NOT invent the caller's audio; do NOT split into two blocks for drama. Bookwide count after V30: 66.
+
+**Contract/negotiation reveals stay prose when the raw plays them as spoken beats** (§24): the $50,000 → $500,000 gap lands as dialogue with a written "…?" and a "I didn't catch that." — a finance-block would defuse the reveal. Finance-blocks distill a choice the manager is already sweating (§38), not punchlines. The contract-splitting doctrine ("The song: bought. The person: discussed separately.") is the chapter's thesis — prose.
+
+**K-pop-to-Hollywood favor-chain narration:** the belt callback compounds ("a father-in-law's belt will, eventually, lash a Billboard chart-topper into existence?") — log every quid-pro-quo chain in the worklog (Adam MV concept → Adam recommends → Wiz asks → 'See You Again' lands; the BodyArmor bottle rides along as ad duties). Chapter titles from raw irony keep their full clunk ("The Highest-Value Steal in History").
+
+**Transliteration batch canon (V30):** Wiz Khalifa, Charlie Puth, Kendall ("Ken-doll's half-sister — the one the tabloids called Kendall"), Hailey, Selena, Dispatch's Director Lim (林局长), Bodyguard Kang / Bodyguard Han (plain, ch120 precedent), "a goddess of clay had swept an eraser across it" (女娲橡皮擦 — keep the mythic image, never name Nuwa for Western POV). "???" = bare-ASCII dialogue-line (ch128 precedent). ▸ media rows: "▸ Photo — …" / "▸ Sticker — one enormous thumbs-up" (ch148 precedent; NO emoji).
+
+**The Christmas chat scene is a five-container stack** (mom / Jin-ri mega-thread / replies / IU photo / IU reply) under a MID-CHAPTER mini location-stamp — multi-stamp chapters are standard (119 shipped, up to 9). Chat POV: his sends = `chat-name self`; the women's = plain `chat-name` + `chat-received`. Meta lines do the deadpan work ("strategically omitted: hamburgers, sports drinks, and a protein bar eaten in an arena tunnel").
+
+**In-verse clock:** ch173 = Christmas Day (LA morning taping → LAX noon → Chicago afternoon rehearsal → 6:30 p.m. CST opening → immediate return flight). ch174 = same night (West Coast 7:30 p.m. doorbell → ~midnight landing → 12:30 a.m. Four Seasons meeting, twenty minutes budgeted, ten gone at the tears). Seoul-side chat timestamps = Dec 26 afternoon (second Christmas afternoon). Lakers–Bulls Christmas 2014: the raw schedules it, Kobe sits (in-verse body management), United Center hosts.
+
+## §40 — V31 rules (ch175–176): card-parity retrofit, the identifying-feature portrait, cross-ocean call headers, and the other-timeline fact frame
+
+**New recurring cast = page card + modal + ONE in-text card at the TRUE physical debut (§20), then retro-wrap every mention.** When a card is created mid-book, the work is four moves: (1) index card `ci-*` + (2) hover modal `chr-*` appended to character-intro.xhtml, (3) one in-text `.char-intro` at the first PHYSICAL appearance — which may be an EARLIER chapter than the current batch (Kim Jae-wook's card lives in ch171, his newsroom POV scene, not ch176 where the user noticed the gap; Charlie's lives in ch174's "Right man." beat, NOT ch173 where he is only a name and a demo), (4) extend the wrap FORMS (full + short + bare-surname forms: "Charlie Puth"/"Charlie"/"Puth") and re-run the script over ALL affected chapters — retro-anchor counts are expected to be large (ch174 +53). Audit the audit: the wrapper's FORMS list itself must contain every carded person (Lee Joon-ik was caught missing mid-pass).
+
+**Portraits for real people must carry their canonical identifying feature.** Charlie Puth = the broken eyebrow — v1 portrait lacked it and was REGENERATED until the gap was clearly visible; the book text references the feature twice, so a look-alike without it is a defect (§25 "VIEW the output"). Wiz Khalifa: dreads up, shades on forehead, gold chains, courtside.
+
+**Cross-ocean calls:** pc-head may bridge locations with `↔` ("Baek Si-on ← Lee Joon-ik · Los Angeles ↔ Suwon Film Studio · incoming") when the scene cuts between both ends. Party sounds/music/glass-clinks are pc-note texture; the far-end caller keeps pc-them.
+
+**§37 refinement:** curly DOUBLES inside pc-me/pc-them rows are NOT allowed (pc-note only, 77 precedents); internal curly SINGLES are the row-legitimate form ("What does ‘made a song’ mean."). The pre-ship scan now greps pc-me/them rows for doubles specifically.
+
+**Facts from the reincarnator's future stay explicitly framed as other-timeline memory** (§10 extension): Kobe's Jan 26 2020 helicopter (ch175) and Parasite's ≈$10M CJ campaign (ch176) render only inside Si-on's POV reasoning ("He remembered, from the other timeline, exactly what a true campaign cost") — never as narrator-omniscient past events. The 2014 frame never breaks.
+
+**Mass-media chapters are the block-parade stack** (ch176): official-post (the press release, op-body verbatim) → news-digest (four wires) → naver-search (the sweep, nv-note "The board had stopped pretending to be a contest") → comment-thread (the UN-address joke) → prose montage. The Sado-set comedy ("Father may climb out of the rice chest to stop me") stays prose + dialogue-lines; "Humor on a period-drama set runs short by design" is the transition line back into weight.
+
+**In-verse clock:** ch175 = Dec 26 LA (1:00 a.m. Henson → 3:20 done → 3:27 Wiz callback → 3:45 Eun-ah released → 7:04 Scooter → Universal late morning). ch176 = Universal folds same morning; press release 6:04 a.m. KST Dec 27 (= LA Dec 26 midday); Sado set Dec 27 morning KST; Jin-ri 8:07 a.m. KST. UA collar line: Jan 1 global launch (fixed). Furious 7 end-credits slot: locked.
+
+## §41 — V31 correction: "block written ≠ call over" — the audio-after-block check
+
+**Every phone-call block's prose tail must be walked to the next block/scene-break, flagging dialogue-lines.** V31's ch175 shipped the Wiz call's ANSWER ("Not really." / "Then what was it?" / "I was in a hurry." / the silence / "Brother, that reason is even more terrifying.") as prose dialogue-lines after the block closed — the call was still live. User caught it. The fix pattern: fold the beats into the block in order as pc-me/pc-them, converting narration beats to pc-note VERBATIM and STRIPPING any chr- anchor in the fold (no anchors in pc rows); prose resumes at the genuine post-call action ("didn't prolong the call. He sent the file.").
+
+**Exemption:** dialogue-lines in the tail that are IN-PERSON (the caller's party has physically arrived — Scooter in the hotel lobby) are correct prose. Read the tail, don't just count it.
+
+**Lyrics are never dialogue-lines (§5 has no exceptions for playback scenes):** a demo/radio/phone playback heard in a studio gets a `music-player` (mp-artist marks the context: "studio playback · the engineer's first listen"), even when the raw gives only ONE line. The scan that catches this: grep dialogue-line paragraphs for canon lyric phrases + trailing-em-dash line shapes in every NEW chapter.
+
+**Pre-ship battery addition (mechanized):** for each `.phone-call` in the chapter, collect dialogue-lines between `</div>` and the next `<div class="phone-call">`/`<div class="scene-break">`; any hit = either a leak (call audio) or a documented in-person scene. Zero undocumented hits ship.
+
+---
+
+## §42 · V32 Rules (ch177–178)
+
+1. **Never hand-type `chr-` anchors in a draft — even "known" ones.** The ch177 first draft hand-anchored suspect ids and GUESSED image filenames; pre-wrap audit caught `son-namwon.jpg` (true name `son-nam-won.jpg`). Drafts are plain-names-only; the script wraps, the audit verifies ids⊆defined AND imgs-on-disk. (Extends §34.)
+2. **Interrogative parity is a diff, not a spot-check.** Count raw ？+? per chapter and EN ? in rendered body; reconcile EVERY delta. ch177's 48→47 gap exposed a paraphrased verbatim re-quote (the pullquote line re-quoted in narration) — restored verbatim → 48/48. EN≥raw is only safe when every raw mark is individually accounted for (ch178: 18 vs 17, all verified).
+3. **Remembered phone-calls get real `.phone-call` blocks.** A flashback/retold call (ch178's invitation) is not prose — it's a pc block inside the memory frame, headed with time-stamp + "as it was"; call-audio stays in rows (§41), frame-narration resumes after the div.
+4. **Wrapped-anchor FORMS now include:** Goo Hara/Hara, Son Nam-won, Bong Joon-ho/Bong, LeBron James/LeBron (short forms match shipped precedent: bare-Hara 26, bare-Bong 80, bare-LeBron 40 prior uses). Verify forms by grepping shipped anchor text BEFORE extending — house short-form conventions are empirical, not guessable.
+5. **POV-local "plain" notes don't generalize.** §36's Yeon Sang-ho-plain rule was ch170-POV config; he is carded (chr-yoon-hyunsang) with ch106 anchor precedent — anchor him everywhere else. Card existence + prior anchor use beats any per-chapter exception list.
+6. **billboard-chart stacks:** ONE song per block (bb-kicker/bb-title/bb-artist/bb-rank/bb-note); a top-3 rundown = three stacked blocks (ch86 precedent). Never cram multiple songs into one block's fields.

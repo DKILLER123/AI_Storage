@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:1a3f5c90-3b4d-4e2a-9b1c-7f0a8c5e2d41"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle><text>Seoul: Starting With Debt Collection From the Nation’s Little Sister</text></docTitle>
+  <navMap>
+    <navPoint id="np-1" playOrder="1">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="np-2" playOrder="2">
+      <navLabel><text>Glossary: Korean Honorifics</text></navLabel>
+      <content src="text/glossary.xhtml"/>
+    </navPoint>
+    <navPoint id="np-3" playOrder="3">
+      <navLabel><text>Characters</text></navLabel>
+      <content src="text/characters.xhtml"/>
+    </navPoint>
+    <navPoint id="np-4" playOrder="4">
+      <navLabel><text>Character Intros</text></navLabel>
+      <content src="text/character-intro.xhtml"/>
+    </navPoint>
+    <navPoint id="np-5" playOrder="5">
+      <navLabel><text>Chapter One · The Camo Backpack and the March Wind</text></navLabel>
+      <content src="text/chapter-01.xhtml"/>
+    </navPoint>
+    <navPoint id="np-6" playOrder="6">
+      <navLabel><text>Chapter Two · The Script, First Meeting</text></navLabel>
+      <content src="text/chapter-02.xhtml"/>
+    </navPoint>
+    <navPoint id="np-7" playOrder="7">
+      <navLabel><text>Chapter Three · A Method Actor’s Training</text></navLabel>
+      <content src="text/chapter-03.xhtml"/>
+    </navPoint>
+    <navPoint id="np-8" playOrder="8">
+      <navLabel><text>Chapter Four · The Half-Basement Girl and the Bully</text></navLabel>
+      <content src="text/chapter-04.xhtml"/>
+    </navPoint>
+    <navPoint id="np-9" playOrder="9">
+      <navLabel><text>Chapter Five · When the Scoundrel Meets an Angel</text></navLabel>
+      <content src="text/chapter-05.xhtml"/>
+    </navPoint>
+    <navPoint id="np-10" playOrder="10">
+      <navLabel><text>Chapter Six · One Million Won Outside a Barbecue Joint</text></navLabel>
+      <content src="text/chapter-06.xhtml"/>
+    </navPoint>
+    <navPoint id="np-11" playOrder="11">
+      <navLabel><text>Chapter Seven · A Midnight Talk in Mapo, and the Unexpected Arrival of Sulli</text></navLabel>
+      <content src="text/chapter-07.xhtml"/>
+    </navPoint>
+    <navPoint id="np-12" playOrder="12">
+      <navLabel><text>Chapter Eight · The Butterfly and the Mire</text></navLabel>
+      <content src="text/chapter-08.xhtml"/>
+    </navPoint>
+    <navPoint id="np-13" playOrder="13">
+      <navLabel><text>Chapter Nine · A Late-Night Meal, Two Souls in Silent Resonance</text></navLabel>
+      <content src="text/chapter-09.xhtml"/>
+    </navPoint>
+    <navPoint id="np-14" playOrder="14">
+      <navLabel><text>Chapter Ten · The Poster Debate</text></navLabel>
+      <content src="text/chapter-10.xhtml"/>
+    </navPoint>
+    <navPoint id="np-15" playOrder="15">
+      <navLabel><text>Chapter Eleven · This Back Isn’t Quite Right</text></navLabel>
+      <content src="text/chapter-11.xhtml"/>
+    </navPoint>
+    <navPoint id="np-16" playOrder="16">
+      <navLabel><text>Chapter Twelve · A Mouthful of Phlegm, a Slap</text></navLabel>
+      <content src="text/chapter-12.xhtml"/>
+    </navPoint>
+    <navPoint id="np-17" playOrder="17">
+      <navLabel><text>Chapter Thirteen · The Lunch-Box Slayer Beats a Deadbeat, Stunning the Professor</text></navLabel>
+      <content src="text/chapter-13.xhtml"/>
+    </navPoint>
+    <navPoint id="np-18" playOrder="18">
+      <navLabel><text>Chapter Fourteen · The Han River Gives No Answer</text></navLabel>
+      <content src="text/chapter-14.xhtml"/>
+    </navPoint>
+    <navPoint id="np-19" playOrder="19">
+      <navLabel><text>Chapter Fifteen · The Phone Number in Front of the Portrait</text></navLabel>
+      <content src="text/chapter-15.xhtml"/>
+    </navPoint>
+    <navPoint id="np-20" playOrder="20">
+      <navLabel><text>Chapter Sixteen · The SM Earthquake Hits a Rookie Trainee</text></navLabel>
+      <content src="text/chapter-16.xhtml"/>
+    </navPoint>
+    <navPoint id="np-21" playOrder="21">
+      <navLabel><text>Chapter Seventeen · The Seoul Marathon: Buying Tens of Millions in Lottery</text></navLabel>
+      <content src="text/chapter-17.xhtml"/>
+    </navPoint>
+    <navPoint id="np-22" playOrder="22">
+      <navLabel><text>Chapter Eighteen · The Diving Header Smashes Out 360 Million</text></navLabel>
+      <content src="text/chapter-18.xhtml"/>
+    </navPoint>
+    <navPoint id="np-23" playOrder="23">
+      <navLabel><text>Chapter Nineteen · Old Shoes for New, Stepping Out of SM</text></navLabel>
+      <content src="text/chapter-19.xhtml"/>
+    </navPoint>
+    <navPoint id="np-24" playOrder="24">
+      <navLabel><text>Chapter Twenty · The Money-Delivery Messenger of the SM Building</text></navLabel>
+      <content src="text/chapter-20.xhtml"/>
+    </navPoint>
+    <navPoint id="np-25" playOrder="25">
+      <navLabel><text>Chapter Twenty-One · The Two Flavors of Chicken Breast</text></navLabel>
+      <content src="text/chapter-21.xhtml"/>
+    </navPoint>
+    <navPoint id="np-26" playOrder="26">
+      <navLabel><text>Chapter Twenty-Two · One Hundred Kilograms of Silence</text></navLabel>
+      <content src="text/chapter-22.xhtml"/>
+    </navPoint>
+    <navPoint id="np-27" playOrder="27">
+      <navLabel><text>Chapter Twenty-Three · An Old Acquaintance and a New Number</text></navLabel>
+      <content src="text/chapter-23.xhtml"/>
+    </navPoint>
+    <navPoint id="np-28" playOrder="28">
+      <navLabel><text>Chapter Twenty-Four · Goo Hara's Kindness and Krystal's Rage</text></navLabel>
+      <content src="text/chapter-24.xhtml"/>
+    </navPoint>
+    <navPoint id="np-29" playOrder="29">
+      <navLabel><text>Chapter Twenty-Five · How an Underground Musician Says Hello</text></navLabel>
+      <content src="text/chapter-25.xhtml"/>
+    </navPoint>
+    <navPoint id="np-30" playOrder="30">
+      <navLabel><text>Chapter Twenty-Six · The Layman's Absolute Ear</text></navLabel>
+      <content src="text/chapter-26.xhtml"/>
+    </navPoint>
+    <navPoint id="np-31" playOrder="31">
+      <navLabel><text>Chapter Twenty-Seven · Goo Hara's Connections</text></navLabel>
+      <content src="text/chapter-27.xhtml"/>
+    </navPoint>
+    <navPoint id="np-32" playOrder="32">
+      <navLabel><text>Chapter Twenty-Eight · The Composer and the Lyricist</text></navLabel>
+      <content src="text/chapter-28.xhtml"/>
+    </navPoint>
+    <navPoint id="np-33" playOrder="33">
+      <navLabel><text>Chapter Twenty-Nine · The Tune Smiles, the Words Weep</text></navLabel>
+      <content src="text/chapter-29.xhtml"/>
+    </navPoint>
+    <navPoint id="np-34" playOrder="34">
+      <navLabel><text>Chapter Thirty · This Is Clearly a Tibetan Mastiff</text></navLabel>
+      <content src="text/chapter-30.xhtml"/>
+    </navPoint>
+    <navPoint id="np-35" playOrder="35">
+      <navLabel><text>Chapter Thirty-One · The Venice Countdown and IU's Lyrics</text></navLabel>
+      <content src="text/chapter-31.xhtml"/>
+    </navPoint>
+    <navPoint id="np-36" playOrder="36">
+      <navLabel><text>Chapter Thirty-Two · These Words Only Know IU's Voice</text></navLabel>
+      <content src="text/chapter-32.xhtml"/>
+    </navPoint>
+    <navPoint id="np-37" playOrder="37">
+      <navLabel><text>Chapter Thirty-Three · Cutting the Voice Into Pieces, Reassembling It Into Breath</text></navLabel>
+      <content src="text/chapter-33.xhtml"/>
+    </navPoint>
+    <navPoint id="np-38" playOrder="38">
+      <navLabel><text>Chapter Thirty-Four · Acting Is Design, Singing Is Instinct</text></navLabel>
+      <content src="text/chapter-34.xhtml"/>
+    </navPoint>
+    <navPoint id="np-39" playOrder="39">
+      <navLabel><text>Chapter Thirty-Five · A Convenience Store Door and a Royce Chocolate Bribe</text></navLabel>
+      <content src="text/chapter-35.xhtml"/>
+    </navPoint>
+    <navPoint id="np-40" playOrder="40">
+      <navLabel><text>Chapter Thirty-Six · The Split, the Release, and the Light That Turned Red</text></navLabel>
+      <content src="text/chapter-36.xhtml"/>
+    </navPoint>
+    <navPoint id="np-41" playOrder="41">
+      <navLabel><text>Chapter Thirty-Seven · The Song That Fell Off, and the Wind It Decided to Wait For</text></navLabel>
+      <content src="text/chapter-37.xhtml"/>
+    </navPoint>
+    <navPoint id="np-42" playOrder="42">
+      <navLabel><text>Chapter Thirty-Eight · A Strange Kind of Possession, and the Longest Quiet</text></navLabel>
+      <content src="text/chapter-38.xhtml"/>
+    </navPoint>
+    <navPoint id="np-43" playOrder="43">
+      <navLabel><text>Chapter Thirty-Nine · A Two-Hour All-Kill and Six Boxes of Meat</text></navLabel>
+      <content src="text/chapter-39.xhtml"/>
+    </navPoint>
+    <navPoint id="np-44" playOrder="44">
+      <navLabel><text>Chapter Forty · The Elevator, the Stove, and the Past Nobody Mentioned</text></navLabel>
+      <content src="text/chapter-40.xhtml"/>
+    </navPoint>
+    <navPoint id="np-45" playOrder="45">
+      <navLabel><text>Chapter Forty-One · What Sulli Heard</text></navLabel>
+      <content src="text/chapter-41.xhtml"/>
+    </navPoint>
+    <navPoint id="np-46" playOrder="46">
+      <navLabel><text>Chapter Forty-Two · Start Deciding What to Wear to Venice</text></navLabel>
+      <content src="text/chapter-42.xhtml"/>
+    </navPoint>
+    <navPoint id="np-47" playOrder="47">
+      <navLabel><text>Chapter Forty-Three · The Hit That Drifted Back on the Current</text></navLabel>
+      <content src="text/chapter-43.xhtml"/>
+    </navPoint>
+    <navPoint id="np-48" playOrder="48">
+      <navLabel><text>Chapter Forty-Four · A Twenty-Million-Won Editing Fee</text></navLabel>
+      <content src="text/chapter-44.xhtml"/>
+    </navPoint>
+    <navPoint id="np-49" playOrder="49">
+      <navLabel><text>Chapter Forty-Five · Trading Jessica for a Clean Slate</text></navLabel>
+      <content src="text/chapter-45.xhtml"/>
+    </navPoint>
+    <navPoint id="np-50" playOrder="50">
+      <navLabel><text>Chapter Forty-Six · Eleven a.m., Rome Time</text></navLabel>
+      <content src="text/chapter-46.xhtml"/>
+    </navPoint>
+    <navPoint id="np-51" playOrder="51">
+      <navLabel><text>Chapter Forty-Seven · Korea's Lone Entry and the Net's Hunt for a Villain</text></navLabel>
+      <content src="text/chapter-47.xhtml"/>
+    </navPoint>
+    <navPoint id="np-52" playOrder="52">
+      <navLabel><text>Chapter Forty-Eight · Baek Jeong-hun: I Thought You Weren't a Baek</text></navLabel>
+      <content src="text/chapter-48.xhtml"/>
+    </navPoint>
+    <navPoint id="np-53" playOrder="53">
+      <navLabel><text>Chapter Forty-Nine · Your Idol Is Worth Chasing</text></navLabel>
+      <content src="text/chapter-49.xhtml"/>
+    </navPoint>
+    <navPoint id="np-54" playOrder="54">
+      <navLabel><text>Chapter Fifty · Formal and Casual</text></navLabel>
+      <content src="text/chapter-50.xhtml"/>
+    </navPoint>
+    <navPoint id="np-55" playOrder="55">
+      <navLabel><text>Chapter Fifty-One · The Half-Exclusive at a Japanese Restaurant</text></navLabel>
+      <content src="text/chapter-51.xhtml"/>
+    </navPoint>
+    <navPoint id="np-56" playOrder="56">
+      <navLabel><text>Chapter Fifty-Two · Baek Si-on, Used as Firewood for Reform</text></navLabel>
+      <content src="text/chapter-52.xhtml"/>
+    </navPoint>
+    <navPoint id="np-57" playOrder="57">
+      <navLabel><text>Chapter Fifty-Three · The Measuring Tape Reading Less Than Ten Centimeters Away</text></navLabel>
+      <content src="text/chapter-53.xhtml"/>
+    </navPoint>
+    <navPoint id="np-58" playOrder="58">
+      <navLabel><text>Chapter Fifty-Four · The Man Who Scooped Justin Bieber</text></navLabel>
+      <content src="text/chapter-54.xhtml"/>
+    </navPoint>
+    <navPoint id="np-59" playOrder="59">
+      <navLabel><text>Chapter Fifty-Five · Four Days on the Song Assembly Line</text></navLabel>
+      <content src="text/chapter-55.xhtml"/>
+    </navPoint>
+    <navPoint id="np-60" playOrder="60">
+      <navLabel><text>Chapter Fifty-Six · The Rise Starts With the Hair</text></navLabel>
+      <content src="text/chapter-56.xhtml"/>
+    </navPoint>
+    <navPoint id="np-61" playOrder="61">
+      <navLabel><text>Chapter Fifty-Seven · The Hair-Salon Chart Battle</text></navLabel>
+      <content src="text/chapter-57.xhtml"/>
+    </navPoint>
+    <navPoint id="np-62" playOrder="62">
+      <navLabel><text>Chapter Fifty-Eight · The Definition of a Bet</text></navLabel>
+      <content src="text/chapter-58.xhtml"/>
+    </navPoint>
+    <navPoint id="np-63" playOrder="63">
+      <navLabel><text>Chapter Fifty-Nine · The Sounds of Life</text></navLabel>
+      <content src="text/chapter-59.xhtml"/>
+    </navPoint>
+    <navPoint id="np-64" playOrder="64">
+      <navLabel><text>Chapter Sixty · A Push Notification That Aged SM's PR Department</text></navLabel>
+      <content src="text/chapter-60.xhtml"/>
+    </navPoint>
+    <navPoint id="np-65" playOrder="65">
+      <navLabel><text>Chapter Sixty-One · The Angel Round on the Treadmill</text></navLabel>
+      <content src="text/chapter-61.xhtml"/>
+    </navPoint>
+    <navPoint id="np-66" playOrder="66">
+      <navLabel><text>Chapter Sixty-Two · The Chequebook and the Bumper Car</text></navLabel>
+      <content src="text/chapter-62.xhtml"/>
+    </navPoint>
+    <navPoint id="np-67" playOrder="67">
+      <navLabel><text>Chapter Sixty-Three · The Buzz Cut Shocks the Commute</text></navLabel>
+      <content src="text/chapter-63.xhtml"/>
+    </navPoint>
+    <navPoint id="np-68" playOrder="68">
+      <navLabel><text>Chapter Sixty-Four · Waiting-Room Social</text></navLabel>
+      <content src="text/chapter-64.xhtml"/>
+    </navPoint>
+    <navPoint id="np-69" playOrder="69">
+      <navLabel><text>Chapter Sixty-Five · The Tribute Is Underway, the Wallet Is Dead</text></navLabel>
+      <content src="text/chapter-65.xhtml"/>
+    </navPoint>
+    <navPoint id="np-70" playOrder="70">
+      <navLabel><text>Chapter Sixty-Six · One Promise: Donate It All</text></navLabel>
+      <content src="text/chapter-66.xhtml"/>
+    </navPoint>
+    <navPoint id="np-71" playOrder="71">
+      <navLabel><text>Chapter Sixty-Seven · The 6.8% Forged Out of Hunger</text></navLabel>
+      <content src="text/chapter-67.xhtml"/>
+    </navPoint>
+    <navPoint id="np-72" playOrder="72">
+      <navLabel><text>Chapter Sixty-Eight · The Shrimp-Crackers Diplomacy and the Strawberry-Milk Incident</text></navLabel>
+      <content src="text/chapter-68.xhtml"/>
+    </navPoint>
+    <navPoint id="np-73" playOrder="73">
+      <navLabel><text>Chapter Sixty-Nine · The Handbook for Getting Rich Off Commercial Gigs</text></navLabel>
+      <content src="text/chapter-69.xhtml"/>
+    </navPoint>
+    <navPoint id="np-74" playOrder="74">
+      <navLabel><text>Chapter Seventy · The Bankrupt Singer's Nationwide Gold Rush</text></navLabel>
+      <content src="text/chapter-70.xhtml"/>
+    </navPoint>
+    <navPoint id="np-75" playOrder="75">
+      <navLabel><text>Chapter Seventy-One · The Pre-Tax Number Tastes Best</text></navLabel>
+      <content src="text/chapter-71.xhtml"/>
+    </navPoint>
+    <navPoint id="np-76" playOrder="76">
+      <navLabel><text>Chapter Seventy-Two · The Snore Was Eun-ah's Smoke Screen</text></navLabel>
+      <content src="text/chapter-72.xhtml"/>
+    </navPoint>
+    <navPoint id="np-77" playOrder="77">
+      <navLabel><text>Chapter Seventy-Three · Choi Jin-ri's Peace-Sign Ambush</text></navLabel>
+      <content src="text/chapter-73.xhtml"/>
+    </navPoint>
+    <navPoint id="np-78" playOrder="78">
+      <navLabel><text>Chapter Seventy-Four · An Adriatic Fashion Warning</text></navLabel>
+      <content src="text/chapter-74.xhtml"/>
+    </navPoint>
+    <navPoint id="np-79" playOrder="79">
+      <navLabel><text>Chapter Seventy-Five · Justice Is Late, So Truth Can Be Too</text></navLabel>
+      <content src="text/chapter-75.xhtml"/>
+    </navPoint>
+    <navPoint id="np-80" playOrder="80">
+      <navLabel><text>Chapter Seventy-Six · The Stomach That Gurgled in Venice</text></navLabel>
+      <content src="text/chapter-76.xhtml"/>
+    </navPoint>
+    <navPoint id="np-81" playOrder="81">
+      <navLabel><text>Chapter Seventy-Seven · How to Elegantly Hint That an Opponent's Body Odour Is Over the Limit</text></navLabel>
+      <content src="text/chapter-77.xhtml"/>
+    </navPoint>
+    <navPoint id="np-82" playOrder="82">
+      <navLabel><text>Chapter Seventy-Eight · The Wave-and-Retreat Game and the Critics' Charge</text></navLabel>
+      <content src="text/chapter-78.xhtml"/>
+    </navPoint>
+    <navPoint id="np-83" playOrder="83">
+      <navLabel><text>Chapter Seventy-Nine · Red-Carpet Visual Bomb, Screening-Hall Applause Nuclear Blast</text></navLabel>
+      <content src="text/chapter-79.xhtml"/>
+    </navPoint>
+    <navPoint id="np-84" playOrder="84">
+      <navLabel><text>Chapter Eighty · Shock! The New Best Actor Demands His Back Pay from the Stage</text></navLabel>
+      <content src="text/chapter-80.xhtml"/>
+    </navPoint>
+    <navPoint id="np-85" playOrder="85">
+      <navLabel><text>Chapter Eighty-One · The Speech Wasn’t Finished Before the Headlines Were</text></navLabel>
+      <content src="text/chapter-81.xhtml"/>
+    </navPoint>
+    <navPoint id="np-86" playOrder="86">
+      <navLabel><text>Chapter Eighty-Two · The Saxophone Struck Up, and Baek Si-on Took the Table</text></navLabel>
+      <content src="text/chapter-82.xhtml"/>
+    </navPoint>
+    <navPoint id="np-87" playOrder="87">
+      <navLabel><text>Chapter Eighty-Three · Bae Joo-hyun: Get Close to Sunbae Baek, Luck +10,086?</text></navLabel>
+      <content src="text/chapter-83.xhtml"/>
+    </navPoint>
+    <navPoint id="np-88" playOrder="88">
+      <navLabel><text>Chapter Eighty-Four · Pyjamas, Bare Face, and the Woman in the Next Seat</text></navLabel>
+      <content src="text/chapter-84.xhtml"/>
+    </navPoint>
+    <navPoint id="np-89" playOrder="89">
+      <navLabel><text>Chapter Eighty-Five · Performance Art at Arrivals</text></navLabel>
+      <content src="text/chapter-85.xhtml"/>
+    </navPoint>
+    <navPoint id="np-90" playOrder="90">
+      <navLabel><text>Chapter Eighty-Six · Jung Jae-joon: Those Lyrics Are Clean as an Elementary Summer Diary</text></navLabel>
+      <content src="text/chapter-86.xhtml"/>
+    </navPoint>
+    <navPoint id="np-91" playOrder="91">
+      <navLabel><text>Chapter Eighty-Seven · A Presidential Telegram Isn’t as Hot as Soju</text></navLabel>
+      <content src="text/chapter-87.xhtml"/>
+    </navPoint>
+    <navPoint id="np-92" playOrder="92">
+      <navLabel><text>Chapter Eighty-Eight · Baek Eun-ah’s ₩500M Salary Dream Shatters</text></navLabel>
+      <content src="text/chapter-88.xhtml"/>
+    </navPoint>
+    <navPoint id="np-93" playOrder="93">
+      <navLabel><text>Chapter Eighty-Nine · The Best Actor’s Versailles Demystification</text></navLabel>
+      <content src="text/chapter-89.xhtml"/>
+    </navPoint>
+    <navPoint id="np-94" playOrder="94">
+      <navLabel><text>Chapter Ninety · New Song Legend Is Born</text></navLabel>
+      <content src="text/chapter-90.xhtml"/>
+    </navPoint>
+    <navPoint id="np-95" playOrder="95">
+      <navLabel><text>Chapter Ninety-One · The Reason She Fell Asleep on Your Shoulder</text></navLabel>
+      <content src="text/chapter-91.xhtml"/>
+    </navPoint>
+    <navPoint id="np-96" playOrder="96">
+      <navLabel><text>Chapter Ninety-Two · A Rumour Reversal, Self-Directed</text></navLabel>
+      <content src="text/chapter-92.xhtml"/>
+    </navPoint>
+    <navPoint id="np-97" playOrder="97">
+      <navLabel><text>Chapter Ninety-Three · The Opinion War Closes Over Soft Tofu</text></navLabel>
+      <content src="text/chapter-93.xhtml"/>
+    </navPoint>
+    <navPoint id="np-98" playOrder="98">
+      <navLabel><text>Chapter Ninety-Four · September in a Diary, and a FaceTime from Los Angeles</text></navLabel>
+      <content src="text/chapter-94.xhtml"/>
+    </navPoint>
+    <navPoint id="np-99" playOrder="99">
+      <navLabel><text>Chapter Ninety-Five · Si-on’s Walk of Fame</text></navLabel>
+      <content src="text/chapter-95.xhtml"/>
+    </navPoint>
+    <navPoint id="np-100" playOrder="100">
+      <navLabel><text>Chapter Ninety-Six · Bong Joon-ho’s Camera, Song Kang-ho’s Script</text></navLabel>
+      <content src="text/chapter-96.xhtml"/>
+    </navPoint>
+    <navPoint id="np-101" playOrder="101">
+      <navLabel><text>Chapter Ninety-Seven · Three Days, You Said. You Made It in Five Hours?</text></navLabel>
+      <content src="text/chapter-97.xhtml"/>
+    </navPoint>
+    <navPoint id="np-102" playOrder="102">
+      <navLabel><text>Chapter Ninety-Eight · An Ad Man’s Ordinary Days</text></navLabel>
+      <content src="text/chapter-98.xhtml"/>
+    </navPoint>
+    <navPoint id="np-103" playOrder="103">
+      <navLabel><text>Chapter Ninety-Nine · The Black Mamba, Disenchanted</text></navLabel>
+      <content src="text/chapter-99.xhtml"/>
+    </navPoint>
+    <navPoint id="np-104" playOrder="104">
+      <navLabel><text>Chapter One Hundred · A North American Partner? No. A North American Split</text></navLabel>
+      <content src="text/chapter-100.xhtml"/>
+    </navPoint>
+    <navPoint id="np-105" playOrder="105">
+      <navLabel><text>Chapter One Hundred One · Better to Buy the Dip Than Cover a Song</text></navLabel>
+      <content src="text/chapter-101.xhtml"/>
+    </navPoint>
+    <navPoint id="np-106" playOrder="106">
+      <navLabel><text>Chapter One Hundred Two · Legend Drops, and the Ground Moves</text></navLabel>
+      <content src="text/chapter-102.xhtml"/>
+    </navPoint>
+    <navPoint id="np-107" playOrder="107">
+      <navLabel><text>Chapter One Hundred Three · A Political Line You Don’t Have to Stand On</text></navLabel>
+      <content src="text/chapter-103.xhtml"/>
+    </navPoint>
+    <navPoint id="np-108" playOrder="108">
+      <navLabel><text>Chapter One Hundred Four · Vogue’s October Issue Burns Through Seoul</text></navLabel>
+      <content src="text/chapter-104.xhtml"/>
+    </navPoint>
+    <navPoint id="np-109" playOrder="109">
+      <navLabel><text>Chapter One Hundred Five · Baek Eun-ah’s Morning Mail Hell</text></navLabel>
+      <content src="text/chapter-105.xhtml"/>
+    </navPoint>
+    <navPoint id="np-110" playOrder="110">
+      <navLabel><text>Chapter One Hundred Six · IU’s “The Schedule Happens to Work”</text></navLabel>
+      <content src="text/chapter-106.xhtml"/>
+    </navPoint>
+    <navPoint id="np-111" playOrder="111">
+      <navLabel><text>Chapter One Hundred Seven · Riot: Change of Plan — Imagine Dragons Out, Baek Si-on In</text></navLabel>
+      <content src="text/chapter-107.xhtml"/>
+    </navPoint>
+    <navPoint id="np-112" playOrder="112">
+      <navLabel><text>Chapter One Hundred Eight · A Mischievous Call for Backup Dancers</text></navLabel>
+      <content src="text/chapter-108.xhtml"/>
+    </navPoint>
+    <navPoint id="np-113" playOrder="113">
+      <navLabel><text>Chapter One Hundred Nine · Bae Joo-hyun’s Three Centimetres of Stubbornness</text></navLabel>
+      <content src="text/chapter-109.xhtml"/>
+    </navPoint>
+    <navPoint id="np-114" playOrder="114">
+      <navLabel><text>Chapter One Hundred Ten · A Natural Kiss, and an Unnatural IU</text></navLabel>
+      <content src="text/chapter-110.xhtml"/>
+    </navPoint>
+    <navPoint id="np-115" playOrder="115">
+      <navLabel><text>Chapter One Hundred Eleven · The Fight Starts</text></navLabel>
+      <content src="text/chapter-111.xhtml"/>
+    </navPoint>
+    <navPoint id="np-116" playOrder="116">
+      <navLabel><text>Chapter One Hundred Twelve · The Kiss Was Too Real</text></navLabel>
+      <content src="text/chapter-112.xhtml"/>
+    </navPoint>
+    <navPoint id="np-117" playOrder="117">
+      <navLabel><text>Chapter One Hundred Thirteen · Blank Space Is Mystery</text></navLabel>
+      <content src="text/chapter-113.xhtml"/>
+    </navPoint>
+    <navPoint id="np-118" playOrder="118">
+      <navLabel><text>Chapter One Hundred Fourteen · How Did You Write a Song More Us Than We Are</text></navLabel>
+      <content src="text/chapter-114.xhtml"/>
+    </navPoint>
+    <navPoint id="np-119" playOrder="119">
+      <navLabel><text>Chapter One Hundred Fifteen · Bangtan and the Redheads Looking On</text></navLabel>
+      <content src="text/chapter-115.xhtml"/>
+    </navPoint>
+    <navPoint id="np-120" playOrder="120">
+      <navLabel><text>Chapter One Hundred Sixteen · The Look Between Legends</text></navLabel>
+      <content src="text/chapter-116.xhtml"/>
+    </navPoint>
+    <navPoint id="np-121" playOrder="121">
+      <navLabel><text>Chapter One Hundred Seventeen · The S4 World Championship Opens</text></navLabel>
+      <content src="text/chapter-117.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-122" playOrder="122">
+      <navLabel><text>Chapter One Hundred Eighteen · Welcome to the World Stage</text></navLabel>
+      <content src="text/chapter-118.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-123" playOrder="123">
+      <navLabel><text>Chapter One Hundred Nineteen · The James–Kobe War, and Billboard’s No. 3</text></navLabel>
+      <content src="text/chapter-119.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-124" playOrder="124">
+      <navLabel><text>Chapter One Hundred Twenty · So It Turns Out I’m Poor</text></navLabel>
+      <content src="text/chapter-120.xhtml"/>
+    </navPoint>
+    <navPoint id="np-125" playOrder="125">
+      <navLabel><text>Chapter One Hundred Twenty One · Lee Ji-eun-ssi Is Very Pretty</text></navLabel>
+      <content src="text/chapter-121.xhtml"/>
+    </navPoint>
+    <navPoint id="np-126" playOrder="126">
+      <navLabel><text>Chapter One Hundred Twenty Two · A Chaebol’s Sponsorship Settles a Boast</text></navLabel>
+      <content src="text/chapter-122.xhtml"/>
+    </navPoint>
+    <navPoint id="np-127" playOrder="127">
+      <navLabel><text>Chapter One Hundred Twenty Three · DNA Swapped, Personality Synced</text></navLabel>
+      <content src="text/chapter-123.xhtml"/>
+    </navPoint>
+    <navPoint id="np-128" playOrder="128">
+      <navLabel><text>Chapter One Hundred Twenty Four · Only Taylor Swift Stands in the Way</text></navLabel>
+      <content src="text/chapter-124.xhtml"/>
+    </navPoint>
+    <navPoint id="np-129" playOrder="129">
+      <navLabel><text>Chapter One Hundred Twenty Five · A “Genius” Idea: Raiding a Wedding</text></navLabel>
+      <content src="text/chapter-125.xhtml"/>
+    </navPoint>
+    <navPoint id="np-130" playOrder="130">
+      <navLabel><text>Chapter One Hundred Twenty Six · One Elbow, and He Could Send You Back to Korea</text></navLabel>
+      <content src="text/chapter-126.xhtml"/>
+    </navPoint>
+    <navPoint id="np-131" playOrder="131">
+      <navLabel><text>Chapter One Hundred Twenty Seven · The Suit Gangster</text></navLabel>
+      <content src="text/chapter-127.xhtml"/>
+    </navPoint>
+    <navPoint id="np-132" playOrder="132">
+      <navLabel><text>Chapter One Hundred Twenty Eight · An Ordinary Man’s Nine God-Tier Songs</text></navLabel>
+      <content src="text/chapter-128.xhtml"/>
+    </navPoint>
+    <navPoint id="np-133" playOrder="133">
+      <navLabel><text>Chapter One Hundred Twenty Nine · The First After Half a Century</text></navLabel>
+      <content src="text/chapter-129.xhtml"/>
+    </navPoint>
+    <navPoint id="np-134" playOrder="134">
+      <navLabel><text>Chapter One Hundred Thirty · The Unscientific Album Pre-Order</text></navLabel>
+      <content src="text/chapter-130.xhtml"/>
+    </navPoint>
+    <navPoint id="np-135" playOrder="135">
+      <navLabel><text>Chapter One Hundred Thirty One · The Endorsement Fee That Made the Whole Korean Industry Look Up</text></navLabel>
+      <content src="text/chapter-131.xhtml"/>
+    </navPoint>
+    <navPoint id="np-136" playOrder="136">
+      <navLabel><text>Chapter One Hundred Thirty Two · More Concrete Than the Sea of People at Incheon: the Candle Before Him</text></navLabel>
+      <content src="text/chapter-132.xhtml"/>
+    </navPoint>
+    <navPoint id="np-137" playOrder="137">
+      <navLabel><text>Chapter One Hundred Thirty Three · Good Night, Peach</text></navLabel>
+      <content src="text/chapter-133.xhtml"/>
+    </navPoint>
+    <navPoint id="np-138" playOrder="138">
+      <navLabel><text>Chapter One Hundred Thirty Four · The Historic Convergence of Two Support Trucks</text></navLabel>
+      <content src="text/chapter-134.xhtml"/>
+    </navPoint>
+    <navPoint id="np-139" playOrder="139">
+      <navLabel><text>Chapter One Hundred Thirty Five · Occasionally, Even Humans Need a Kind Misunderstanding</text></navLabel>
+      <content src="text/chapter-135.xhtml"/>
+    </navPoint>
+    <navPoint id="np-140" playOrder="140">
+      <navLabel><text>Chapter One Hundred Thirty Six · Choi Jin-ri’s Retaliatory Wish</text></navLabel>
+      <content src="text/chapter-136.xhtml"/>
+    </navPoint>
+    <navPoint id="np-141" playOrder="141">
+      <navLabel><text>Chapter One Hundred Thirty Seven · The King Who Kept the Crown</text></navLabel>
+      <content src="text/chapter-137.xhtml"/>
+    </navPoint>
+    <navPoint id="np-142" playOrder="142">
+      <navLabel><text>Chapter One Hundred Thirty Eight · The Whole World Makes Way for His Schedule</text></navLabel>
+      <content src="text/chapter-138.xhtml"/>
+    </navPoint>
+    <navPoint id="np-143" playOrder="143">
+      <navLabel><text>Chapter One Hundred Thirty Nine · What Kind of Person Wears Court Robes to an Awards Ceremony?</text></navLabel>
+      <content src="text/chapter-139.xhtml"/>
+    </navPoint>
+    <navPoint id="np-144" playOrder="144">
+      <navLabel><text>Chapter One Hundred Forty · Thank You, Madam President, for Making Time</text></navLabel>
+      <content src="text/chapter-140.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-145" playOrder="145">
+      <navLabel><text>Chapter One Hundred Forty One · Romance Dies of Wardrobe Management</text></navLabel>
+      <content src="text/chapter-141.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-146" playOrder="146">
+      <navLabel><text>Chapter One Hundred Forty Two · The Pledge from Half the Republic</text></navLabel>
+      <content src="text/chapter-142.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-147" playOrder="147">
+      <navLabel><text>Chapter One Hundred Forty Three · A Little Fandom Shock for the Americans</text></navLabel>
+      <content src="text/chapter-143.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-148" playOrder="148">
+      <navLabel><text>Chapter One Hundred Forty Four · Gold Beneath a Man’s Knees (Physically)</text></navLabel>
+      <content src="text/chapter-144.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-149" playOrder="149">
+      <navLabel><text>Chapter One Hundred Forty Five · Haute Couture? Serve It Mix-and-Match</text></navLabel>
+      <content src="text/chapter-145.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-150" playOrder="150">
+      <navLabel><text>Chapter One Hundred Forty Six · The Unavoidable Cheek Kiss</text></navLabel>
+      <content src="text/chapter-146.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-151" playOrder="151">
+      <navLabel><text>Chapter One Hundred Forty Seven · Saffron Steeps in Water, Not in Vinegar</text></navLabel>
+      <content src="text/chapter-147.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-152" playOrder="152">
+      <navLabel><text>Chapter One Hundred Forty Eight · Tsundere Ji-eun, Spiraling Jin-ri</text></navLabel>
+      <content src="text/chapter-148.xhtml"/>
+    </navPoint>
+    <navPoint id="np-153" playOrder="153">
+      <navLabel><text>Chapter One Hundred Forty Nine · Senior Baek Si-on Gives Out Another Chance</text></navLabel>
+      <content src="text/chapter-149.xhtml"/>
+    </navPoint>
+    <navPoint id="np-154" playOrder="154">
+      <navLabel><text>Chapter One Hundred Fifty · The Red-Hair Diplomat, Recast as Strategic Buffer</text></navLabel>
+      <content src="text/chapter-150.xhtml"/>
+    </navPoint>
+    <navPoint id="np-155" playOrder="155">
+      <navLabel><text>Chapter One Hundred Fifty One · The Opening of a Shoujo Manga</text></navLabel>
+      <content src="text/chapter-151.xhtml"/>
+    </navPoint>
+    <navPoint id="np-156" playOrder="156">
+      <navLabel><text>Chapter One Hundred Fifty Two · Concert Prep That Grinds the Competition Flat</text></navLabel>
+      <content src="text/chapter-152.xhtml"/>
+    </navPoint>
+    <navPoint id="np-157" playOrder="157">
+      <navLabel><text>Chapter One Hundred Fifty Three · Packing the Blue House for the Screen</text></navLabel>
+      <content src="text/chapter-153.xhtml"/>
+    </navPoint>
+    <navPoint id="np-158" playOrder="158">
+      <navLabel><text>Chapter One Hundred Fifty Four · She Learned Arrangement for This</text></navLabel>
+      <content src="text/chapter-154.xhtml"/>
+      </navPoint>
+    <navPoint id="np-159" playOrder="159">
+      <navLabel><text>Chapter One Hundred Fifty Five · Cindy Is Not Reasonable</text></navLabel>
+      <content src="text/chapter-155.xhtml"/>
+    </navPoint>
+    <navPoint id="np-160" playOrder="160">
+      <navLabel><text>Chapter One Hundred Fifty Six · Best Female Singer, Forced Into the Turn</text></navLabel>
+      <content src="text/chapter-156.xhtml"/>
+      </navPoint>
+    <navPoint id="np-161" playOrder="161">
+      <navLabel><text>Chapter One Hundred Fifty Seven · Before the Peach Got Pickled</text></navLabel>
+      <content src="text/chapter-157.xhtml"/>
+    </navPoint>
+    <navPoint id="np-162" playOrder="162">
+      <navLabel><text>Chapter One Hundred Fifty Eight · The Wind That Never Got Stronger</text></navLabel>
+      <content src="text/chapter-158.xhtml"/>
+      </navPoint>
+    <navPoint id="np-163" playOrder="163">
+      <navLabel><text>Chapter One Hundred Fifty Nine · You Don’t Even Own a Cat</text></navLabel>
+      <content src="text/chapter-159.xhtml"/>
+    </navPoint>
+    <navPoint id="np-164" playOrder="164">
+      <navLabel><text>Chapter One Hundred Sixty · A Supplier Audit Is Not Meeting the Parents</text></navLabel>
+      <content src="text/chapter-160.xhtml"/>
+      </navPoint>
+    <navPoint id="np-165" playOrder="165">
+      <navLabel><text>Chapter One Hundred Sixty One · To Avoid Being a Sack, She Confessed</text></navLabel>
+      <content src="text/chapter-161.xhtml"/>
+    </navPoint>
+    <navPoint id="np-166" playOrder="166">
+      <navLabel><text>Chapter One Hundred Sixty Two · Being Short Is Not Entirely Without Advantages</text></navLabel>
+      <content src="text/chapter-162.xhtml"/>
+    </navPoint>
+    <navPoint id="np-167" playOrder="167">
+      <navLabel><text>Chapter One Hundred Sixty Three · Beautiful Enough to Freeze: Blue Dragon Night</text></navLabel>
+      <content src="text/chapter-163.xhtml"/>
+    </navPoint>
+    <navPoint id="np-168" playOrder="168">
+      <navLabel><text>Chapter One Hundred Sixty Four · Meeting the Parents, From the Audience Seats, Without Warning</text></navLabel>
+      <content src="text/chapter-164.xhtml"/>
+    </navPoint>
+    <navPoint id="np-169" playOrder="169">
+      <navLabel><text>Chapter One Hundred Sixty Five · The Big Screen Goes Feral</text></navLabel>
+      <content src="text/chapter-165.xhtml"/>
+    </navPoint>
+    <navPoint id="np-170" playOrder="170">
+      <navLabel><text>Chapter One Hundred Sixty Six · IU, Full Marks on the Fan Service</text></navLabel>
+      <content src="text/chapter-166.xhtml"/>
+    </navPoint>
+    <navPoint id="np-171" playOrder="171">
+      <navLabel><text>Chapter One Hundred Sixty Seven · The Peach Ripens, and Starts Growing Thorns</text></navLabel>
+      <content src="text/chapter-167.xhtml"/>
+    </navPoint>
+    <navPoint id="np-172" playOrder="172">
+      <navLabel><text>Chapter One Hundred Sixty Eight · Didn’t Bring a Wet Wipe Today</text></navLabel>
+      <content src="text/chapter-168.xhtml"/>
+    </navPoint>
+    <navPoint id="np-173" playOrder="173">
+      <navLabel><text>Chapter One Hundred Sixty Nine · Seven Wolves: A Symbol of Patriarchal Authority</text></navLabel>
+      <content src="text/chapter-169.xhtml"/>
+    </navPoint>
+    <navPoint id="np-174" playOrder="174">
+      <navLabel><text>Chapter One Hundred Seventy · How Exactly Will You Repay Faker the Three LP You Owe Him</text></navLabel>
+      <content src="text/chapter-170.xhtml"/>
+    </navPoint>
+    <navPoint id="np-175" playOrder="175">
+      <navLabel><text>Chapter One Hundred Seventy One · The Play Count That Goes to War for Its Country</text></navLabel>
+      <content src="text/chapter-171.xhtml"/>
+    </navPoint>
+    <navPoint id="np-176" playOrder="176">
+      <navLabel><text>Chapter One Hundred Seventy Two · Five Million Dollars, Lost to Steak and Coconut Water</text></navLabel>
+      <content src="text/chapter-172.xhtml"/>
+    </navPoint>
+    <navPoint id="np-177" playOrder="177">
+      <navLabel><text>Chapter One Hundred Seventy Three · The Highest-Value Steal in History</text></navLabel>
+      <content src="text/chapter-173.xhtml"/>
+    </navPoint>
+    <navPoint id="np-178" playOrder="178">
+      <navLabel><text>Chapter One Hundred Seventy Four · Crying Counts Toward the Clock</text></navLabel>
+      <content src="text/chapter-174.xhtml"/>
+    </navPoint>
+    <navPoint id="np-179" playOrder="179">
+      <navLabel><text>Chapter One Hundred Seventy Five · Agents Have Version Gaps Too</text></navLabel>
+      <content src="text/chapter-175.xhtml"/>
+    </navPoint>
+    <navPoint id="np-180" playOrder="180">
+      <navLabel><text>Chapter One Hundred Seventy Six · Your Dad Is Amazing</text></navLabel>
+      <content src="text/chapter-176.xhtml"/>
+    </navPoint>
+    <navPoint id="np-181" playOrder="181">
+      <navLabel><text>Chapter One Hundred Seventy Seven · One Album, Two Crowns, One Step Away</text></navLabel>
+      <content src="text/chapter-177.xhtml"/>
+    </navPoint>
+    <navPoint id="np-182" playOrder="182">
+      <navLabel><text>Chapter One Hundred Seventy Eight · Trying to Please People Is Exhausting</text></navLabel>
+      <content src="text/chapter-178.xhtml"/>
+    </navPoint>
+
+
+    
+    
+    
+    
+  </navMap>
+</ncx>
