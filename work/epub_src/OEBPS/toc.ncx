@@ -904,6 +904,16 @@
       <content src="text/chapter-214.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-219" playOrder="219">
+      <navLabel><text>Chapter Two Hundred Fifteen · The Yellow-Hair Archaeological Site</text></navLabel>
+      <content src="text/chapter-215.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-220" playOrder="220">
+      <navLabel><text>Chapter Two Hundred Sixteen · Which Girl Is Worth Tens of Millions?</text></navLabel>
+      <content src="text/chapter-216.xhtml"/>
+    </navPoint>
+
 
     
     

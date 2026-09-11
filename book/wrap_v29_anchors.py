@@ -61,6 +61,9 @@ FORMS = [
     # mentions Emma Watson, hand-exclude before wrapping (none processed in V51).
     ("Emma",           "chr-emma-stone",    "emma-stone.jpg"),
     ("Damien",         "chr-damien-chazelle","damien-chazelle.jpg"),
+    ("Rihanna",        "chr-rihanna",       "rihanna.jpg"),
+    ("Kendall Jenner", "chr-kendall-jenner","kendall-jenner.jpg"),
+    ("Kendall",        "chr-kendall-jenner","kendall-jenner.jpg"),
     ("Lee Ji-eun",    "chr-lee-ji-eun",    "iu.jpg"),
     ("Kobe Bryant",   "chr-kobe-bryant",   "kobe-bryant.jpg"),
     ("Taylor Swift",  "chr-taylor",        "taylor-swift.jpg"),
