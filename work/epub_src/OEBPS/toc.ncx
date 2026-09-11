@@ -924,6 +924,16 @@
       <content src="text/chapter-218.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-223" playOrder="223">
+      <navLabel><text>Chapter Two Hundred Nineteen · A Tiny Shock for the Friendly Competition</text></navLabel>
+      <content src="text/chapter-219.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-224" playOrder="224">
+      <navLabel><text>Chapter Two Hundred Twenty · The Lipstick Revolution Yields, Temporarily, to Gunfire</text></navLabel>
+      <content src="text/chapter-220.xhtml"/>
+    </navPoint>
+
 
     
     

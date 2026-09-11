@@ -72,22 +72,20 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §101)
+## 6. State & next steps (from worklog §102)
 
-**SHIPPED: V53 = chapters 217–218 + REAL celebrity photos (Yeri fansite crop, Emma Cannes crop — AI stand-ins retired) + `.search-bar` block (ch215 retrofit) + Ayesha Curry card (85²).** epubcheck 0/0/0/0; V52 baseline beaten on every battery metric; only the V53 epub on disk.
+**SHIPPED: V54 = chapters 219–220 + Kim Eun-sook & Choi Na-young cards (87²) + two new .phone-call blocks + first checklist-block pair since ch217.** epubcheck 0/0/0/0; battery all green vs V53; only the V54 epub on disk.
 
-**RESOLVED this cycle:** the Yeri/Emma image directive — image_search-sourced, visually verified, ImageMagick-cropped real photos installed under canonical filenames (§62.4). The user's gist-upload route (§62.3) stays open ONLY if they re-assert their own files.
-
-**V54 (next batch) checklist:**
-1. Save raws FIRST (split pastes at 第N章 headers) + ？-ledger + guard + verbatim probes (§57.1); author-note paratext excluded from EN (§58.1).
-2. §55.1 pre-flight; canon greps BEFORE drafting; one grep per recurring prop (§58.4); callback fidelity on returning gags (§59.2).
-3. Full standalone XHTML drafts; block ledger; reconcile counts before wrapping (§57.4); grading sequences → one sv per candidate line (§59.3).
-4. ？-ledger ordered walk (§57.2); one-line-total diffs → dump full EN ？-list (§58.2); ！ stays ！ (§59.1); statements stay statements (§56.6).
-5. wrap + audit: XML, undef NONE, imgs, CSS, CJK, bare &, unbal, framed sweep, residual-plain (§56.5); post-wrap patches slice the LIVE file (§57.3); STRIP chr-peek from ALL block rows post-wrap (§63.1 — wrapper's skip-list lags the block inventory).
+**V55 (next batch) checklist:**
+1. Save raws FIRST (split pastes at 第N章 headers) + ？-ledger + guard + verbatim probes (§57.1); author-note paratext excluded from EN (§58.1); re-verify every write_file against the paste (的-drop precedent).
+2. §55.1 pre-flight; canon greps BEFORE drafting; near-name check for lookalike romanizations (真理 Jin-ri vs Ji-eun — §64.2); one grep per recurring prop (§58.4); callback fidelity via the book's OWN earlier wording (surplus precedent §64.4 of §64).
+3. Full standalone XHTML drafts; block ledger; cards for new characters with byte-identical in-text/intro-page copies (§64.1); reconcile counts before wrapping (§57.4).
+4. ？-ledger ordered walk (§57.2); one-line-total diffs → dump full EN ？-list (§58.2); ！ stays ！ (§59.1); statement-form ？ hunt (§64.3 — third cycle running it fires).
+5. wrap + audit: XML, undef NONE, imgs, CSS, CJK, bare &, unbal, framed sweep, residual-plain (§56.5); MANDATORY chr-peek strip inside all display blocks post-wrap (§63.1/§64.4).
 6. Cards: grep intro page + shipped chapters first (§57.5); FORMS completeness (§57.6); chat POV owner = self/right (§58.3).
-7. Registration: opf items + spine after last chapter; explicit image items for new portraits (§56.2); nav li ×2 word-form; ncx np-223/np-224 for the next batch.
-8. `.search-bar` block mandatory for ANY internet/app search scene (§63); hover previews stay banned in every block (§63.1).
-9. Builder: clone build_epub_v53.py with EXPLICIT replaces (OUT filename), run FROM REPO ROOT — SRC is the /home/user/work symlink into the repo; NO sync step exists or is needed (§56.1).
-10. epubcheck → 0/0/0/0; in-zip battery vs V53 baseline (§56.4 same-code deltas): entries 374+delta, chapters 218+2n, spine/navPoints 222+2n, nav chapter-li 218+2n, images 125+n³, cards/modals 85+m³, in-text 79+m³; ls504/sv228/pq117/lb31/mp35/pc94/chat134/ct103+590/nv11/wb35+wd91/sb187/search-bar1; anchors 12,333+delta; ？-parity EXACT; PEEK-IN-BLOCKS 0; CJK 0 (ch78 「 ×10 sanctioned); 【】 0; ls-time box + search-bar CSS in shipped stylesheet.
+7. Registration: opf items + spine after last chapter; explicit image items for new portraits (§56.2); nav li word-form; ncx np-225/np-226 for the next batch.
+8. `.search-bar` mandatory for ANY internet/app search scene (§63); hover previews banned everywhere (§63.1).
+9. Builder: clone build_epub_v54.py with EXPLICIT replaces (OUT filename), run FROM REPO ROOT (§56.1) — SRC is the /home/user/work symlink; no sync step.
+10. epubcheck → 0/0/0/0; in-zip battery vs V54 baseline (§56.4 same-code deltas): entries 378+delta, chapters 220+2n, spine/navPoints 224+2n, nav chapter-li 220+2n, images 127+n³, cards/modals 87+m³, in-text 81+m³; ls510/sv234/pq118/pc96/chat135/ckl16/lb31/mp35/nv11(naver-search)/wb35/search-bar1; anchors 12,493+delta; ？-parity EXACT for ALL canon chapters; PEEK-IN-BLOCKS 0; CJK 0 (ch78 「 ×10 sanctioned); 【】 0; ls-time + search-bar CSS in shipped stylesheet.
 11. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
-12. Delete previous epub AFTER validation; worklog / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.
+12. Delete previous epub AFTER validation; worklog / SKILL / SETUP §6 rewrite; commit + push; present_file.
