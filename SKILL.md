@@ -580,3 +580,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Interrogative parity now ends with a per-line verification:** print every raw ？-line, map it to its rendered sentence, THEN trust the count diff (ch181 24/24 mapped; ch182 19/19 mapped; EN margins +2/+1 legal only because every line was individually confirmed).
 5. **Fictional institutional documents are screen-views when the header frames them honestly** — the Four Seasons patrol entry that "was never filed" renders as an sv-log with classification note; same license as premonished headlines (§43 rule 4).
 6. **New FORMS this cycle:** ("Joo-hyun", chr-irene, irene.jpg), ("Irene", chr-irene, irene.jpg). Uncarded-by-design speakers this cycle: Richard (TIME), Pierre (Churchill), Kang Seul-gi / Park Soo-young / Son Seung-wan (plain by register precedent).
+
+---
+
+## §45 · V35 Rules (ch183–184)
+
+1. **Greppable franchise lines quote the SHIPPED wording.** Wiz's ch184 grievance ("Most romantic thing he ever said to me was 'I'm a finished product.'") is a callback to ch175's shipped line — grep the old chapters BEFORE re-rendering any recurring joke, lyric, or catchphrase. Never re-translate from raw.
+2. **Romanized address forms follow shipped capitalization** ("Oppa", "Eonni", "Unnie", "sunbaenim"). Jin-ri's first on-page "Oppa." (V35, the car) is a canon event: render in shipped romanization, never translate ("brother" is banned).
+3. **Carded-never-anchored sweep continues:** this cycle chr-ariana-grande, chr-justin-bieber, chr-behati got their FIRST anchors (after chr-irene in V34). Justin Bieber was missing from FORMS entirely while carded — when a "known" name appears in a new raw, check BOTH the card and the FORMS list before drafting.
+4. **Competing relayed offers render as a bid-sheet screen-view** (Dubai/Doha identical millions, "identical to the dollar. The second caller knew precisely what the first had offered... showing up was the point.") — the sv block absorbs quote-structure better than dialogue paraphrase.
+5. **Video calls are phone-calls** (Hara debrief, 44 rows) — pc-head notes "video"; the visual channel (cotton pad stopping, table slap) lives in pc-note rows.
+6. **Self-catch discipline:** the CJK leak in the ch184 stamp line and the missing space were caught by MY OWN pre-wrap audit pass, not by luck — the audit runs on the DRAFT, before wrap, every cycle.

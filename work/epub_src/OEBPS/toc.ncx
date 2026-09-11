@@ -763,6 +763,14 @@
       <navLabel><text>Chapter One Hundred Eighty Two · Rarer Than the Aurora, You</text></navLabel>
       <content src="text/chapter-182.xhtml"/>
     </navPoint>
+    <navPoint id="np-187" playOrder="187">
+      <navLabel><text>Chapter One Hundred Eighty Three · A Moving City’s GDP</text></navLabel>
+      <content src="text/chapter-183.xhtml"/>
+    </navPoint>
+    <navPoint id="np-188" playOrder="188">
+      <navLabel><text>Chapter One Hundred Eighty Four · The One-Upmanship of Oil Money</text></navLabel>
+      <content src="text/chapter-184.xhtml"/>
+    </navPoint>
 
 
     
