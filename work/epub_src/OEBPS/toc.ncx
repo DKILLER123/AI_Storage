@@ -747,6 +747,14 @@
       <navLabel><text>Chapter One Hundred Seventy Eight · Trying to Please People Is Exhausting</text></navLabel>
       <content src="text/chapter-178.xhtml"/>
     </navPoint>
+    <navPoint id="np-183" playOrder="183">
+      <navLabel><text>Chapter One Hundred Seventy Nine · I’ll Be There to Save the Day</text></navLabel>
+      <content src="text/chapter-179.xhtml"/>
+    </navPoint>
+    <navPoint id="np-184" playOrder="184">
+      <navLabel><text>Chapter One Hundred Eighty · The Four-Leaf Clover Gets the Final Say</text></navLabel>
+      <content src="text/chapter-180.xhtml"/>
+    </navPoint>
 
 
     

@@ -52,8 +52,8 @@ extracted tree produces a byte-identical EPUB (19,477,108 B; all 309 CRCs equal)
 
 ## 4. Raw coverage
 
-`raw/` holds ch121–130, 135–178 (54 files) + the ch117–120 placeholder note.
-V32 update: ch177–178 raws archived verbatim before translation (standing rule).
+`raw/` holds ch121–130, 135–180 (55 files) + the ch117–120 placeholder note.
+V33 update: ch179–180 raws archived verbatim before translation (standing rule).
 **Not on disk:** ch1–116, ch117–120 bodies, ch131–134 — chapters shipped from
 in-session raws before the archive; per `raw/chapters-117-120.txt` the project
 rule is *raws first, then translate*, so ask for re-paste if re-verification of
@@ -72,27 +72,35 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §80)
+## 6. State & next steps (from worklog §81)
 
-- **Shipped:** Version 32 — 178 chapters, epubcheck 0/0/0/0, all audits green
-  (phone-call 73, music-player 28, spine 182, navPoints 182, manifest 319,
-  322 entries, chr 73/73, images 113/113, ？0, CJK 0 except ch78 「」 exception,
-  interrogative parity ch177 48/48 exact + ch178 18≥17 all verified).
-  V32 = ch177 "One Album, Two Crowns, One Step Away" (RIAA platinum, DC muster,
-  Insight op-ed, KBS flip, Train to Busan signed, Hara trans-Pacific call) +
-  ch178 "Trying to Please People Is Exhausting" (Incheon, remembered invitation
-  call, warm water, THE SPEECH, meditation pullquote, LA rehearsal, logic loop,
-  Four Seasons, unheard whisper).
-- **Next build:** V33 = ch179+ — raws not yet provided (archive to
-  `raw/chapter-179.txt` … first, then translate).
-- **Open threads:** NYE test show at the Temple Theatre (tonight in-verse;
-  'Sign of the Times' in setlist); one-album-two-crowns chase vs 'Uptown Funk';
-  Grammy "next year = credibility disaster" framing; Producers fallout + Park
-  Ji-eun pressure arc; Four Seasons stay; Jin-ri + Hye-ja LA cover story; Blin
-  in Hara custody; Furious 7 end-credits drop + Wiz's bottle cameo; Seoul
-  premiere + solo performance; Sado wrap + Oscar campaign (Showbox/Orion
-  pending, the meal with Director Lee); Charlie's $500k + separate signing
-  negotiation; Yeon Sang-ho arc — Train to Busan SIGNED (role: high schooler
-  Jin-hee); 'Love Yourself' record chase; UA collab Jan 1 launch; Irene —
-  Music Bank MC + no phone; Adam's dinner debt; Wiz's "brother for life";
-  Dispatch Director Lim gift (reason still unstated on-page).
+- **Shipped:** Version 33 — 180 chapters, epubcheck 0/0/0/0, all audits green
+  (phone-call 73, music-player 28, lyric-blocks 17, spine 184, navPoints 184,
+  manifest 321, 324 entries, chr 73/73, images 113/113, ？0, CJK 0 except ch78
+  「」 exception, interrogative parity ch179 7/7 + ch180 14/14, both exact).
+  V33 = ch179 "I'll Be There to Save the Day" (Temple Theatre NYE: TIME's
+  Next-Generation-Leader headline, the setlist screen-view, the Furious 7
+  cover condition, the five-lyric-block splice into One Call Away, the a
+  cappella drop, Jin-ri's Superman beat, the countdown to 2015, dumplings for
+  ticket stubs, Scooter's premonished poisoning headline) + ch180 "The
+  Four-Leaf Clover Gets the Final Say" (Koreatown army stew, the aurora
+  physics lecture, two tickets to Canada, "Does eating count?", the Under
+  Armour Melrose drop, and the Beverly Hills lawn that produces the fourth
+  leaf).
+- **Next build:** V34 = ch181+ — raws not yet provided (archive to
+  `raw/chapter-181.txt` … first, then translate).
+- **Open threads:** Jan 2 — aurora trip for Si-on + Jin-ri (Eun-ah keeps
+  Hye-ja company; Scooter collapses); TIME "Next Generation Leader" piece +
+  Billboard update + TIME interview (Jan 1–2); 'One Call Away' now
+  half-public (3,000 sworn ears vs "does not end up on the internet"); CJ
+  dumpling New Year events; UA collab launch NOW LIVE (reservation page
+  crashed once, queue around the block); NYE test-show aftermath;
+  one-album-two-crowns chase vs 'Uptown Funk'; Grammy "next year =
+  credibility disaster" framing; Producers fallout + Park Ji-eun pressure
+  arc; Blin in Hara custody; Furious 7 end-credits drop + Wiz's bottle cameo;
+  Seoul premiere + solo performance; Sado wrap + Oscar campaign
+  (Showbox/Orion pending, the meal with Director Lee); Charlie's $500k +
+  separate signing negotiation; Yeon Sang-ho arc — Train to Busan SIGNED
+  (role: high schooler Jin-hee); Irene — Music Bank MC + no phone; Adam's
+  dinner debt; Wiz's "brother for life"; Dispatch Director Lim gift (reason
+  still unstated on-page).

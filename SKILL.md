@@ -558,3 +558,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Wrapped-anchor FORMS now include:** Goo Hara/Hara, Son Nam-won, Bong Joon-ho/Bong, LeBron James/LeBron (short forms match shipped precedent: bare-Hara 26, bare-Bong 80, bare-LeBron 40 prior uses). Verify forms by grepping shipped anchor text BEFORE extending — house short-form conventions are empirical, not guessable.
 5. **POV-local "plain" notes don't generalize.** §36's Yeon Sang-ho-plain rule was ch170-POV config; he is carded (chr-yoon-hyunsang) with ch106 anchor precedent — anchor him everywhere else. Card existence + prior anchor use beats any per-chapter exception list.
 6. **billboard-chart stacks:** ONE song per block (bb-kicker/bb-title/bb-artist/bb-rank/bb-note); a top-3 rundown = three stacked blocks (ch86 precedent). Never cram multiple songs into one block's fields.
+
+---
+
+## §43 · V33 Rules (ch179–180)
+
+1. **One raw per chapter file — enforce on save.** A combined two-chapter write was split post-hoc at the 第N章 marker. Archive raws as `chapter-NNN.txt` individually; the split must never be needed again.
+2. **Lyric splices = one lyric-block per musical beat.** ch179's medley is FIVE blocks (promised piece → a cappella, no safety net → the promise → the title line → the last word), each lb-header naming its beat. Never merge distinct musical moments into one block.
+3. **The author's veils are canon.** "The milk-tea-sipping Heavenly King surnamed Zhou" and Jin-ri's never-quoted Superman diary entry stay veiled in EN exactly as the raw veils them — deep-thinking fills FORM, never reveals withheld content.
+4. **Imagined/premonished headlines are screen-views when the sv-header frames them as unprinted** ("tomorrow's edition · as already typeset in Scooter's head"). Mass-media block grammar covers hypotheticals if honestly labeled.
+5. **Wrap-audit filename check is load-bearing (2nd catch):** `park-jihun.jpg` (not park-ji-hun), `son-nam-won.jpg` (not son-namwon) — guessed hyphenation WILL drift from disk; the imgs-on-disk audit runs pre-build every time, no exceptions.
+6. **Interrogative parity went exact both chapters this cycle (7/7, 14/14)** — the count-diff method from §42 is now standard: count raw ？, count EN ? in rendered body, reconcile every delta to zero before packaging.
