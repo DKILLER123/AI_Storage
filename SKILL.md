@@ -649,3 +649,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Chat rows stay anchor-free** even when the chat partner is carded (In-na); the anchor goes on her name in prose narration (§47.5 extended to chat-).
 5. **Prior-mention greps now include institution names** (BRIT Awards = new canon from the raw; 'SIXTEEN' = new; JYP the company ≠ Park Jin-young the person — grep both before deciding plain-vs-anchor).
 6. **Line-surgery edits run with assertions on every index before write** — an off-by-blank-line is a corrupted chapter; the assert costs one second and saved one.
+
+---
+
+## §51 · V41 Rules (ch195–196 + the ls-time Redesign)
+
+1. **The ls-time is a self-growing box, not a capsule.** `border-radius: 999px` sliced multi-line content ("out of the box"); the fix: `display:block; max-width:100%; box-sizing:border-box; border-radius:0.5em; line-height:1.6; overflow-wrap:break-word; box-decoration-break:clone`. Any future stamp child that becomes a framed element must follow the same law: grow vertically, never clip, never spill. Verify the redesign survives in the SHIPPED zip's stylesheet every cycle.
+2. **Raw files get a mechanical integrity guard at archive time.** V41's first ch195 archive was corrupted (half-translated mixed lines, missing beats) — caught by re-read, rewritten verbatim. The archive step now ends with a mixed-language leak scan (raw files may contain English only in whitelisted tokens: lyrics, names, titles) + the ？ count. An archive that fails either check is rewritten before any drafting begins.
+3. **Title-only stays title-only.** A hummed real-song rhythm ('Shape of You') renders as description + title — no lyric-block — exactly like 'Where Are Ü Now'. Lyric-blocks exist only when the raw quotes words (three regimes, §50.3).
+4. **Shipped-record rule has teeth.** Ed Sheeran got a full scene and still ships plain: prior mentions (ch100–110) established him plain; a carding upgrade of an established-plain character is a user decision, not a translator's.
+5. **Chat-block splits are a rhythm tool.** One conversation with narration beats between messages = one chat block per beat segment (V41: 5 blocks for the trophy/guitar thread); the only law is §50.1 — a message text appears exactly once.
+6. **Indirect speech that carries a raw ？ is a ？-loss.** "The host asked whether the song would blow up" hides the mark; render the question direct first, then audit (V41: restored before wrap; the mapper would have caught it as a −1).

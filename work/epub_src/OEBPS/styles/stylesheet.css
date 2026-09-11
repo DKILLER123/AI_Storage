@@ -375,17 +375,26 @@ em.beat {
   color: #6a5a42;
 }
 .location-stamp .ls-time {
-  display: inline-block;
+  display: block;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
   font-family: "Courier Prime", "Courier New", monospace;
   font-size: 0.66rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #9b2335;
-  padding: 0.12em 0.9em;
+  padding: 0.55em 1.1em;
   border: 1px solid rgba(155, 35, 53, 0.28);
-  border-radius: 999px;
+  border-radius: 0.5em;
   background: rgba(155, 35, 53, 0.05);
-  margin: 0.2rem 0 0.15rem;
+  margin: 0.2rem auto 0.15rem;
+  line-height: 1.6;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-break: normal;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .location-stamp .ls-place {
   font-family: "Cormorant Garamond", Georgia, serif;

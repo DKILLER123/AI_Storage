@@ -811,6 +811,14 @@
       <navLabel><text>Chapter One Hundred Ninety Four · Safekeeping Business, Again</text></navLabel>
       <content src="text/chapter-194.xhtml"/>
     </navPoint>
+    <navPoint id="np-199" playOrder="199">
+      <navLabel><text>Chapter One Hundred Ninety Five · The Disdained ‘Shape of You’</text></navLabel>
+      <content src="text/chapter-195.xhtml"/>
+    </navPoint>
+    <navPoint id="np-200" playOrder="200">
+      <navLabel><text>Chapter One Hundred Ninety Six · Today Is Not a Day for Cindy</text></navLabel>
+      <content src="text/chapter-196.xhtml"/>
+    </navPoint>
 
 
     
