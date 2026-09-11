@@ -72,17 +72,23 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §93)
+## 6. State & next steps (from worklog §94)
 
-**SHIPPED: Version 45** — `Seoul_Starting_With_Debt_Collection__Version_45.epub` (repo root), epubcheck 0/0/0/0 (absolute path, §48.1). Book: 202 chapters; spine 206; navPoints 206; manifest 346; entries 349; images 116=116=116; cards 76=76=76; pc 84 / lb 28 / sv 158 / pq 73 / chat 125 / ct 99 / nd 69 / op 32 / nv 10 / mp 30 / ls 467; ？ fullwidth 0; ？-parity ch199 24/24, ch200 25/24, ch201 53/48, ch202 31/30 — exact; ch195 chats intact (§53.1); ls-time box in shipped CSS.
+**SHIPPED: V46 = chapters 203–204.** epubcheck 0/0/0/0; epub 21,396,101 B; commit pushed; V45 epub deleted (in git history). Only `Seoul_Starting_With_Debt_Collection__Version_46.epub` on disk.
 
-**Builder:** `book/build_epub_v45.py` — OUT is cwd-RELATIVE: run from repo root; epubcheck with the absolute path. **Fresh-session pre-flight (§55.1):** if tools/paths are missing run `bash book/setup_workspace.sh`, then `git fetch origin arena/01a08c66-ai-storage && git reset -q FETCH_HEAD` if HEAD ≠ origin, verify status delta, then build.
+**Toolchain (reinstall each session):** `bash book/setup_workspace.sh`; then
+`git fetch origin arena/01a08c66-ai-storage && git reset -q FETCH_HEAD`; verify `git rev-parse --short HEAD` matches the last pushed commit (§55.1 pre-flight). epubcheck:
+`/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar <ABSOLUTE epub>` — require the literal line "EPUBCheck completed".
 
-**Raws:** 78 files in `raw/` (ch121–130, 135–202). ch201 ？=53/48; ch202 ？=31/30.
-
-**Next (V46, awaiting raws ch203+):**
-1. FIRST TOOL CALL: archive every new raw + ？ counts + mixed-language leak scan (§51.2); print the ？-ledger from the FILES (§52.2).
-2. Deep scan + deep thinking; chats per §53.1; quoted display material per §54.1 (【】 = signal); sentence-TYPE fidelity (§55.2); monologue stacks = one line per raw line (§55.3); pc blocks per §55.4.
-3. NEW chapter files are FULL standalone XHTML before wrap/audit (§52.1); after ANY edit_file re-derive old_text from the CURRENT file + re-parse XML + check tail (§54.2).
-4. WRITTEN block plan → draft → wrap → audit → two-way ？ reconciliation → post-draft raw re-read.
-5. Register navPoints; sed-clone builder v46; build FROM REPO ROOT; epubcheck absolute; battery incl. chat-coherence + framed-residue sweep + planned-vs-shipped + ls-time-in-CSS; pre-package deep scan (missing blocks AND ？); rm old epub; worklog §94 / SKILL §56 / this section; commit + push; present_file.
+**V47 (chapters 205–206) checklist:**
+1. Save raws FIRST → `raw/chapter-205.txt`, `raw/chapter-206.txt` + ？-ledger + guard.
+2. §55.1 pre-flight (HEAD check); canon deep-greps BEFORE drafting (spelling drift incl.).
+3. Full standalone XHTML drafts; block ledger from raw display material (【】 = mandatory blocks; songs = lb full/half in ONE block; one call = one pc block; caller side = pc-me when Baek dials).
+4. ？-ledger SequenceMatcher diff → EXACT marks AND lines vs raw (§56.6: statements stay statements).
+5. wrap_v29_anchors.py + audit: XML/minidom, undef NONE, imgs-on-disk, CSS classes, CJK, bare &, unbal, framed-plain sweep, residual-plain (scope: classless + dialogue-line, §56.5).
+6. New carded characters: card+modal+portrait+FORMS+re-wrap (§56.3); check character-intro.xhtml for existing ids FIRST (Seo Eun-ju lesson: grep before assuming new).
+7. Registration: opf manifest items + spine itemrefs after last chapter; nav li ×2 word-form; ncx navPoints (np-209/np-210 if next batch); new images → explicit opf `<item>` entries (§56.2).
+8. Builder: clone build_epub_v46.py with EXPLICIT replaces (docstring "Version 46" + full OUT filename), run FROM REPO ROOT (§56.1).
+9. epubcheck (absolute paths) → 0/0/0/0; in-zip battery vs V46 baseline with §56.4-locked methodology: entries 353+delta, manifest 350+delta, spine/navPoints 208+2n, nav li 204+2n, images 118+n³, cards/modals 78+m³; ls469/sv171/pc87/pq79/mp31/lb29/chat substr delta 0/ct111/nv201/hn12; ？0; CJK 20 ch78; ？-parity EXACT for new chapters; ch195 chat-name 8; ls-time box in CSS.
+10. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
+11. Delete previous epub AFTER validation; worklog §95 / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.

@@ -844,6 +844,16 @@
       <content src="text/chapter-202.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-207" playOrder="207">
+      <navLabel><text>Chapter Two Hundred Three · Today Is Good for a Steal</text></navLabel>
+      <content src="text/chapter-203.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-208" playOrder="208">
+      <navLabel><text>Chapter Two Hundred Four · The Kiss Mark Is the Answer</text></navLabel>
+      <content src="text/chapter-204.xhtml"/>
+    </navPoint>
+
 
     
     

@@ -34,6 +34,8 @@ FORMS = [
     ("Lee Mi-kyung",   "chr-lee-mikyung",   "lee-mikyung.jpg"),
     ("Baek Jeong-hoon","chr-baek-jeonghoon","baek-jeonghoon.jpg"),
     ("Kevin Hart",     "chr-kevin-hart",    "kevin-hart.jpg"),
+    ("Chang Byung-gyu", "chr-chang-byunggyu", "chang-byunggyu.jpg"),
+    ("Yeon Sang-ho",   "chr-yeon-sangho",   "yeon-sangho.jpg"),
     ("Jeong-hoon",     "chr-baek-jeonghoon","baek-jeonghoon.jpg"),
     ("Mi-kyung",       "chr-lee-mikyung",   "lee-mikyung.jpg"),
     ("Kevin",          "chr-kevin-hart",    "kevin-hart.jpg"),
