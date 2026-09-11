@@ -627,3 +627,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 6. **Shipped-title rule, extended:** a raw short-form title yields to the shipped long title when story time is past release (绿头苍蝇 → 'Green Bottle Fly', per ch163).
 7. **Address forms map per PAIR, not globally:** Jin-ri→Hara is "Eonni" (ch183 precedent), whatever the default romanization table says.
 8. **In-text debut cards are part of card workflow for NEW characters — and a retrofit obligation when missed.** V36's Mi-kyung/Hart char-intro blocks were skipped and survived two cycles; the bookwide char-intro count (page 76 + in-text total) now belongs in the battery.
+
+---
+
+## §49 · V39 Rules (ch191–192)
+
+1. **？-punctuation-loss is a recurring class, not a one-off.** V39 hit it twice in one chapter ("isn't she." / "Didn't you say…") — per-line mapping called both clean because the words existed; only mark totals flagged them. When totals mismatch, diff question MARKS per line, not just lines (also: "吧？" sentence-final particles ship as "…, isn't …?" — never a period).
+2. **Block-plan count belongs in the pre-package scan.** The plan said 3 pullquotes for ch192; the build had 2 and nobody noticed until the battery. Compare planned-vs-shipped block counts per chapter before packaging; promote or add rather than downgrade the plan (V39: the itinerary aphorism promoted to pq, rebuilt, revalidated).
+3. **An epithet shipped anywhere is canon everywhere.** "Nation's first love" first appeared inside a ch106 phone-call row — it still governs the ch191 title when the raw title uses 国民初恋. Grep the FULL book (rows included) for epithets, not just prose.
+4. **Plain-vs-anchor decisions follow the person's shipped record.** Suzy: prior mentions ch106/166, no card → stays plain at her first on-page appearance. Seo Eun-ju: carded → anchored. Park Ji-hoon: name-drop, no face, no dialogue → plain forever until the raw gives him a scene.
+5. **Financial scenes: transcribe, don't audit.** The raw's arithmetic (20% of NA ≠ 11.3M, strictly) is the fiction's arithmetic; the translator's job is fidelity, not reconciliation — flag nothing, fix nothing, round nothing.
+6. **A legal editorial ？ (mark added where the raw has none) must be named in the battery entry** (V39: Park Ji-hoon's quoted question) — undocumented +1s are how false confidence starts.

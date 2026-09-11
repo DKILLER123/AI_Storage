@@ -795,6 +795,14 @@
       <navLabel><text>Chapter One Hundred Ninety · Since When Does Car Talk End in Bed?</text></navLabel>
       <content src="text/chapter-190.xhtml"/>
     </navPoint>
+    <navPoint id="np-195" playOrder="195">
+      <navLabel><text>Chapter One Hundred Ninety One · The Top-Luxury Sea King Meets the Nation’s First Love</text></navLabel>
+      <content src="text/chapter-191.xhtml"/>
+    </navPoint>
+    <navPoint id="np-196" playOrder="196">
+      <navLabel><text>Chapter One Hundred Ninety Two · This Lesson Happens Whether You Take It or Not</text></navLabel>
+      <content src="text/chapter-192.xhtml"/>
+    </navPoint>
 
 
     
