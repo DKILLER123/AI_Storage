@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §91)
+## 6. State & next steps (from worklog §92)
 
-**SHIPPED: Version 43** — `Seoul_Starting_With_Debt_Collection__Version_43.epub` (repo root), 21,080,075 B, 347 entries, epubcheck 0/0/0/0 (absolute path, §48.1). Book: 200 chapters; spine 204; navPoints 204; manifest 344; images 116=116=116; cards 76 = modals 76 = anchored 76; char-intro 150; phone-call 81; lyric-block 27; screen-view 151; pullquote 66; chat 125 (ch195 re-seated to the user's orientation law, §53.1); comment-thread 99; news-digest 67; official-post 31; naver-search 10; music-player 29; location-stamp 465 (self-growing box verified in CSS); ？ fullwidth 0. ？-parity: ch199 24/24, ch200 25/24 — exact.
+**SHIPPED: Version 44** — `Seoul_Starting_With_Debt_Collection__Version_44.epub` (repo root), epubcheck 0/0/0/0 (absolute path, §48.1). Book: 200 chapters; spine 204; navPoints 204; manifest 344; entries 347; images 116=116=116; cards 76=76=76; pc 81 / lb 27 / sv 151 / pq 66 / chat 125 / ct 99 / nd 69 / op 32 / nv 10 / mp 29 / ls 465; ？ fullwidth 0; ？-parity ch197 24/23, ch198 42/42, ch199 24/24, ch200 25/24 — exact; ch195 chats at the user's orientation (§53.1); ls-time box in shipped CSS. ch200 hotfix: quoted headline/disclaimer/post now in news-digest ×2 + official-post ×1 (§54.1).
 
-**Builder:** `book/build_epub_v43.py` — OUT is cwd-RELATIVE: run from repo root; epubcheck with the absolute path (§48.1). epubcheck: `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar`.
+**Builder:** `book/build_epub_v44.py` — OUT is cwd-RELATIVE: run from repo root; epubcheck with the absolute path. epubcheck: `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar`.
 
-**Raws:** 76 files in `raw/` (ch121–130, 135–200). ch199 ？=24/24; ch200 ？=25/24 — archived first, leak-guarded, ？-ledger printed from the files (§52.2).
+**Raws:** 76 files in `raw/` (ch121–130, 135–200).
 
-**Next (V44, awaiting raws ch201+):**
+**Next (V45, awaiting raws ch201+):**
 1. FIRST TOOL CALL: archive every new raw + ？ counts + mixed-language leak scan (§51.2); print the ？-ledger from the FILES (§52.2).
-2. Deep scan + deep thinking; chat blocks per §53.1 (owner = self; header = other party); sweep for `-ssi` after wrap (§53.3); one-way texts = screen-view rows (§53.4); unnamed prophecies (§53.5); anonymized names stay anonymized (§53.6).
-3. NEW chapter files are FULL standalone XHTML (prolog + correct `<title>` + `</html>`) BEFORE wrap/audit (§52.1).
-4. WRITTEN block plan → draft → wrap → audit (forms from the wrap script's FORMS list; classify residuals per §52.3) → two-way ？ reconciliation → post-draft raw re-read.
-5. Register navPoints; sed-clone builder v44; build FROM REPO ROOT; epubcheck absolute; battery incl. images/char-intro/planned-vs-shipped + chat-coherence (§53.2) + ls-time-in-CSS; pre-package deep scan (missing blocks AND ？); rm old epub; worklog §92 / SKILL §54 / this section; commit + push; present_file.
+2. Deep scan + deep thinking; chats per §53.1; quoted display material into display blocks per §54.1 (【】 = signal); unnamed prophecies (§53.5); anonymized names stay anonymized (§53.6); sweep for `-ssi` after wrap (§53.3).
+3. NEW chapter files are FULL standalone XHTML before wrap/audit (§52.1); after ANY edit_file on wrapped chapters re-derive old_text from the CURRENT file + re-parse XML + check the tail (§54.2).
+4. WRITTEN block plan → draft → wrap → audit → two-way ？ reconciliation → post-draft raw re-read.
+5. Register navPoints; sed-clone builder v45; build FROM REPO ROOT; epubcheck absolute; battery incl. chat-coherence (§53.2) + framed-residue sweep (§54.1) + planned-vs-shipped + ls-time-in-CSS; pre-package deep scan (missing blocks AND ？); rm old epub; worklog §93 / SKILL §55 / this section; commit + push; present_file.

@@ -683,3 +683,11 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 5. **Prophecies stay unnamed:** when narration foresees a future the raw doesn't name (the 2017 summer song), render the foresight without naming the song — same law as §52.6, extended to narration.
 6. **Anonymized names stay anonymized:** a raw that writes 金XX/全XX ships as Kim XX / Jun XX with its identifying descriptor (the drama title) intact — do not "restore" real names the source deliberately masked.
 7. **Estimate/summary numbers convert exactly:** 亿 = 100 million (160亿 = 16 billion; 24.8亿 = 2.48 billion). Verify every converted figure against the raw before shipping.
+
+---
+
+## §54 · V44 Rules (the Style-Block Completeness Law)
+
+1. **Quoted display material NEVER ships as a plain paragraph.** Any raw 【】-quoted or explicitly-labeled headline, article, disclaimer, platform post, table, or notification MUST land in a display block: single headlines → `news-digest` (nd-source + nd-headline); article bodies/disclaimers → `news-digest` with `<p>` children (ch07 form); public posts → `official-post` (op-band/op-handle/op-body); search terms → `naver-search`; tables/inventories → `screen-view`. The raw's 【】 brackets are the signal. Packaging sweep: grep plain `<p>`s for em-dash-framed lines (`<p>— … —</p>`) and "headline:" intros — zero tolerance.
+2. **edit_file on wrapped chapters: re-derive old_text from the CURRENT file first** (the wrapper may have inserted anchors inside the target), and after ANY edit re-parse the XML and check the tail for duplication before building. Fuzzy-match residue can duplicate closing tags past `</html>` (expat: "junk after document element").
+3. **Amendments upward are the default repair:** when the user (or a sweep) finds missing blocks, add the blocks — never downgrade the material to prose.
