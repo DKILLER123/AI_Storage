@@ -72,16 +72,16 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §87)
+## 6. State & next steps (from worklog §88)
 
-**SHIPPED: Version 39** — `Seoul_Starting_With_Debt_Collection__Version_39.epub` (repo root), 21,006,625 B, 339 entries, epubcheck 0/0/0/0 (absolute path, §48.1). Book: 192 chapters; spine 196; navPoints 196; manifest 336; images 116 zip = 116 disk = 116 declared; cards 76 = modals 76 = anchored 76; char-intro 150; phone-call 80; lyric-block 25; screen-view 123; pullquote 44; ？=0. Only epub on disk.
+**SHIPPED: Version 40** — `Seoul_Starting_With_Debt_Collection__Version_40.epub` (repo root), 21,023,483 B, 341 entries, epubcheck 0/0/0/0 (absolute path, §48.1). Book: 194 chapters; spine 198; navPoints 198; manifest 338; images 116=116=116; cards 76 = modals 76 = anchored 76; char-intro 150; phone-call 81; lyric-block 26; screen-view 130; pullquote 50; chat 118; ？=0. Only epub on disk.
 
-**Builder:** `book/build_epub_v39.py` — OUT is cwd-RELATIVE: run from repo root; epubcheck with the absolute path of the built file (SKILL §48.1). epubcheck: `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar`.
+**Builder:** `book/build_epub_v40.py` — OUT is cwd-RELATIVE: run from repo root; epubcheck with the absolute path of the built file (SKILL §48.1). epubcheck: `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar`.
 
-**Raws:** 68 files in `raw/` (ch121–130, 135–192). ch191 ？=17 marks/16 lines; ch192 ？=21/21 — archived first tool call.
+**Raws:** 70 files in `raw/` (ch121–130, 135–194). ch193 ？=27/25; ch194 ？=36/33 — archived first tool call.
 
-**Next (V40, awaiting raws ch193+):**
+**Next (V41, awaiting raws ch195+):**
 1. FIRST TOOL CALL: archive every new raw to `raw/chapter-NNN.txt` + record ？ counts (SKILL §47.1).
-2. Deep scan + deep thinking; grep character-intro + ../images + PRIOR PROSE for every named character (§49.4); epithets grepped bookwide incl. rows (§49.3).
-3. Draft with a WRITTEN block plan → wrap → audit (residuals prose-only, char-intro excluded) → two-way ？reconciliation incl. per-line MARK diffs (§49.1) → post-draft raw re-read.
-4. Register navPoints; sed-clone builder v40; build FROM REPO ROOT; epubcheck absolute path; battery incl. disk-vs-declared image counts + char-intro count + PLANNED-vs-SHIPPED block counts per chapter (§49.2); pre-package deep scan (missing blocks AND ？); rm old epub; worklog §88 / SKILL §50 / this section; commit + push; present_file.
+2. Deep scan + deep thinking; grep character-intro + ../images + prior prose + institutions (§49.4/§50.5) for every named entity before anchoring.
+3. WRITTEN block plan per chapter → draft (quotes once each — §50.1) → wrap → audit → two-way ？ reconciliation (§49.1) → post-draft raw re-read.
+4. Register navPoints; sed-clone builder v41; build FROM REPO ROOT; epubcheck absolute; battery incl. disk-vs-declared image counts + char-intro count + planned-vs-shipped block counts (§50.2); pre-package deep scan (missing blocks AND ？); rm old epub; worklog §89 / SKILL §51 / this section; commit + push; present_file.

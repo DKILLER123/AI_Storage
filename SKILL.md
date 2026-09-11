@@ -638,3 +638,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Plain-vs-anchor decisions follow the person's shipped record.** Suzy: prior mentions ch106/166, no card → stays plain at her first on-page appearance. Seo Eun-ju: carded → anchored. Park Ji-hoon: name-drop, no face, no dialogue → plain forever until the raw gives him a scene.
 5. **Financial scenes: transcribe, don't audit.** The raw's arithmetic (20% of NA ≠ 11.3M, strictly) is the fiction's arithmetic; the translator's job is fidelity, not reconciliation — flag nothing, fix nothing, round nothing.
 6. **A legal editorial ？ (mark added where the raw has none) must be named in the battery entry** (V39: Park Ji-hoon's quoted question) — undocumented +1s are how false confidence starts.
+
+---
+
+## §50 · V40 Rules (ch193–194)
+
+1. **A quoted message lives ONCE.** The In-na exchange was drafted in prose quotes AND replayed in a chat block — +3 phantom ？marks and a rhythm bug. Rule: chat blocks carry the final exchange; abandoned drafts live in prose narration; never render the same text twice.
+2. **Planned-vs-shipped block counts are a hard gate.** Both V40 chapters matched their written plans (11/11, 7/7) and the battery now verifies it per chapter before packaging — a plan that can't ship gets amended consciously, not silently downgraded.
+3. **Raw-quoted fictional songs use the raw's lines, translated verbatim, ONE block** ('Twenty-Three' take one) — distinct from invented-description songs ('Desert Rose') and live-stage real songs ('Starboy'). Three lyric-block regimes, all settled.
+4. **Chat rows stay anchor-free** even when the chat partner is carded (In-na); the anchor goes on her name in prose narration (§47.5 extended to chat-).
+5. **Prior-mention greps now include institution names** (BRIT Awards = new canon from the raw; 'SIXTEEN' = new; JYP the company ≠ Park Jin-young the person — grep both before deciding plain-vs-anchor).
+6. **Line-surgery edits run with assertions on every index before write** — an off-by-blank-line is a corrupted chapter; the assert costs one second and saved one.

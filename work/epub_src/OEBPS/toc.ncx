@@ -803,6 +803,14 @@
       <navLabel><text>Chapter One Hundred Ninety Two · This Lesson Happens Whether You Take It or Not</text></navLabel>
       <content src="text/chapter-192.xhtml"/>
     </navPoint>
+    <navPoint id="np-197" playOrder="197">
+      <navLabel><text>Chapter One Hundred Ninety Three · Not Exactly a Proper Arrangement Lesson</text></navLabel>
+      <content src="text/chapter-193.xhtml"/>
+    </navPoint>
+    <navPoint id="np-198" playOrder="198">
+      <navLabel><text>Chapter One Hundred Ninety Four · Safekeeping Business, Again</text></navLabel>
+      <content src="text/chapter-194.xhtml"/>
+    </navPoint>
 
 
     
