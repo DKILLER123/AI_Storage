@@ -74,7 +74,7 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 ## 6. State & next steps (from worklog §102)
 
-**SHIPPED: V54 = chapters 219–220 + Kim Eun-sook & Choi Na-young cards (87²) + two new .phone-call blocks + first checklist-block pair since ch217.** epubcheck 0/0/0/0; battery all green vs V53; only the V54 epub on disk.
+**SHIPPED: V54 + §103 bugfix pass = chapters 219–220 + Kim Eun-sook (REAL press photo) & Choi Na-young cards (87²) + ch219 chat rebuilt to ch195 canonical labels + ch220 professor .phone-call + ch217 Rihanna .phone-call (§101's dropped fix). epubcheck 0/0/0/0; battery 28/28; only the V54 epub on disk.
 
 **V55 (next batch) checklist:**
 1. Save raws FIRST (split pastes at 第N章 headers) + ？-ledger + guard + verbatim probes (§57.1); author-note paratext excluded from EN (§58.1); re-verify every write_file against the paste (的-drop precedent).
@@ -86,6 +86,6 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 7. Registration: opf items + spine after last chapter; explicit image items for new portraits (§56.2); nav li word-form; ncx np-225/np-226 for the next batch.
 8. `.search-bar` mandatory for ANY internet/app search scene (§63); hover previews banned everywhere (§63.1).
 9. Builder: clone build_epub_v54.py with EXPLICIT replaces (OUT filename), run FROM REPO ROOT (§56.1) — SRC is the /home/user/work symlink; no sync step.
-10. epubcheck → 0/0/0/0; in-zip battery vs V54 baseline (§56.4 same-code deltas): entries 378+delta, chapters 220+2n, spine/navPoints 224+2n, nav chapter-li 220+2n, images 127+n³, cards/modals 87+m³, in-text 81+m³; ls510/sv234/pq118/pc96/chat135/ckl16/lb31/mp35/nv11(naver-search)/wb35/search-bar1; anchors 12,493+delta; ？-parity EXACT for ALL canon chapters; PEEK-IN-BLOCKS 0; CJK 0 (ch78 「 ×10 sanctioned); 【】 0; ls-time + search-bar CSS in shipped stylesheet.
+10. epubcheck → 0/0/0/0; in-zip battery vs V54 baseline (§56.4 same-code deltas): entries 378+delta, chapters 220+2n, spine/navPoints 224+2n, nav chapter-li 220+2n, images 127+n³, cards/modals 87+m³, in-text 81+m³; ls510/sv234/pq118/pc98/chat135/ckl16/lb31/mp35/nv11(naver-search)/wb35/search-bar1; anchors 12,485+delta; CHAT LABEL MISATTRIBUTIONS 0 (battery-audited, §65.2); REAL-PERSON portrait check before ANY new portrait (§65.1); ？-parity EXACT for ALL canon chapters; PEEK-IN-BLOCKS 0; CJK 0 (ch78 「 ×10 sanctioned); 【】 0; ls-time + search-bar CSS in shipped stylesheet.
 11. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
 12. Delete previous epub AFTER validation; worklog / SKILL / SETUP §6 rewrite; commit + push; present_file.
