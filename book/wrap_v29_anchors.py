@@ -29,6 +29,8 @@ FORMS = [
     ("Hara",          "chr-goo-hara",      "goo-hara.jpg"),
     ("Bong",          "chr-bong-joonho",   "bong-joonho.jpg"),
     ("LeBron",        "chr-lebron-james",  "lebron-james.jpg"),
+    ("Joo-hyun",      "chr-irene",         "irene.jpg"),
+    ("Irene",         "chr-irene",         "irene.jpg"),
     ("Lee Ji-eun",    "chr-lee-ji-eun",    "iu.jpg"),
     ("Kobe Bryant",   "chr-kobe-bryant",   "kobe-bryant.jpg"),
     ("Taylor Swift",  "chr-taylor",        "taylor-swift.jpg"),

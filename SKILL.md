@@ -569,3 +569,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Imagined/premonished headlines are screen-views when the sv-header frames them as unprinted** ("tomorrow's edition · as already typeset in Scooter's head"). Mass-media block grammar covers hypotheticals if honestly labeled.
 5. **Wrap-audit filename check is load-bearing (2nd catch):** `park-jihun.jpg` (not park-ji-hun), `son-nam-won.jpg` (not son-namwon) — guessed hyphenation WILL drift from disk; the imgs-on-disk audit runs pre-build every time, no exceptions.
 6. **Interrogative parity went exact both chapters this cycle (7/7, 14/14)** — the count-diff method from §42 is now standard: count raw ？, count EN ? in rendered body, reconcile every delta to zero before packaging.
+
+---
+
+## §44 · V34 Rules (ch181–182)
+
+1. **Entity-escape ampersands in brand names.** "Van Cleef & Arpels" shipped bare & twice and broke XML well-formedness (caught by minidom at wrap-audit). Any & in prose becomes &amp; — run the entity check after writing any brand/legal name.
+2. **Carded-never-anchored characters: anchor FORWARD, don't retro-churn.** chr-irene existed for cycles with zero anchors (16 chapters plain). New chapters touching her anchor "Joo-hyun"/"Irene" via new FORMS entries; shipped chapters stay as shipped unless a user catch demands retrofit. Address forms inside dialogue ("Irene-yah") stay plain — the wrapper's word boundaries already protect them.
+3. **Scene registers choose the name.** Red Velvet dorm chapters narrate with Korean real names (Kang Seul-gi / Park Soo-young / Son Seung-wan — ch109/115/118 precedent); stage names never shipped in this book, so the manager's "涩琪…Wendy…Joy" localized to real names. Deep-scan the shipped chapters for the register BEFORE drafting, not after.
+4. **Interrogative parity now ends with a per-line verification:** print every raw ？-line, map it to its rendered sentence, THEN trust the count diff (ch181 24/24 mapped; ch182 19/19 mapped; EN margins +2/+1 legal only because every line was individually confirmed).
+5. **Fictional institutional documents are screen-views when the header frames them honestly** — the Four Seasons patrol entry that "was never filed" renders as an sv-log with classification note; same license as premonished headlines (§43 rule 4).
+6. **New FORMS this cycle:** ("Joo-hyun", chr-irene, irene.jpg), ("Irene", chr-irene, irene.jpg). Uncarded-by-design speakers this cycle: Richard (TIME), Pierre (Churchill), Kang Seul-gi / Park Soo-young / Son Seung-wan (plain by register precedent).

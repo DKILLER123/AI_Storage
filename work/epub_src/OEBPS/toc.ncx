@@ -755,6 +755,14 @@
       <navLabel><text>Chapter One Hundred Eighty · The Four-Leaf Clover Gets the Final Say</text></navLabel>
       <content src="text/chapter-180.xhtml"/>
     </navPoint>
+    <navPoint id="np-185" playOrder="185">
+      <navLabel><text>Chapter One Hundred Eighty One · Give the Ankle a Vacation</text></navLabel>
+      <content src="text/chapter-181.xhtml"/>
+    </navPoint>
+    <navPoint id="np-186" playOrder="186">
+      <navLabel><text>Chapter One Hundred Eighty Two · Rarer Than the Aurora, You</text></navLabel>
+      <content src="text/chapter-182.xhtml"/>
+    </navPoint>
 
 
     
