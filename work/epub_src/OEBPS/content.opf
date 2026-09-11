@@ -204,6 +204,8 @@
     <item id="ch184" href="text/chapter-184.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch185" href="text/chapter-185.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch186" href="text/chapter-186.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch187" href="text/chapter-187.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch188" href="text/chapter-188.xhtml" media-type="application/xhtml+xml"/>
     <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
     <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="cover-img" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
@@ -531,6 +533,8 @@
     <itemref idref="ch184"/>
     <itemref idref="ch185"/>
     <itemref idref="ch186"/>
+    <itemref idref="ch187"/>
+    <itemref idref="ch188"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="text/cover.xhtml"/>

@@ -602,3 +602,15 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Fullwidth ？ runs inside quoted posts convert mark-for-mark to ASCII** (【？？？？？？？】 → "???????" — 7 marks preserved). The ？=0 battery is absolute; degrading to fewer marks would be an abridgement.
 5. **Per-line ？ mapping catches folds, not just losses:** "哪里夸了？" had been absorbed into a summary clause — restored as its own line ("Complimented where, exactly?"). A paraphrase that loses a question is a loss even when the meaning survives.
 6. **Uncarded celebrity cameos stay plain by precedent** (Lee Kwang-soo, ch120; Mike Repole; Richard; Pierre). Card only when the raw gives a character sustained presence + a face; a name-drop inside a comparison stays prose.
+
+---
+
+## §47 · V37 Rules (ch187–188 + the Vancouver Box)
+
+1. **Raws archive is the literal FIRST tool call of every new batch.** V37 drafted ch187/188 off the message before saving; the breach surfaced only when a grep hit FileNotFoundError. Recovery worked because drafts could be re-verified line-by-line against post-hoc archives — that luck is not a process. Raw file first, ？-count recorded at archive time, then anything else.
+2. **Hand-typed draft anchors are UNVERIFIED claims.** ch187 anchored chr-cha-taehyun/chr-gong-hyojin with images that never existed (no cards, no files, no prior use). Verify every hand-typed id + image against character-intro.xhtml and ../images BEFORE wrap; if no card exists, the V31 plain-POV decision stands and the anchor comes out.
+3. **？ audit is two-way:** per-line mapping (raw ？-lines → EN lines) AND mark-total reconciliation (raw ？ count → EN ? count). V37 caught a flattened question ("Paris fashion week?" rendered as a statement) only via the count delta — per-line alone missed it because merges disguise losses.
+4. **Re-read the raw after drafting.** A whole sequence (Arabian horse → "Where would I keep a horse?" → Qatar → "diplomatic-incident prevention program") vanished from a draft written in one pass. The archive exists precisely to catch this; a draft without a post-draft raw diff is unfinished.
+5. **Style-block rows are anchor-exempt bookwide** (verified: 0 chr-inline anchors inside pc-/chat-/comment-/sv- rows across 193 xhtml). Residual-plain audits must scan prose lines only; sweeping rows produces false positives (ch103 "Vice Chair Lee Mi-kyung" in a pc row is canon-plain forever).
+6. **Count nav by links, not `<li>`.** Nested li inflate the count; spine == nav `<a href="text/...">` count == ncx navPoints is the real invariant (V37: 192/192/192).
+7. **A user-supplied lyric goes in verbatim, in ONE block, with improv allowed only inside that same block.** The Vancouver box: four user lines byte-verified in the built epub, plus two improvised Si-on lines inside the same lyric-block — never a second block, never a paraphrase.

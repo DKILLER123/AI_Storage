@@ -72,37 +72,18 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §84)
+## 6. State & next steps (from worklog §85)
 
-- **Shipped:** Version 36 — 186 chapters, epubcheck 0/0/0/0, all audits green
-  (phone-call 77, music-player 28, lyric-blocks 19, spine 190, navPoints 190,
-  manifest 327, 333 entries, cards 76 = modals 76 = anchored 76 — FULL PARITY,
-  images 116/116, ？0, CJK 0 except ch78 「」 exception, interrogative parity
-  ch185 16/16 exact + ch186 44/44 lines mapped).
-  V36 = ch185 "Chaebols Can't Picket, but Movies Can Fire" (LAX farewell, the
-  First Light Tour brand sheet, locusts vs 36 shows, Corden's refund moment,
-  the CJ joint venture 60/20/20, the MAMA debt repaid, the hit-list pitch —
-  No. 1 is a certain teacher — and the plastic-bottle toast) + ch186
-  "Forbidden From Increasing America's GDP With Your Life" (Kevin Hart's
-  booster seat, Charlie's twenty-thousand-person stage + Dubai brief,
-  Jung Jae-joon's Doha commission, Silicon Valley retention fandom,
-  Vancouver's Korean chorus, Ariana at Madison-level NYC, three fansite
-  masters grounded and deported by their own idol, and the forum post that
-  made the hot list before Korea woke up).
-- **Next build:** V37 = ch187+ — raws not yet provided (archive to
-  `raw/chapter-187.txt` … first, then translate).
-- **Open threads:** The HIT-LIST FILM is in motion (uncle Baek Jeong-hoon
-  directing; CJ financing; the "teacher" unnamed on-page — Blue House
-  powder keg); Mi-kyung exile backstory (protection-foundation non-payer);
-  tour continues (36 shows; Chicago → 'See You Again' LIVE PREMIERE planned
-  w/ Universal's blessing); Charlie's Dubai song (2-week deadline, 30%
-  publishing, sand-touching trip, ECONOMY); Jung Jae-joon's Doha song;
-  Arabian horse contingency ("Where would I keep a horse?"); Warm Light's
-  viral deportation post (Korean forums heating up); "I'll answer." promise
-  to Jin-ri (long-distance test); Kevin Hart's booster-seat grudge; Jason/
-  Bieber album-pressure watch; MAMA-repair secret held by CJ+Si-on; Blin in
-  Hara custody; Furious 7 end-credits + Wiz Chicago dates; Seoul premiere +
-  solo performance; Sado wrap + Oscar campaign (Showbox/Orion, Director Lee
-  meal); Charlie's $500k; Train to Busan SIGNED (Jin-hee); Irene — Music
-  Bank MC, ANCHORED now; UA collab live; Dispatch Director Lim gift
-  (reason unstated on-page).
+**SHIPPED: Version 37** — `Seoul_Starting_With_Debt_Collection__Version_37.epub` (repo root), 20,968,737 B, 335 entries, epubcheck 0/0/0/0. Book: 188 chapters; spine/nav-links/navPoints 192; manifest 329; cards 76 = modals 76 = anchored 76; images 116/116; phone-call 79; lyric-block 23; ？=0. Only epub on disk.
+
+**Builder:** `book/build_epub_v37.py` (OUT is relative — run from repo root, or the epub lands in book/). epubcheck: `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar`.
+
+**Raws:** 64 files in `raw/` (ch121–130, 135–188). ch187 ？=42, ch188 ？=13, both archived verbatim.
+
+**V37 delivered both asks:** (A) Vancouver lyric-box in ch186 — user's four lines verbatim + improv, all in ONE block; (B) ch187–188 built and shipped.
+
+**Next (V38, awaiting raws ch189+):**
+1. FIRST TOOL CALL: archive every new raw to `raw/chapter-NNN.txt` + record ？ counts (SKILL §47.1).
+2. Deep scan + deep thinking; hand-typed anchors id+image-verified before wrap (§47.2).
+3. Draft → wrap → audit (residuals prose-only, §47.5) → per-line + mark-total ？ reconciliation (§47.3) → post-draft raw re-read (§47.4).
+4. Register np-193+ in opf/nav/ncx; sed-clone builder v38 (run from repo root); build + epubcheck; battery; pre-package deep scan (missing blocks AND ？); rm old epub; worklog §86 / SKILL §48 / this section; commit + push; present_file.

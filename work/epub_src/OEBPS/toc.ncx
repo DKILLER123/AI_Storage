@@ -779,6 +779,14 @@
       <navLabel><text>Chapter One Hundred Eighty Six · Forbidden From Increasing America’s GDP With Your Life</text></navLabel>
       <content src="text/chapter-186.xhtml"/>
     </navPoint>
+    <navPoint id="np-191" playOrder="191">
+      <navLabel><text>Chapter One Hundred Eighty Seven · The Sea King Runs an Aquarium</text></navLabel>
+      <content src="text/chapter-187.xhtml"/>
+    </navPoint>
+    <navPoint id="np-192" playOrder="192">
+      <navLabel><text>Chapter One Hundred Eighty Eight · Boss Baek Does Not Accept Naming Rights</text></navLabel>
+      <content src="text/chapter-188.xhtml"/>
+    </navPoint>
 
 
     
