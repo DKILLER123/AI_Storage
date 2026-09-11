@@ -742,3 +742,11 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§58.3 POV-owner chat orientation (generalized).** The chat law (§52.7) generalizes: the POV owner of the SCENE is `chat-name self`/`chat-sent` (right), and the other party is left — even when neither is Baek Si-on. V48's Irene↔Baek Eun-ah container: Irene (scene POV) right/self, Eun-ah left. Baek-centered scenes keep Baek right.
 
 **§58.4 Fidelity audit for recurring props.** Recurring display objects have shipped canon that must be re-verified per cycle: 'OOPS' demo filenames (ch202 `OOPS_demo_CP_MT_v1` → v2 drops MT, adds version), Cheongsong Investment (ch139), "Cousin" (Eun-ah, ch6–9), ankle-card wording (ch181), music-show names (Music Bank/Music Core/Inkigayo), S4 World Championship (ch107–114). One grep per prop before drafting; never re-derive from memory.
+
+## §59 · V49 Rules (ch209–210 + the Exclamation and Grading-Sequence Laws)
+
+**§59.1 Raw ！ never becomes ？.** The ？-ledger counts ？ only. Raw exclamations without ？ (为什么！) ship with "!" and zero marks; double-marked single-line dialogue (诶？你们来啦？) must land BOTH marks in ONE EN line. When the walk is EXACT at first pass, do not hunt for extra "balance" — ！-lines and single-line double-marks are legal ledger shapes, not defects.
+
+**§59.2 Callback fidelity for returning gags/props.** When a raw chapter cites an earlier scene (the rice-bag carry, the princess line, the gifted shoes), grep the shipped EN chapters and reuse the exact coined phrases — "a textbook fireman's carry, so textbook it contained not one milliliter of shoujo manga" (ch161), the at-home princess exchange (ch161), "low-top trainers"/collaboration pair (ch180–181), "Princess-nim" (ch199). Never paraphrase a returning prop; the reader's memory is the continuity engine.
+
+**§59.3 Grading sequences → one sv, one line per candidate.** Multi-candidate assessment scenes (tryouts, auditions, interviews, line distributions) convert to a single screen-view with an sv-header like "The tryouts, as graded" and one sv-line per candidate, closing with an sv-note for the tail verdict. Keeps clinical verdict texture display-shaped instead of prose-stacked; the conversion is safe post-wrap if anchors are carried (§57.3) and the passage is ？-free.

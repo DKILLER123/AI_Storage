@@ -874,6 +874,16 @@
       <content src="text/chapter-208.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-213" playOrder="213">
+      <navLabel><text>Chapter Two Hundred Nine · Favoritism Needs Technical Merit</text></navLabel>
+      <content src="text/chapter-209.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-214" playOrder="214">
+      <navLabel><text>Chapter Two Hundred Ten · Little Schemes and a Big Accident</text></navLabel>
+      <content src="text/chapter-210.xhtml"/>
+    </navPoint>
+
 
     
     
