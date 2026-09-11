@@ -591,3 +591,14 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Competing relayed offers render as a bid-sheet screen-view** (Dubai/Doha identical millions, "identical to the dollar. The second caller knew precisely what the first had offered... showing up was the point.") — the sv block absorbs quote-structure better than dialogue paraphrase.
 5. **Video calls are phone-calls** (Hara debrief, 44 rows) — pc-head notes "video"; the visual channel (cotton pad stopping, table slap) lives in pc-note rows.
 6. **Self-catch discipline:** the CJK leak in the ch184 stamp line and the missing space were caught by MY OWN pre-wrap audit pass, not by luck — the audit runs on the DRAFT, before wrap, every cycle.
+
+---
+
+## §46 · V36 Rules (ch185–186)
+
+1. **FORMS regress after a rebuild — the residual audit must sweep ALL carded names.** James Corden and Jung Jae-joon were carded (and previously anchored) but vanished from the rebuilt FORMS list; only the plain-"Corden" residual caught it. The per-chapter residual check now enumerates every id in character-intro, not a hand-picked form list.
+2. **When a raw references a SHIPPED arc, quote the shipped artifact.** The MAMA repair names Song of the Year + Best Female Singer exactly as ch156 shipped; 'Legend' chorus is "Won't stop till we're legends" per the ch117 lyric sheet — raw phonetics and variant punctuation lose to canon.
+3. **Card workflow per new character (V31 doctrine, now routine):** deep-scan canon → generate portrait → VISUALLY verify identifying features → insert ci-card + chr-modal (ids must pair) → FORMS full+short forms → in-text card optional at true debut → wrap → ids-parity check (cards == modals == used). V36 hit the milestone: 76/76/76.
+4. **Fullwidth ？ runs inside quoted posts convert mark-for-mark to ASCII** (【？？？？？？？】 → "???????" — 7 marks preserved). The ？=0 battery is absolute; degrading to fewer marks would be an abridgement.
+5. **Per-line ？ mapping catches folds, not just losses:** "哪里夸了？" had been absorbed into a summary clause — restored as its own line ("Complimented where, exactly?"). A paraphrase that loses a question is a loss even when the meaning survives.
+6. **Uncarded celebrity cameos stay plain by precedent** (Lee Kwang-soo, ch120; Mike Repole; Richard; Pierre). Card only when the raw gives a character sustained presence + a face; a name-drop inside a comparison stays prose.

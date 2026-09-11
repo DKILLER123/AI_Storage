@@ -52,8 +52,8 @@ extracted tree produces a byte-identical EPUB (19,477,108 B; all 309 CRCs equal)
 
 ## 4. Raw coverage
 
-`raw/` holds ch121–130, 135–184 (58 files) + the ch117–120 placeholder note.
-V35 update: ch183–184 raws archived verbatim before translation (standing rule).
+`raw/` holds ch121–130, 135–186 (60 files) + the ch117–120 placeholder note.
+V36 update: ch185–186 raws archived verbatim before translation (standing rule).
 **Not on disk:** ch1–116, ch117–120 bodies, ch131–134 — chapters shipped from
 in-session raws before the archive; per `raw/chapters-117-120.txt` the project
 rule is *raws first, then translate*, so ask for re-paste if re-verification of
@@ -72,36 +72,37 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §83)
+## 6. State & next steps (from worklog §84)
 
-- **Shipped:** Version 35 — 184 chapters, epubcheck 0/0/0/0, all audits green
-  (phone-call 76, music-player 28, lyric-blocks 17, hand-notes 11, spine 188,
-  navPoints 188, manifest 325, 328 entries, chr anchors ⊆ defined, images
-  113/113, ？0, CJK 0 except ch78 「」 exception, interrogative parity ch183
-  17/17 mapped + ch184 45/45 exact).
-  V35 = ch183 "A Moving City's GDP" (the fake sleep, Pierre's Yellowknife
-  confession, Schrödinger's necklace, the Hara video debrief + Exhibit No. 1,
-  BodyArmor signed — 5% + Asia JV with Kobe driving, 14 cities bidding, the
-  commendation-banner-vs-cash gag) + ch184 "The One-Upmanship of Oil Money"
-  (the tour grid, 28→32 shows, Dubai/Doha identical bids, Ariana + Justin as
-  guests, "She's my lucky charm.", 'I'm a finished product' callback, Nobu
-  Malibu with Behati, Jin-ri's first "Oppa.", and the survival instinct of a
-  focused front seat).
-- **Next build:** V36 = ch185+ — raws not yet provided (archive to
-  `raw/chapter-185.txt` … first, then translate).
-- **Open threads:** Jin-ri flies back to Seoul (Jan 3) — first separation
-  since the kiss; relationship deliberately UNLABELED ("let it grow a
-  little"); Exhibit No. 1 (the necklace) vs Hye-ja in LA; 32-show North
-  America + Gulf tour (Ariana + Justin guests; Wiz→Chicago, Adam→LA; Middle
-  East pricing TBD above $499); Asia JV partner hunt for BodyArmor (a
-  consortium with bottling + retail — candidates?); TIME Next Generation
-  Leader piece out of the cut-twenty interview; Grammy "next year =
-  credibility disaster" framing; Producers fallout + Park Ji-eun pressure
-  arc; Blin in Hara custody; Furious 7 end-credits drop + Wiz's bottle cameo;
-  Seoul premiere + solo performance; Sado wrap + Oscar campaign
-  (Showbox/Orion pending, the meal with Director Lee); Charlie's $500k +
-  separate signing negotiation; Train to Busan SIGNED (Jin-hee); Irene —
-  Music Bank MC + no phone (now ANCHORED forward via chr-irene); Adam's
-  dinner debt (PAID — Nobu); 'One Call Away' half-public; UA collab live
-  (Gangnam sellout, resellers 5×); Dispatch Director Lim gift (reason still
-  unstated on-page).
+- **Shipped:** Version 36 — 186 chapters, epubcheck 0/0/0/0, all audits green
+  (phone-call 77, music-player 28, lyric-blocks 19, spine 190, navPoints 190,
+  manifest 327, 333 entries, cards 76 = modals 76 = anchored 76 — FULL PARITY,
+  images 116/116, ？0, CJK 0 except ch78 「」 exception, interrogative parity
+  ch185 16/16 exact + ch186 44/44 lines mapped).
+  V36 = ch185 "Chaebols Can't Picket, but Movies Can Fire" (LAX farewell, the
+  First Light Tour brand sheet, locusts vs 36 shows, Corden's refund moment,
+  the CJ joint venture 60/20/20, the MAMA debt repaid, the hit-list pitch —
+  No. 1 is a certain teacher — and the plastic-bottle toast) + ch186
+  "Forbidden From Increasing America's GDP With Your Life" (Kevin Hart's
+  booster seat, Charlie's twenty-thousand-person stage + Dubai brief,
+  Jung Jae-joon's Doha commission, Silicon Valley retention fandom,
+  Vancouver's Korean chorus, Ariana at Madison-level NYC, three fansite
+  masters grounded and deported by their own idol, and the forum post that
+  made the hot list before Korea woke up).
+- **Next build:** V37 = ch187+ — raws not yet provided (archive to
+  `raw/chapter-187.txt` … first, then translate).
+- **Open threads:** The HIT-LIST FILM is in motion (uncle Baek Jeong-hoon
+  directing; CJ financing; the "teacher" unnamed on-page — Blue House
+  powder keg); Mi-kyung exile backstory (protection-foundation non-payer);
+  tour continues (36 shows; Chicago → 'See You Again' LIVE PREMIERE planned
+  w/ Universal's blessing); Charlie's Dubai song (2-week deadline, 30%
+  publishing, sand-touching trip, ECONOMY); Jung Jae-joon's Doha song;
+  Arabian horse contingency ("Where would I keep a horse?"); Warm Light's
+  viral deportation post (Korean forums heating up); "I'll answer." promise
+  to Jin-ri (long-distance test); Kevin Hart's booster-seat grudge; Jason/
+  Bieber album-pressure watch; MAMA-repair secret held by CJ+Si-on; Blin in
+  Hara custody; Furious 7 end-credits + Wiz Chicago dates; Seoul premiere +
+  solo performance; Sado wrap + Oscar campaign (Showbox/Orion, Director Lee
+  meal); Charlie's $500k; Train to Busan SIGNED (Jin-hee); Irene — Music
+  Bank MC, ANCHORED now; UA collab live; Dispatch Director Lim gift
+  (reason unstated on-page).

@@ -771,6 +771,14 @@
       <navLabel><text>Chapter One Hundred Eighty Four · The One-Upmanship of Oil Money</text></navLabel>
       <content src="text/chapter-184.xhtml"/>
     </navPoint>
+    <navPoint id="np-189" playOrder="189">
+      <navLabel><text>Chapter One Hundred Eighty Five · Chaebols Can’t Picket, but Movies Can Fire</text></navLabel>
+      <content src="text/chapter-185.xhtml"/>
+    </navPoint>
+    <navPoint id="np-190" playOrder="190">
+      <navLabel><text>Chapter One Hundred Eighty Six · Forbidden From Increasing America’s GDP With Your Life</text></navLabel>
+      <content src="text/chapter-186.xhtml"/>
+    </navPoint>
 
 
     
