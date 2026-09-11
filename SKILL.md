@@ -732,3 +732,13 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§57.5 Off-screen pop-star precedent.** Ed Sheeran (6 shipped chapters, message-only presence) stays plain and UNCARDED, same as Meghan Trainor. Cards go to on-page speaking roles with scene presence (Yeri, Park Sang-min), even one-scene ones. Check `character-intro.xhtml` AND shipped-chapter greps for prior plainness before carding anyone.
 
 **§57.6 Carded-but-FORMS-less names.** Seul-gi / Seung-wan / Joy have been carded since their arc yet never had FORMS entries (ch162 was hand-anchored). Systematized in V47: FORMS now carries the full Red Velvet five + Park Sang-min. Before drafting any ensemble chapter, grep FORMS for every expected name — do not assume carded = wrapped.
+
+## §58 · V48 Rules (ch207–208 + the Author-Note and Walker-Blind-Spot Laws)
+
+**§58.1 Author-note sections.** Serialized batches can carry paratext (月末总结兼月初求月票: word-count recaps, update schedules, monthly-ticket requests). Archive it verbatim in the raw file (it was delivered), EXCLUDE it from the EN chapter — it is not narrative, and its absence must be noted in the worklog entry. Never let a translator's completeness instinct pull author commentary into the book. Also: multi-chapter pastes arrive as one blob — split raws at the 第N章 headers before the guard runs.
+
+**§58.2 Walker blind spot: position-absorbed extras.** The ordered mark-walk (§57.2) cannot detect an extra EN ？-line whose marks line up positionally (a 1-mark raw line consuming the extra 1-mark line next to its real translation). When the walk reports no mismatch but totals differ by exactly one line, STOP walking and dump the complete EN ？-line list side-by-side against the raw list — the extra line is a statement carrying an invented mark (rhetorical 怎么/干什么 with raw 。). Two shipped examples: 我怎么站得这么靠边。 and 我取代你干什么，…混音。
+
+**§58.3 POV-owner chat orientation (generalized).** The chat law (§52.7) generalizes: the POV owner of the SCENE is `chat-name self`/`chat-sent` (right), and the other party is left — even when neither is Baek Si-on. V48's Irene↔Baek Eun-ah container: Irene (scene POV) right/self, Eun-ah left. Baek-centered scenes keep Baek right.
+
+**§58.4 Fidelity audit for recurring props.** Recurring display objects have shipped canon that must be re-verified per cycle: 'OOPS' demo filenames (ch202 `OOPS_demo_CP_MT_v1` → v2 drops MT, adds version), Cheongsong Investment (ch139), "Cousin" (Eun-ah, ch6–9), ankle-card wording (ch181), music-show names (Music Bank/Music Core/Inkigayo), S4 World Championship (ch107–114). One grep per prop before drafting; never re-derive from memory.
