@@ -72,24 +72,22 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §100)
+## 6. State & next steps (from worklog §101)
 
-**SHIPPED: V52 = chapters 215–216 + cards for Rihanna & Kendall Jenner.** epubcheck 0/0/0/0; commit pushed; V51 epub deleted (in git history). Only the V52 epub on disk.
+**SHIPPED: V53 = chapters 217–218 + REAL celebrity photos (Yeri fansite crop, Emma Cannes crop — AI stand-ins retired) + `.search-bar` block (ch215 retrofit) + Ayesha Curry card (85²).** epubcheck 0/0/0/0; V52 baseline beaten on every battery metric; only the V53 epub on disk.
 
-**PENDING DIRECTIVE (carried V50→V52, four failed attempts): TWO image swaps.**
-1. Yeri portrait (user's pink-top photo) — myimgs.org (V50) and i.ibb.co (V52) both egress-blocked; two chat attachments never landed (§61.6, §62.3).
-2. Emma Stone portrait (user's pinimg link) — i.pinimg.com egress-blocked (V52); current emma-stone.jpg is the AI portrait.
-**The working route (§62.3): user uploads both JPGs to a GitHub gist or repo and posts the URL(s); fetch via gh/curl, verify JPEG magic + size, overwrite `work/epub_src/OEBPS/images/yeri.jpg` and `emma-stone.jpg` KEEPING filenames, rebuild, epubcheck.**
+**RESOLVED this cycle:** the Yeri/Emma image directive — image_search-sourced, visually verified, ImageMagick-cropped real photos installed under canonical filenames (§62.4). The user's gist-upload route (§62.3) stays open ONLY if they re-assert their own files.
 
-**V53 (next batch) checklist:**
+**V54 (next batch) checklist:**
 1. Save raws FIRST (split pastes at 第N章 headers) + ？-ledger + guard + verbatim probes (§57.1); author-note paratext excluded from EN (§58.1).
 2. §55.1 pre-flight; canon greps BEFORE drafting; one grep per recurring prop (§58.4); callback fidelity on returning gags (§59.2).
 3. Full standalone XHTML drafts; block ledger; reconcile counts before wrapping (§57.4); grading sequences → one sv per candidate line (§59.3).
 4. ？-ledger ordered walk (§57.2); one-line-total diffs → dump full EN ？-list (§58.2); ！ stays ！ (§59.1); statements stay statements (§56.6).
-5. wrap + audit: XML, undef NONE, imgs, CSS, CJK, bare &, unbal, framed sweep, residual-plain (§56.5); post-wrap patches slice the LIVE file (§57.3).
+5. wrap + audit: XML, undef NONE, imgs, CSS, CJK, bare &, unbal, framed sweep, residual-plain (§56.5); post-wrap patches slice the LIVE file (§57.3); STRIP chr-peek from ALL block rows post-wrap (§63.1 — wrapper's skip-list lags the block inventory).
 6. Cards: grep intro page + shipped chapters first (§57.5); FORMS completeness (§57.6); chat POV owner = self/right (§58.3).
-7. Registration: opf items + spine after last chapter; explicit image items for new portraits (§56.2); nav li ×2 word-form; ncx np-215/np-216 if next batch.
-8. Builder: clone build_epub_v49.py with EXPLICIT replaces (docstring "Version 49" + full OUT filename), run FROM REPO ROOT (§56.1).
-9. epubcheck → 0/0/0/0; in-zip battery vs V49 baseline (§56.4 same-code deltas): entries 361+delta, manifest 358+delta, spine/nav/navPoints 214+2n, nav li 210+2n, images 120+n³, cards/modals 80+m³; ls487/sv210/pc90/pq100/mp35/lb29/chat131/ct111/nv201/hn12; ？0; CJK 20 ch78; ？-parity EXACT; ch195 chat-name 8; ls-time box in CSS.
-10. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
-11. Delete previous epub AFTER validation; worklog §98 / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.
+7. Registration: opf items + spine after last chapter; explicit image items for new portraits (§56.2); nav li ×2 word-form; ncx np-223/np-224 for the next batch.
+8. `.search-bar` block mandatory for ANY internet/app search scene (§63); hover previews stay banned in every block (§63.1).
+9. Builder: clone build_epub_v53.py with EXPLICIT replaces (OUT filename), run FROM REPO ROOT — SRC is the /home/user/work symlink into the repo; NO sync step exists or is needed (§56.1).
+10. epubcheck → 0/0/0/0; in-zip battery vs V53 baseline (§56.4 same-code deltas): entries 374+delta, chapters 218+2n, spine/navPoints 222+2n, nav chapter-li 218+2n, images 125+n³, cards/modals 85+m³, in-text 79+m³; ls504/sv228/pq117/lb31/mp35/pc94/chat134/ct103+590/nv11/wb35+wd91/sb187/search-bar1; anchors 12,333+delta; ？-parity EXACT; PEEK-IN-BLOCKS 0; CJK 0 (ch78 「 ×10 sanctioned); 【】 0; ls-time box + search-bar CSS in shipped stylesheet.
+11. Pre-package in-zip deep scan: ？-parity + 【】/framed sweep + raw-vs-EN block coverage (§54.1).
+12. Delete previous epub AFTER validation; worklog / SKILL (new rules) / SETUP §6 rewrite; commit + push; present_file.

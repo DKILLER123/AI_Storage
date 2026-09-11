@@ -64,6 +64,8 @@ FORMS = [
     ("Rihanna",        "chr-rihanna",       "rihanna.jpg"),
     ("Kendall Jenner", "chr-kendall-jenner","kendall-jenner.jpg"),
     ("Kendall",        "chr-kendall-jenner","kendall-jenner.jpg"),
+    ("Ayesha Curry",   "chr-ayesha-curry",  "ayesha-curry.jpg"),
+    ("Ayesha",         "chr-ayesha-curry",  "ayesha-curry.jpg"),
     ("Lee Ji-eun",    "chr-lee-ji-eun",    "iu.jpg"),
     ("Kobe Bryant",   "chr-kobe-bryant",   "kobe-bryant.jpg"),
     ("Taylor Swift",  "chr-taylor",        "taylor-swift.jpg"),
