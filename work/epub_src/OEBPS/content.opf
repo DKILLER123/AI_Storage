@@ -230,6 +230,8 @@
     <item id="ch210" href="text/chapter-210.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch211" href="text/chapter-211.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch212" href="text/chapter-212.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch213" href="text/chapter-213.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch214" href="text/chapter-214.xhtml" media-type="application/xhtml+xml"/>
     <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
     <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="cover-img" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
@@ -259,6 +261,8 @@
     <item id="img-wendy" href="images/wendy.jpg" media-type="image/jpeg"/>
     <item id="img-joy" href="images/joy.jpg" media-type="image/jpeg"/>
     <item id="img-daddario" href="images/daddario.jpg" media-type="image/jpeg"/>
+    <item id="img-emma-stone" href="images/emma-stone.jpg" media-type="image/jpeg"/>
+    <item id="img-damien-chazelle" href="images/damien-chazelle.jpg" media-type="image/jpeg"/>
     <item id="img-baek-sion-fitting" href="images/baek-sion-fitting.jpg" media-type="image/jpeg"/>
     <item id="img-baek-sion-look" href="images/baek-sion-look.jpg" media-type="image/jpeg"/>
     <item id="img-wardrobe-baek-sion" href="images/wardrobe-baek-sion.jpg" media-type="image/jpeg"/>
@@ -590,6 +594,8 @@
     <itemref idref="ch210"/>
     <itemref idref="ch211"/>
     <itemref idref="ch212"/>
+    <itemref idref="ch213"/>
+    <itemref idref="ch214"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="text/cover.xhtml"/>

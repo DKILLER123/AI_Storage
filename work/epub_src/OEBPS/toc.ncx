@@ -894,6 +894,16 @@
       <content src="text/chapter-212.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-217" playOrder="217">
+      <navLabel><text>Chapter Two Hundred Thirteen · A Venice-Certified Actor</text></navLabel>
+      <content src="text/chapter-213.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-218" playOrder="218">
+      <navLabel><text>Chapter Two Hundred Fourteen · New York Doesn’t Believe in Blue-and-White Porcelain</text></navLabel>
+      <content src="text/chapter-214.xhtml"/>
+    </navPoint>
+
 
     
     

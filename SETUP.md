@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §98)
+## 6. State & next steps (from worklog §99)
 
-**SHIPPED: V50 = chapters 211–212 + bookwide hover-preview strip.** epubcheck 0/0/0/0; commit pushed; V49 epub deleted (in git history). Only the V50 epub on disk.
+**SHIPPED: V51 = chapters 213–214 + 2 new cards (Chazelle/Stone) + ch125 wardrobe peek strip.** epubcheck 0/0/0/0; commit pushed; V50 epub deleted (in git history). Only the V51 epub on disk.
 
-**PENDING DIRECTIVE (from V50): Yeri portrait swap.** https://myimgs.org/storage/images/36909/Yeri.jpg is BLOCKED from the sandbox (egress filtering; TLS killed pre-handshake — §60.2). `images/yeri.jpg` unchanged. When the user supplies the file directly (upload/attachment) or an alternate host: overwrite `work/epub_src/OEBPS/images/yeri.jpg` KEEPING the filename, verify JPEG magic + size, rebuild, epubcheck.
+**PENDING DIRECTIVE (carried V50→V51, twice failed): Yeri portrait swap.** Host blocked from sandbox (V50); the V51 re-attach never reached the sandbox either (announced uploads dir absent; a 0-byte /tmp husk impersonated it — §61.6). `images/yeri.jpg` unchanged. On next delivery: verify JPEG magic + size FIRST, overwrite KEEPING the filename, rebuild, epubcheck.
 
 **Toolchain (reinstall each session):** `bash book/setup_workspace.sh`; then
 `git fetch origin arena/01a08c66-ai-storage && git reset -q FETCH_HEAD`; verify `git rev-parse --short HEAD` matches the last pushed commit (§55.1 pre-flight — the sandbox HAS dropped three times; always check first). epubcheck:
 `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin/java -jar /usr/local/lib/python3.11/dist-packages/epubcheck/epubcheck.jar <ABSOLUTE epub>` — require the literal line "EPUBCheck completed".
 
-**V51 (next batch) checklist:**
+**V52 (next batch) checklist:**
 1. Save raws FIRST (split pastes at 第N章 headers) + ？-ledger + guard + verbatim probes (§57.1); author-note paratext excluded from EN (§58.1).
 2. §55.1 pre-flight; canon greps BEFORE drafting; one grep per recurring prop (§58.4); callback fidelity on returning gags (§59.2).
 3. Full standalone XHTML drafts; block ledger; reconcile counts before wrapping (§57.4); grading sequences → one sv per candidate line (§59.3).
