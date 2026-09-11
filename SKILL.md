@@ -671,3 +671,15 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 4. **Legacy anchor census (V42 finding, closed as cosmetic):** a small population of older chapters carries unanchored carded-name mentions from historical post-wrap patches plus bare-surname protagonist references — missing peek popups only, zero epubcheck impact, shipped record through V41. Any future legacy re-anchor pass requires a per-instance deep scan; it is NOT routine-cycle work.
 5. **Raw-echo fidelity:** when a spoken line is echoed later as narration italics, reproduce the raw's punctuation class — the raw's comma-joined wishes (想要什么就说，想留谁就留) carry ZERO question marks in both the dialogue and the echo; inventing marks there breaks parity (V42 caught +3 exactly this way).
 6. **Title-only stays title-only, reversed case:** when the raw quotes lyric WORDS but never names the song (ch197's four memorized lines), ship a lyric-block with the lines verbatim and leave the song unnamed — naming it would be an editorial reveal the raw withheld. The raw's translation glosses are apparatus, dropped without content loss.
+
+---
+
+## §53 · V43 Rules (ch199–200 + the Chat-Orientation Law)
+
+1. **Chat orientation = the phone owner's perspective.** `self` + `chat-sent` = the owner of the phone (right side); the other party = `chat-name` (no self) + `chat-bubble chat-received` (left side). The `chat-header` names the room's OTHER party ("KakaoTalk · <other>"). V41's ch195 shipped inverted/all-sent; the user's correction is now law: when a scene follows character X's phone, X is self. A multi-block conversation may re-seat per block ONLY if each block names its own phone; never re-quote a message (§50.1).
+2. **Chat-coherence audit every cycle (bookwide):** flag any container where (a) one party appears on two sides, or (b) a container with ≥2 distinct parties is all-sent/all-received. V43's scan proved the ch195 defect was isolated; keep the scan in the battery.
+3. **The `-ssi` suffix defeats the anchor wrapper** (`(?![\w-])` guard): "Baek Si-on-ssi" stays unanchored after a normal wrap. Hand-anchor with the suffix OUTSIDE the `</a>`. Expect xi-forms in future raws; sweep for `-ssi` after wrapping.
+4. **One-way text notifications render as screen-view rows** (sender + text); a chat-container is for a two-party thread. A conversation whose halves are separated by a scene cut may be split into one container per phone (owner = self in each), as in ch199.
+5. **Prophecies stay unnamed:** when narration foresees a future the raw doesn't name (the 2017 summer song), render the foresight without naming the song — same law as §52.6, extended to narration.
+6. **Anonymized names stay anonymized:** a raw that writes 金XX/全XX ships as Kim XX / Jun XX with its identifying descriptor (the drama title) intact — do not "restore" real names the source deliberately masked.
+7. **Estimate/summary numbers convert exactly:** 亿 = 100 million (160亿 = 16 billion; 24.8亿 = 2.48 billion). Verify every converted figure against the raw before shipping.

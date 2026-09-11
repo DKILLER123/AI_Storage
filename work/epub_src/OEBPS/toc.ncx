@@ -827,6 +827,14 @@
       <navLabel><text>Chapter One Hundred Ninety Eight · No Need to Go Home to Feed the Cat Tonight</text></navLabel>
       <content src="text/chapter-198.xhtml"/>
     </navPoint>
+    <navPoint id="np-203" playOrder="203">
+      <navLabel><text>Chapter One Hundred Ninety Nine · Taking CJ to Ask SM for a Quote</text></navLabel>
+      <content src="text/chapter-199.xhtml"/>
+    </navPoint>
+    <navPoint id="np-204" playOrder="204">
+      <navLabel><text>Chapter Two Hundred · The Bloodbath Caused by the Tax News</text></navLabel>
+      <content src="text/chapter-200.xhtml"/>
+    </navPoint>
 
 
     
