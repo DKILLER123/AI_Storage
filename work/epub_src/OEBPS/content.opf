@@ -206,6 +206,8 @@
     <item id="ch186" href="text/chapter-186.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch187" href="text/chapter-187.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch188" href="text/chapter-188.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch189" href="text/chapter-189.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch190" href="text/chapter-190.xhtml" media-type="application/xhtml+xml"/>
     <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
     <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="cover-img" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
@@ -321,6 +323,9 @@
     <item id="img-wiz-khalifa" href="images/wiz-khalifa.jpg" media-type="image/jpeg"/>
     <item id="img-charlie-puth" href="images/charlie-puth.jpg" media-type="image/jpeg"/>
     <item id="img-kim-jaewook" href="images/kim-jaewook.jpg" media-type="image/jpeg"/>
+    <item id="img-lee-mikyung" href="images/lee-mikyung.jpg" media-type="image/jpeg"/>
+    <item id="img-baek-jeonghoon" href="images/baek-jeonghoon.jpg" media-type="image/jpeg"/>
+    <item id="img-kevin-hart" href="images/kevin-hart.jpg" media-type="image/jpeg"/>
     <item id="font-BebasNeue-400" href="fonts/BebasNeue-400.woff" media-type="application/font-woff"/>
     <item id="font-Caveat-400" href="fonts/Caveat-400.woff" media-type="application/font-woff"/>
     <item id="font-Caveat-600" href="fonts/Caveat-600.woff" media-type="application/font-woff"/>
@@ -535,6 +540,8 @@
     <itemref idref="ch186"/>
     <itemref idref="ch187"/>
     <itemref idref="ch188"/>
+    <itemref idref="ch189"/>
+    <itemref idref="ch190"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="text/cover.xhtml"/>

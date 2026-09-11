@@ -614,3 +614,16 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 5. **Style-block rows are anchor-exempt bookwide** (verified: 0 chr-inline anchors inside pc-/chat-/comment-/sv- rows across 193 xhtml). Residual-plain audits must scan prose lines only; sweeping rows produces false positives (ch103 "Vice Chair Lee Mi-kyung" in a pc row is canon-plain forever).
 6. **Count nav by links, not `<li>`.** Nested li inflate the count; spine == nav `<a href="text/...">` count == ncx navPoints is the real invariant (V37: 192/192/192).
 7. **A user-supplied lyric goes in verbatim, in ONE block, with improv allowed only inside that same block.** The Vancouver box: four user lines byte-verified in the built epub, plus two improvised Si-on lines inside the same lyric-block — never a second block, never a paraphrase.
+
+---
+
+## §48 · V38 Rules (ch189–190)
+
+1. **epubcheck must validate the artifact that actually exists.** The builder's OUT is cwd-relative; V36/V37's "0/0/0/0" runs pointed at repo root while the epub sat in book/ — epubcheck validated nothing and printed zeros, and both versions shipped with 3 RSC-008 errors (undeclared images). Rule: run epubcheck with an absolute path or from the epub's directory, and confirm the output's diagnostics reference the file (line numbers, file names) before recording a clean bill.
+2. **Every new image file gets its manifest item in the cycle it is born.** The battery must print BOTH counts — images on disk/zip AND items declared in the opf — and they must match (V38: 116/116 after adding img-lee-mikyung, img-baek-jeonghoon, img-kevin-hart).
+3. **Returning-cast anchors are grepped, never assumed.** Kobe and Hara were already carded with images on disk; a hand-typed "new" id would have phantomed again. Grep character-intro.xhtml + ../images for EVERY named returnee before drafting anchors.
+4. **Two-way ？reconciliation includes punctuation-level losses.** Per-line mapping looked clean while "干嘛？" shipped as "What." and "怎么？" as "What —" — the words survived, the marks didn't. Mark totals are checked against line totals every cycle (V38: both restored; ch190 54/54 lines, 58 = 57+1 legal).
+5. **Lyrics policy, refined:** real song performed on a live stage → real lyrics ('Starboy' chorus at Doha); fictional in-universe song that the raw describes without quoting → original lines invented from the description, ONE block ('Desert Rose').
+6. **Shipped-title rule, extended:** a raw short-form title yields to the shipped long title when story time is past release (绿头苍蝇 → 'Green Bottle Fly', per ch163).
+7. **Address forms map per PAIR, not globally:** Jin-ri→Hara is "Eonni" (ch183 precedent), whatever the default romanization table says.
+8. **In-text debut cards are part of card workflow for NEW characters — and a retrofit obligation when missed.** V36's Mi-kyung/Hart char-intro blocks were skipped and survived two cycles; the bookwide char-intro count (page 76 + in-text total) now belongs in the battery.

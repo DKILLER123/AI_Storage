@@ -787,6 +787,14 @@
       <navLabel><text>Chapter One Hundred Eighty Eight · Boss Baek Does Not Accept Naming Rights</text></navLabel>
       <content src="text/chapter-188.xhtml"/>
     </navPoint>
+    <navPoint id="np-193" playOrder="193">
+      <navLabel><text>Chapter One Hundred Eighty Nine · Pulling a Big Job with Kobe</text></navLabel>
+      <content src="text/chapter-189.xhtml"/>
+    </navPoint>
+    <navPoint id="np-194" playOrder="194">
+      <navLabel><text>Chapter One Hundred Ninety · Since When Does Car Talk End in Bed?</text></navLabel>
+      <content src="text/chapter-190.xhtml"/>
+    </navPoint>
 
 
     
