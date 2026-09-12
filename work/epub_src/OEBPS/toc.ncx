@@ -1024,6 +1024,16 @@
       <content src="text/chapter-238.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-243" playOrder="243">
+      <navLabel><text>Chapter Two Hundred Thirty-Nine · The Premiere Invitation</text></navLabel>
+      <content src="text/chapter-239.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-244" playOrder="244">
+      <navLabel><text>Chapter Two Hundred Forty · JYP’s Dignity and Ji-eun’s Bloodless Conquest</text></navLabel>
+      <content src="text/chapter-240.xhtml"/>
+    </navPoint>
+
 
     
     

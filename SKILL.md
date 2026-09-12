@@ -900,3 +900,15 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§74.3 Sung lines → music-player; page lyrics → lyric-block.** Booth/monitor singing lives in `.music-player` (mp-art/mp-title/mp-artist/mp-trackbar+filled/mp-time/mp-lyric) — never dialogue-line (§109 restated). Handwritten/in-progress lyric sheets live in `.lyric-block` (lb-header "the page, as written · first sheet" + plain <p> rows + lb-note). Frozen-at-creation rule (§509) applies: IU's DotS lyrics ('Say It! What Are You Doing?' page + chorus) are now house canon — reuse verbatim.
 
 **§74.4 Content-location discipline.** Before declaring content lost, locate it in the RAW by chapter: the doctor/soldier/Cindy/Park Ji-eun exchange greps 0 in ch238 because the raw places it in ch237. Chapter-boundary confusion wastes build cycles; check the raw first.
+
+## §75 — V64 laws (title ？s, metadata CJK, raw-author drift)
+
+**§75.1 Title-embedded question marks count 1:1.** A Latin song title inside a CJK raw line (《What Do You Mean?》) carries its ? into the English line, every occurrence; a pun headline (title ? + 真正作者是谁？) legally carries TWO marks in one line — reproduce both, and let the ledger's double sit in the block row where the raw put it.
+
+**§75.2 The zero-CJK sweep covers YOUR OWN metadata strings.** A 建议 slipped into build_epub_v64.py's description via sed. The battery now greps CJK ideographs across ALL content files (chapters AND opf/ncx/nav) — not just chapter bodies — and any builder text is written via python with explicit strings, never a long CJK-bearing sed replacement.
+
+**§75.3 Raw-author arithmetic drift is preserved verbatim.** ch239 says 二十三首歌 where ch237's ledger leaves 25 — the translation says "twenty-three-song debt", full stop. Never silently harmonize the author's numbers; log the drift in the worklog so future chapters don't get "corrected" against it.
+
+**§75.4 The bare-name law extends to paraphrase.** Yoo Jae-suk's 比如IU became "Ji-eun, for instance." — attributing the banned form to a speaker is still shipping the banned form. Route around it with an allowed form (Ji-eun anchored is always safe in dialogue).
+
+**§75.5 Chart/finals blocks are screen-views.** Hot 100 runs, credits pages, social posts/replies, and memo screens are all sv-header blocks; press waves (including PR "as planted" and imagined "as feared") are nd blocks with the nd-source row carrying the register.
