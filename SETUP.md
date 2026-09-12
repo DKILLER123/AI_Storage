@@ -72,20 +72,19 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §105)
+## 6. State & next steps (from worklog §106)
 
-**SHIPPED: V56 = chapters 223–224 + bookwide short-name migration (Seulgi ×42 / Wendy ×78) + V55 defect fixes (forescen, ch222 money ×4, OOPS/Oops unify, ch221 email no-op).** epubcheck valid 0 messages; battery ALL GREEN; only the V56 epub on disk.
+**SHIPPED: V57 = chapters 225–226 (the million-won golden mouth / the fake husband among fake husbands) + FORMS +2 full-name rows (Bae Joo-hyun, Kim Yerim) + first Yook Sung-jae appearance (plain — card pipeline offered next cycle).** epubcheck valid 0 messages; battery ALL GREEN; only the V57 epub on disk.
 
-**V57 (next batch) checklist:**
-1. Sandbox pre-flight (§66.4): `ln -s /home/user/AI_Storage/work /home/user/work` + `pip install --break-system-packages epubcheck jdk4py` BEFORE building; if `.git` was rolled back, fetch the branch ref first and `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1) — never commit from a stale base.
-2. Save raws FIRST (§57.1); re-verify every write_file; ？-ledger from raw BEFORE prose (line-numbered, incl. 「嗯？」/「这位？」-class marks); 【】 inventory → conversion plan (chat per §66.2, comments per comment-thread, lyrics per canon).
-3. Canon greps before drafting: near-name trap (§64.2); RV five = **Seulgi / Wendy / Irene / Joy / Yeri — short forms, never hyphenated (§67.1)**; full names (Kang Seul-gi, Son Seung-wan) untouched; quoted stage names per §66.3; sunbae shapes ("Baek sunbae" two-word; bare "sunbae" direct); OOPS/Oops mirror-the-raw law (§67.2).
-4. Real-person check BEFORE any portrait (§65.1); identity-check every search panel; composites get cropped.
-5. Drafts: one raw paragraph order; block ledger BEFORE writing; charts = `.naver-search` (§66.1); ckl for cost stacks/slates/skeletons; sv for process/timing/imagery; comment-thread for reader comments (ch215 shape).
-6. ？-walker + per-line map on ANY diff (§58.2); close the loop from the BUILT EPUB, not the source (§62.1 head-title included).
-7. Wrap (+ FORMS check first — §57.6); post-wrap peek strip in ALL blocks (§63.1/§61.1 exhaustive tuple); in-text debut cards byte-identical to intro page (§64.1).
-8. Registration: opf manifest+spine, nav li, ncx np-229/np-230 playOrder 230 next batch; image items for any new portraits.
-9. Builder: clone build_epub_v56.py, EXPLICIT replaces, run from repo root.
-10. epubcheck 0 messages; battery vs V56 baseline (derive from BOTH artifacts, state the method — §67.3): entries 383+δ, chapters 224+2n, spine/navPoints 228+2n, nav chapter li 224+2n, images 128+n³, cards/modals 88+m³, in-text 82+m³; anchors 12,957+δ; ls520/sv259/pq115/pc99/chat147/ckl26/comment104/mail8/naver-search12/search-bar1; misattr 0; chat-coherence flags triaged (silent-owner pattern §67.4); PEEK 0; Han/fullwidth/【】 0.
-11. Pre-package deep scan (§54.1 paragraph-scoped) + typo battery (exclude self-closing p/ §67.5) + chat audit + chart-class audit + OOPS residual grep.
-12. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.
+**V58 (next batch) checklist:**
+1. Sandbox pre-flight (§66.4): `ln -s /home/user/AI_Storage/work /home/user/work` + `pip install --break-system-packages epubcheck jdk4py`; if `.git` rolled back, `git fetch origin arena/01a08c66-ai-storage && git reset --soft origin/arena/01a08c66-ai-storage` — never commit from a stale base (§55.1).
+2. Save raws FIRST; ？-ledger from raw BEFORE prose (mark-by-mark; §68.5 statement-list traps; §68.6 embedded-quote rule).
+3. Canon greps: RV five (Seulgi/Wendy/Irene/Joy/Yeri; full-name register scenes per §68.3); Kim Yerim/Bae Joo-hyun rows now in FORMS; Yook Sung-jae — if he recurs, run the new-card pipeline (§61.5: real-person portrait via image_search + identity verify, ci-card + chr-modal byte-identical, FORMS full+short rows, then backfill offer).
+4. Drafts: block ledger BEFORE writing; captions → sv slates (§68.4); bank/SMS → mail-block (digits per §68.7); group texts → chat-container with self label; suspect/verdict/playbook lists → ckl.
+5. ？-walker + per-line merge check from the BUILT EPUB; statement-form ？ streak continues — never pre-judge by feel.
+6. Wrap (+ FORMS check first); post-wrap peek strip in ALL blocks (§63.1/§61.1).
+7. Registration: opf manifest+spine, nav li, ncx np-231/np-232 playOrder 232 next batch.
+8. Builder: clone build_epub_v57.py, EXPLICIT replaces, run from repo root.
+9. epubcheck 0 messages; battery vs V57 baseline (derive from BOTH artifacts): entries 385+δ, chapters 226+2n, spine/navPoints 230+2n, nav chapter li 226+2n, images 128+n³, cards/modals 88+m³, in-text 82+m³; anchors 13,224+δ; ls526/sv265/pq115/pc99/chat148/ckl32/comment104/mail9/naver-search12/search-bar1; misattr 0; PEEK 0; Han/fullwidth/【】 0 in chapters; front-matter Hangul identical version-to-version (§68.8).
+10. Pre-package deep scan (§54.1 paragraph-scoped) + typo battery + chat-coherence (silent-owner §67.4) + OOPS residual + mark-by-mark spot checks.
+11. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

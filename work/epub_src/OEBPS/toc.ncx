@@ -954,6 +954,16 @@
       <content src="text/chapter-224.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-229" playOrder="229">
+      <navLabel><text>Chapter Two Hundred Twenty-Five · Jeong Han-teuk’s Million-Won Golden Mouth</text></navLabel>
+      <content src="text/chapter-225.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-230" playOrder="230">
+      <navLabel><text>Chapter Two Hundred Twenty-Six · The Fake Husband Among Fake Husbands</text></navLabel>
+      <content src="text/chapter-226.xhtml"/>
+    </navPoint>
+
 
     
     

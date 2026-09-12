@@ -808,3 +808,21 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§67.6 edit_file no-op/silent-miss trap:** an edit_file whose old_text equals new_text is a silent no-op, and a "successful" fuzzy match may still leave the intended target unchanged (both happened on chapter-223.xhtml in one turn). After EVERY edit_file, re-verify the artifact (grep the new string); for surgical one-off patches prefer python `replace` with `assert t.count(old)==1` — the assert both locates and proves the patch, and batching patches per file keeps the write atomic (an assert failure writes nothing).
 
 **§67.7 ？-ledger discipline pays again:** build the ledger from the raw BEFORE prose (line-numbered), draft against it, and close the loop from the BUILT EPUB. Three flattened internal rhetorical questions (two statement-ified questions + one raw-terminal-？ comment) were caught only by the count diff — eye-count undercounts by exactly the marks that don't look like questions (「嗯？」, 「这位？」, internal 这算什么/哪里是在…).
+
+## §68 · V57 Rules (ch225–226 + the Redaction, Full-Name-Register, and Caption Laws)
+
+**§68.1 The raw's own redaction ships as redaction.** When the source censors a real name (金xx), do NOT fill it in — render the redaction in ASCII ("Kim XX") and document the decision in the worklog. Filling it would be an editorial invention; dropping the sentence would be abridgement.
+
+**§68.2 First full-name occurrences need a FORMS row in the SAME cycle.** A carded character's full real name can stay absent for 200+ chapters and then appear in one raw line (金艺琳 → "Kim Yerim"). Grep the romanization before drafting; if absent bookwide, add the FORMS full-name row (inserted longest-first BEFORE the short row) in the same session as the wrap — otherwise the name ships unanchored and the Taylor Rule is violated for that chapter.
+
+**§68.3 Full-name register scenes ship full-name.** When a raw scene deliberately switches to full real names for formality (the RV-dorm interrogation sequence), mirror the register (Bae Joo-hyun / Kang Seul-gi / Kim Yerim / Son Seung-wan / Park Soo-young) — while any SHORT-form calls inside it follow the short-name law (Irene's soft 「胜完。」 → "Wendy."; the full-name call 「孙胜完。」 stays "Son Seung-wan."). The register and the short-name law compose; neither overrides the other.
+
+**§68.4 Broadcast captions ride existing classes.** There is no caption/subtitle class in the stylesheet — 后期字幕 captions (【真的没有吗？】, 【威尼斯影帝首次用于婚恋诈骗】) ship as `screen-view` caption slates (sv-header "The caption, as slated/pre-booked" + sv-line carrying the caption + sv-note). Invented-class law holds: grep the CSS first, reuse what exists.
+
+**§68.5 Statement-shaped action lists stay statements inside blocks.** Question-word lists that the raw ends with 。 (要不要调查…。/是否联系…。/要不要反向铺…。/是否帮…。) are a PLAN, not dialogue — they ship as ckl steps with periods. The ？-ledger's mark count and the line-merge check (one ？-line → one EN ?-line) together catch both directions: flattened marks AND invented marks (V57's caption "Really? No one at all?" was a +1 caught pre-build).
+
+**§68.6 Embedded quoted questions inherit the raw's punctuation.** A question quoted INSIDE narration without its own ？ (回过来一句“什么巧克力”) ships mark-free ("what chocolate") — the surrounding sentence's punctuation governs; do not re-mark quotations.
+
+**§68.7 Money formatting register:** SMS/bank/deposit blocks render amounts as ASCII digits with commas ("Credit: 1,000,000 won."); prose narration renders words ("ten million won"). Both appear in the same chapter legitimately (V57 ch225/ch226).
+
+**§68.8 Hangul glyph counts in front/back matter are canon.** characters.xhtml + glossary.xhtml carry Korean-script entries (89 runs / 241 glyphs) — the zero-Hangul law applies to CHAPTER text and RAWS only; the battery counts chapters and front matter separately, and front-matter Hangul is compared version-to-version (must be identical), not driven to zero.
