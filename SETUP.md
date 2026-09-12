@@ -72,20 +72,20 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §104)
+## 6. State & next steps (from worklog §105)
 
-**SHIPPED: V55 = chapters 221–222 + Park Bo-gum card (REAL photo, 88²) + Park Soo-young form repair in ch215 + chart-class law.** epubcheck 0/0/0/0; battery ALL GREEN; only the V55 epub on disk.
+**SHIPPED: V56 = chapters 223–224 + bookwide short-name migration (Seulgi ×42 / Wendy ×78) + V55 defect fixes (forescen, ch222 money ×4, OOPS/Oops unify, ch221 email no-op).** epubcheck valid 0 messages; battery ALL GREEN; only the V56 epub on disk.
 
-**V56 (next batch) checklist:**
-1. Sandbox pre-flight (§66.4): symlink /home/user/work + pip --break-system-packages epubcheck jdk4py BEFORE building.
-2. Save raws FIRST (§57.1); re-verify every write_file; ？-ledger with double/triple marks logged; 【】 inventory → conversion plan (chat drafts per §66.2, video-title slates as ckl).
-3. Canon greps before drafting: near-name trap (§64.2); RV five renderings (Irene/Seung-wan/Seul-gi/Joy=Yeri; Soo-young now wrapped); quoted stage names per §66.3; sunbae shapes ("Baek sunbae" two-word; bare "sunbae" direct).
-4. Real-person check BEFORE any portrait (§65.1): real → image_search + identity verify + crop; OC → AI.
-5. Drafts: one raw paragraph order; block ledger BEFORE writing; chart blocks = `.naver-search` (§66.1); checklist blocks for cost stacks/slates/skeletons; sv for exponention/timing/imagery; pq for thesis lines.
-6. ？-walker + full side-by-side dump on ANY diff (§58.2); sv-line marks count too — ambiguity readings keep their ？.
-7. Wrap (+ FORMS check first — §57.6); post-wrap: peek strip in ALL blocks (§63.1), in-text debut cards post-wrap via wrapped anchors (§62.2) byte-identical to intro page (§64.1).
-8. Registration: opf+spine, nav word-form, ncx np-227/np-228 next batch; image items for new portraits.
-9. Builder: clone build_epub_v55.py, EXPLICIT replaces, run from repo root.
-10. epubcheck 0/0/0/0; battery vs V55 baseline: entries 381+δ, chapters 222+2n, spine/navPoints 226+2n, nav li 222+2n, images 128+n³, cards/modals 88+m³, in-text 82+m³; anchors 12,762+δ; ls515/sv248/pq119/pc99/chat136/ckl20/chart(naver-search)12/search-bar1/wb35/mp35/lb31; chat misattributions 0; parity ch215→ EXACT; PEEK 0; CJK/【】 0; ls-time + search-bar CSS present.
-11. Pre-package deep scan (§54.1) + chat audit + chart-class audit.
-12. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file..
+**V57 (next batch) checklist:**
+1. Sandbox pre-flight (§66.4): `ln -s /home/user/AI_Storage/work /home/user/work` + `pip install --break-system-packages epubcheck jdk4py` BEFORE building; if `.git` was rolled back, fetch the branch ref first and `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1) — never commit from a stale base.
+2. Save raws FIRST (§57.1); re-verify every write_file; ？-ledger from raw BEFORE prose (line-numbered, incl. 「嗯？」/「这位？」-class marks); 【】 inventory → conversion plan (chat per §66.2, comments per comment-thread, lyrics per canon).
+3. Canon greps before drafting: near-name trap (§64.2); RV five = **Seulgi / Wendy / Irene / Joy / Yeri — short forms, never hyphenated (§67.1)**; full names (Kang Seul-gi, Son Seung-wan) untouched; quoted stage names per §66.3; sunbae shapes ("Baek sunbae" two-word; bare "sunbae" direct); OOPS/Oops mirror-the-raw law (§67.2).
+4. Real-person check BEFORE any portrait (§65.1); identity-check every search panel; composites get cropped.
+5. Drafts: one raw paragraph order; block ledger BEFORE writing; charts = `.naver-search` (§66.1); ckl for cost stacks/slates/skeletons; sv for process/timing/imagery; comment-thread for reader comments (ch215 shape).
+6. ？-walker + per-line map on ANY diff (§58.2); close the loop from the BUILT EPUB, not the source (§62.1 head-title included).
+7. Wrap (+ FORMS check first — §57.6); post-wrap peek strip in ALL blocks (§63.1/§61.1 exhaustive tuple); in-text debut cards byte-identical to intro page (§64.1).
+8. Registration: opf manifest+spine, nav li, ncx np-229/np-230 playOrder 230 next batch; image items for any new portraits.
+9. Builder: clone build_epub_v56.py, EXPLICIT replaces, run from repo root.
+10. epubcheck 0 messages; battery vs V56 baseline (derive from BOTH artifacts, state the method — §67.3): entries 383+δ, chapters 224+2n, spine/navPoints 228+2n, nav chapter li 224+2n, images 128+n³, cards/modals 88+m³, in-text 82+m³; anchors 12,957+δ; ls520/sv259/pq115/pc99/chat147/ckl26/comment104/mail8/naver-search12/search-bar1; misattr 0; chat-coherence flags triaged (silent-owner pattern §67.4); PEEK 0; Han/fullwidth/【】 0.
+11. Pre-package deep scan (§54.1 paragraph-scoped) + typo battery (exclude self-closing p/ §67.5) + chat audit + chart-class audit + OOPS residual grep.
+12. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

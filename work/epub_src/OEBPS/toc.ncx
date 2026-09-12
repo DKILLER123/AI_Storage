@@ -944,6 +944,16 @@
       <content src="text/chapter-222.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-227" playOrder="227">
+      <navLabel><text>Chapter Two Hundred Twenty-Three · The “Yes” Worth Six Hundred Million</text></navLabel>
+      <content src="text/chapter-223.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-228" playOrder="228">
+      <navLabel><text>Chapter Two Hundred Twenty-Four · Just Asking His Taste, How Did We Land on Abs</text></navLabel>
+      <content src="text/chapter-224.xhtml"/>
+    </navPoint>
+
 
     
     
