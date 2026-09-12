@@ -246,6 +246,8 @@
     <item id="ch226" href="text/chapter-226.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch227" href="text/chapter-227.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch228" href="text/chapter-228.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch229" href="text/chapter-229.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch230" href="text/chapter-230.xhtml" media-type="application/xhtml+xml"/>
     <item id="fonts-css" href="styles/fonts.css" media-type="text/css"/>
     <item id="stylesheet" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="cover-img" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
@@ -630,6 +632,8 @@
     <itemref idref="ch226"/>
     <itemref idref="ch227"/>
     <itemref idref="ch228"/>
+    <itemref idref="ch229"/>
+    <itemref idref="ch230"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="text/cover.xhtml"/>

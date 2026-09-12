@@ -974,6 +974,16 @@
       <content src="text/chapter-228.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-233" playOrder="233">
+      <navLabel><text>Chapter Two Hundred Twenty-Nine · The Red Bebe Set-Visit Day</text></navLabel>
+      <content src="text/chapter-229.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-234" playOrder="234">
+      <navLabel><text>Chapter Two Hundred Thirty · A Loophole Is Also Part of the Rules</text></navLabel>
+      <content src="text/chapter-230.xhtml"/>
+    </navPoint>
+
 
     
     

@@ -844,3 +844,15 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§69.7 Possessives of quoted titles:** 'Title''s reads badly — rephrase ("the first shoot day of 'The Three Evils'"). Cosmetic, but the double-apostrophe cluster is a recurring EN trap with 《》 titles.
 
 **§69.8 Restaurant/brand proper nouns get romanized once and documented:** 木香 → 'Mokhyang'; gujeolpan / hanwoo / hanjeongsik / hanok / budae-jjigae per existing food register. Grep before coining; log the choice.
+
+## §70 — V59 laws (the pq-wrapper repair + wrap-pass mechanics)
+
+**§70.1 pq trios MUST sit inside `<div class="pullquote">` (user-flagged).** The canon trio shape is div.pullquote > p.pq-glyph(❝) + p + p.pq-cite(— …). A bare `<p class="pq-glyph">❝</p>` outside the wrapper is a BUG (V58 shipped 2 in ch227; fixed in V59). Battery: book-wide bare-pq scan must return 0 — and grep the LITERAL `pq-glyph` class name, not `pq|quote`-prefixed patterns (the V58 scan missed the bug because it searched the wrong shape). EXEMPT: the 7 ch09-era legacy sites (ch09/10/13/59/119/121/128) where `<span class="pq-glyph">✦ ✦ ✦</span>` + `<span class="pq-cite">` already sit inside a pullquote div — legal as-is, do not touch. Naive last-`</div>` scanners false-positive on those; verify by eye before "fixing".
+
+**§70.2 The anchor-wrap script defaults to its birth chapters.** wrap_v29_anchors.py takes files as argv and falls back to [ch171, ch172] — running it bare "to be safe" wraps NOTHING new and prints only +0 lines. Always run it with the new chapter filenames EXPLICIT, then re-derive the book-wide chr-inline total and assert old_total + manual + script_delta == new_total (V59: 13,385 + 7 + 299 = 13,691).
+
+**§70.3 Display rows are anchor-exempt — do not "fix" bare names inside them.** sv-*/ckl-*/chat-*/pc-*/nd-*/mail rows never carry anchors; the wrapper skips them by design. Post-wrap "still bare" audits must whitelist display rows (V59: the 2 remaining bare names were sv rows = legal) — only plain-<p>/dialogue-line leakage is a defect.
+
+**§70.4 Repair regexes must match the shipped shape, not the imagined one.** The ch227 repair first matched 0 because it assumed blank lines between trio lines and an anchor-free middle <p>; the file had neither (middle <p> carried chr-inline anchors). Before writing a repair pattern, cat -A the actual region; write the pattern from the bytes, then assert the match count equals the expected defect count.
+
+**§70.5 When the old battery's counter shapes are forgotten, diff artifacts instead.** V59's audit couldn't reproduce the comment/nd probe shapes from memory (returned 1971/0 nonsense) — the decisive battery became a sha1 diff of V58 vs V59 entry-by-entry: exactly the 6 expected files changed, everything else byte-identical, which proves every prior book-wide count carries flat without re-deriving shapes. Artifact-to-artifact diff outruns fragile probe reconstruction.

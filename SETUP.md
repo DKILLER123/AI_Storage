@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §107)
+## 6. State & next steps (from worklog §108)
 
-**SHIPPED: V58 = chapters 227–228 (the wealth code / the six-billion-won lunch) + 'The Three Evils' titled + first Park Seong-woong / Jo Woo-jin / Kim Seon-young appearances (plain, documented).** epubcheck valid 0 messages; battery ALL GREEN; only the V58 epub on disk.
+**SHIPPED: V59 = chapters 229–230 (the Red Bebe set-visit day / the loophole ruling) + the user-flagged ch227 pq-wrapper bug FIXED + Kim Eun-sook / Baek Ji-young / 'Like Being Hit by a Bullet' / 'Lovers in Paris' / 'Secret Garden' / 'A Gentleman's Dignity' / "sasaeng" canonized.** epubcheck valid 0 messages; battery = exact 6-file sha1 delta vs V58; only the V59 epub on disk (22,894,421 B, 389 entries).
 
-**V59 (next batch) checklist:**
-1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
-2. Save raws FIRST; ？-ledger with THREE numbers (marks / lines / double-mark positions — §69.1); 【】 inventory before prose.
-3. Canon greps: 'The Three Evils' now canonical; RV five short forms; Yook Sung-jae card pipeline if he recurs (§61.5); Kim XX redaction intact in ch225.
-4. Drafts: block ledger BEFORE writing; nd multi-row for portal feeds (ch171/227 precedent); pc blocks quote only the raw's quoted side (§69.3); sv for screens/captions/push columns; ckl for rites/terms/camps/rollouts.
-5. Post-wrap: minidom re-parse BOTH files immediately (§69.4 hard gate), then peek strip, then registration (ncx np-233/np-234 playOrder 234 next batch).
-6. Builder: clone build_epub_v58.py, EXPLICIT replaces, run from repo root.
-7. epubcheck 0 messages; battery vs V58 baseline (derive from BOTH artifacts): entries 387+δ, chapters 228+2n, spine/navPoints 232+2n, nav chapter li 228+2n, images 128+n³, cards/modals 88+m³; anchors 13,385+δ; ls530/sv270/pq117/pc100/chat150/ckl40/comment104/mail10/nd70/naver-search12/search-bar1; misattr 0; PEEK 0; Han/fullwidth/【】 0 in chapters; front-matter Hangul identical.
-8. Pre-package deep scan: marks+lines diff, typo battery, framed sweep (paragraph-scoped), chat-coherence (silent-owner §67.4), OOPS residual, mark-by-mark spot checks.
+**V60 (next batch) checklist:**
+1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + `ln -sf $(python3 -c 'import jdk4py;print(jdk4py.JAVA)') /usr/local/bin/java`; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
+2. Save raws FIRST (ch231+); ？-ledger with THREE numbers (marks / lines / double-mark positions — §69.1); 【】 inventory before prose.
+3. Canon greps before drafting: 'The Three Evils' / 'Like Being Hit by a Bullet' / "Red-eh Beh-beh" now canonical; RV five short forms; Wendy = Son Seung-wan in narration + "Wendy." soft call; Kim Eun-sook OST thread continues (Seung-wan audition arc); Yook Sung-jae card pipeline if he recurs (§61.5).
+4. Drafts: block ledger BEFORE writing; wrap pass with EXPLICIT argv (§70.2 — the script defaults to ch171/172); pq trios inside div.pullquote, battery 0 bare (§70.1); display rows anchor-exempt (§70.3); pc blocks quote only the raw's quoted side (§69.3); repair regexes from the actual bytes (§70.4).
+5. Post-wrap: minidom re-parse BOTH files immediately (§69.4 hard gate), then registration (ncx np-235/np-236 playOrder 236 next batch).
+6. Builder: clone build_epub_v59.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery: prefer the artifact-to-artifact sha1 diff (§70.5) — exact delta = opf/ncx/nav + 2 new chapters (+ any owed repairs), everything else byte-identical. Anchors 13,691+δ; ls 535 / sv 274 / pq 119 / pc 100 / chat 150 / ckl 43 / mail 10 / naver-search 12 / search-bar 1; images 128; cards/modals 88/88; Han/fullwidth/【】 0 in chapters; front-matter Hangul 241 identical; ？ targets = the new raws' ledgers (marks AND lines AND doubles).
+8. Pre-package deep scan: spot checks 20/20, misattr sweep, doubled-word scan, OOPS residual, peek parity, framed sweep, chat-coherence (silent-owner §67.4).
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.
