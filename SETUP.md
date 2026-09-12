@@ -72,19 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §106)
+## 6. State & next steps (from worklog §107)
 
-**SHIPPED: V57 = chapters 225–226 (the million-won golden mouth / the fake husband among fake husbands) + FORMS +2 full-name rows (Bae Joo-hyun, Kim Yerim) + first Yook Sung-jae appearance (plain — card pipeline offered next cycle).** epubcheck valid 0 messages; battery ALL GREEN; only the V57 epub on disk.
+**SHIPPED: V58 = chapters 227–228 (the wealth code / the six-billion-won lunch) + 'The Three Evils' titled + first Park Seong-woong / Jo Woo-jin / Kim Seon-young appearances (plain, documented).** epubcheck valid 0 messages; battery ALL GREEN; only the V58 epub on disk.
 
-**V58 (next batch) checklist:**
-1. Sandbox pre-flight (§66.4): `ln -s /home/user/AI_Storage/work /home/user/work` + `pip install --break-system-packages epubcheck jdk4py`; if `.git` rolled back, `git fetch origin arena/01a08c66-ai-storage && git reset --soft origin/arena/01a08c66-ai-storage` — never commit from a stale base (§55.1).
-2. Save raws FIRST; ？-ledger from raw BEFORE prose (mark-by-mark; §68.5 statement-list traps; §68.6 embedded-quote rule).
-3. Canon greps: RV five (Seulgi/Wendy/Irene/Joy/Yeri; full-name register scenes per §68.3); Kim Yerim/Bae Joo-hyun rows now in FORMS; Yook Sung-jae — if he recurs, run the new-card pipeline (§61.5: real-person portrait via image_search + identity verify, ci-card + chr-modal byte-identical, FORMS full+short rows, then backfill offer).
-4. Drafts: block ledger BEFORE writing; captions → sv slates (§68.4); bank/SMS → mail-block (digits per §68.7); group texts → chat-container with self label; suspect/verdict/playbook lists → ckl.
-5. ？-walker + per-line merge check from the BUILT EPUB; statement-form ？ streak continues — never pre-judge by feel.
-6. Wrap (+ FORMS check first); post-wrap peek strip in ALL blocks (§63.1/§61.1).
-7. Registration: opf manifest+spine, nav li, ncx np-231/np-232 playOrder 232 next batch.
-8. Builder: clone build_epub_v57.py, EXPLICIT replaces, run from repo root.
-9. epubcheck 0 messages; battery vs V57 baseline (derive from BOTH artifacts): entries 385+δ, chapters 226+2n, spine/navPoints 230+2n, nav chapter li 226+2n, images 128+n³, cards/modals 88+m³, in-text 82+m³; anchors 13,224+δ; ls526/sv265/pq115/pc99/chat148/ckl32/comment104/mail9/naver-search12/search-bar1; misattr 0; PEEK 0; Han/fullwidth/【】 0 in chapters; front-matter Hangul identical version-to-version (§68.8).
-10. Pre-package deep scan (§54.1 paragraph-scoped) + typo battery + chat-coherence (silent-owner §67.4) + OOPS residual + mark-by-mark spot checks.
-11. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.
+**V59 (next batch) checklist:**
+1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
+2. Save raws FIRST; ？-ledger with THREE numbers (marks / lines / double-mark positions — §69.1); 【】 inventory before prose.
+3. Canon greps: 'The Three Evils' now canonical; RV five short forms; Yook Sung-jae card pipeline if he recurs (§61.5); Kim XX redaction intact in ch225.
+4. Drafts: block ledger BEFORE writing; nd multi-row for portal feeds (ch171/227 precedent); pc blocks quote only the raw's quoted side (§69.3); sv for screens/captions/push columns; ckl for rites/terms/camps/rollouts.
+5. Post-wrap: minidom re-parse BOTH files immediately (§69.4 hard gate), then peek strip, then registration (ncx np-233/np-234 playOrder 234 next batch).
+6. Builder: clone build_epub_v58.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery vs V58 baseline (derive from BOTH artifacts): entries 387+δ, chapters 228+2n, spine/navPoints 232+2n, nav chapter li 228+2n, images 128+n³, cards/modals 88+m³; anchors 13,385+δ; ls530/sv270/pq117/pc100/chat150/ckl40/comment104/mail10/nd70/naver-search12/search-bar1; misattr 0; PEEK 0; Han/fullwidth/【】 0 in chapters; front-matter Hangul identical.
+8. Pre-package deep scan: marks+lines diff, typo battery, framed sweep (paragraph-scoped), chat-coherence (silent-owner §67.4), OOPS residual, mark-by-mark spot checks.
+9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

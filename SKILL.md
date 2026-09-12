@@ -826,3 +826,21 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§68.7 Money formatting register:** SMS/bank/deposit blocks render amounts as ASCII digits with commas ("Credit: 1,000,000 won."); prose narration renders words ("ten million won"). Both appear in the same chapter legitimately (V57 ch225/ch226).
 
 **§68.8 Hangul glyph counts in front/back matter are canon.** characters.xhtml + glossary.xhtml carry Korean-script entries (89 runs / 241 glyphs) — the zero-Hangul law applies to CHAPTER text and RAWS only; the battery counts chapters and front matter separately, and front-matter Hangul is compared version-to-version (must be identical), not driven to zero.
+
+## §69 · V58 Rules (ch227–228 + the Line-Count Diff and the New-Title Laws)
+
+**§69.1 The ？-ledger has THREE numbers, not two.** Marks AND lines: raw ？-lines → EN ?-lines must match one-to-one (a raw double-mark line = one EN line with two marks; §55.3 one-line-per-row in both directions). The V58 build passed 40/40 marks while a merge lurked (one line split +1, one line demoted −1 — net zero). Only the LINE diff exposed it. Battery order: marks first, then lines, then the double-mark lines must sit at the same ledger positions.
+
+**§69.2 New work-titles with no canon get ONE decision, documented, used consistently.** 《除三害》 had never been rendered → titled 'The Three Evils' in the same session, logged in the worklog, and reused identically in both chapters (dialogue, nd rows, slate, banners). Never render the same untitled work two different ways in one cycle.
+
+**§69.3 Phone calls quote ONLY the raw's quoted side.** When the raw quotes one party (Han-teuk's order lines) and narrates the other ("电话那头询问祝福文案。"), the pc block carries pc-me for the quoted lines and plain <p> narration INSIDE the block for the other side — never invent the silent party's dialogue (§66.2's no-fabrication law extends to calls). The §45.2 leak battery treats in-block plain <p> as legal.
+
+**§69.4 Unclosed display-block divs are caught by the mandatory post-wrap XML parse.** V58's .phone-call div shipped without its </div> and expat caught it at the re-parse — the minidom re-parse after EVERY wrap (not just at epubcheck) is a hard gate; epubcheck alone would have failed later and vaguer.
+
+**§69.5 Hashtags translate as compact tags.** #白时温新片开机# → #BaekSiOnNewFilmKickoff# — the # pair is preserved, spaces removed (tag idiom), content translated; they ride sv rows (push-column), never plain prose.
+
+**§69.6 The raw's own odd fact mirrors verbatim.** 现代汽车's badge rendered as the "N" mark in the raw — shipped as “N” regardless of real-world logo knowledge. Verbatim law outranks fact-checking (§62-adjacent); footnotes are not our genre.
+
+**§69.7 Possessives of quoted titles:** 'Title''s reads badly — rephrase ("the first shoot day of 'The Three Evils'"). Cosmetic, but the double-apostrophe cluster is a recurring EN trap with 《》 titles.
+
+**§69.8 Restaurant/brand proper nouns get romanized once and documented:** 木香 → 'Mokhyang'; gujeolpan / hanwoo / hanjeongsik / hanok / budae-jjigae per existing food register. Grep before coining; log the choice.

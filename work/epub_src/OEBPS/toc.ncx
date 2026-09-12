@@ -964,6 +964,16 @@
       <content src="text/chapter-226.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-231" playOrder="231">
+      <navLabel><text>Chapter Two Hundred Twenty-Seven · Jeong Han-teuk Discovers the Wealth Code</text></navLabel>
+      <content src="text/chapter-227.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-232" playOrder="232">
+      <navLabel><text>Chapter Two Hundred Twenty-Eight · The Six-Billion-Won Lunch</text></navLabel>
+      <content src="text/chapter-228.xhtml"/>
+    </navPoint>
+
 
     
     
