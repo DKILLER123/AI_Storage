@@ -3082,3 +3082,19 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 **Build & battery:** builder cloned build_epub_v66.py → build_epub_v67.py (docstring + OUT only). Built 23,039,761 B / 406 entries (V66 404 + 2), mimetype stored first. epubcheck (bundled jdk4py JRE on PATH) exit 0, no errors/warnings. New baselines: chapters 246, anchors 15,075, ls 573, sv 320, pq 156, ckl 69, pc 110, comment-item 646, tv-screen 15, lyric-block 36, music-player 38, live-stage 37, interview-block 6, news-digest 81, chat-container 157, comment-thread 114, images 129, cards/modals 89/89, CJK 0.
 
 **Delivered:** Seoul_Starting_With_Debt_Collection__Version_67.epub (V66 deleted at ship).
+
+## §117 — V68 · chapters 247–248 (The Pretty Noona Buying Dinner / The Same Four-Leaf Clover, Different Hearts) + ch78 chat-block repair
+
+**ch78 repair (user correction):** the line “I’ll get word to you in a few days. I’ll tell you first.” — Baek Si-on’s reply in the existing KakaoTalk thread with Son Nam-won (opened at the ch78 phone-call block “Boss, have you seen the news at home?”) — had shipped as a flat `dialogue-line` with straight quotes. Converted to a `chat-container` (chat-header “KakaoTalk · Son Nam-won”, chat-name self, chat-sent bubble, curly typography). Book-wide chat-container 157→158. NOTE: 73 early chapters (ch21/43/66–80…) carry legacy straight-quote typography — pre-existing, left untouched per no-bulk-fix-legacy; only the converted line was corrected.
+
+**Raws first:** saved `raw/chapter-247.txt` (13,186 chars / 712 lines, 61 ？) and `raw/chapter-248.txt` (10,078 chars / 515 lines, 48 ？, 6/6 【】) verbatim before translation; validated (no dup-adjacent, no straight quotes).
+
+**Deep Thinking → max style-block density:** ch247 = location-stamp + 2 music-player (tap homework / waltz test) + checklist-block (the waltz hold) + 2 screen-view (LAVUE 01/02 lip glosses; the BBQ order) + pullquote. ch248 = location-stamp + 2 screen-view (first-week stats 3.87M / ₩29.8B / 55.4% / 780k / 46.9%; the two curve-breakers occupancy <5% / word-of-mouth ~0) + checklist-block (the normal decay curve) + 2 news-digest (5 first-week headlines; the 6 before/after revised headlines) + checklist-block (Lotte’s off-peak plan) + checklist-block (Eun-ah’s unboxing pre-play) + screen-view (the Emma Stone search) + pullquote. Airport press scrum kept as dialogue-line (narration-heavy; forcing interview-block would break one-para-one-para). Invented classes = 0; zero anchors inside blocks.
+
+**One-raw-para = one-EPUB-para:** ch248 unboxing checklist first merged 10 raw lines into 5 — caught by segment parity and split to 10 ckl-steps. Segment-by-segment parity confirmed (residual deltas are ckl-band/nd-source lines that map to real raw lines, plus the pullquote body). ？ ledger exact: ch247 61/61, ch248 48/48.
+
+**Wrap & registration:** wrap_v29_anchors.py (explicit argv) → ch247 +264, ch248 +118 (chr-peek parity exact). Registered opf manifest+spine ch247/ch248; ncx np-251/np-252; nav li ×2. Counts now 248 manifest / 248 spine / 252 navPoints / 248 nav li.
+
+**Build & battery:** builder cloned build_epub_v67.py → build_epub_v68.py (docstring + OUT only). Built 23,070,930 B / 408 entries (V67 406 + 2), mimetype stored first. epubcheck exit 0, no errors. New baselines: chapters 248, anchors 15,457, ls 575, sv 325, pq 158, ckl 73, music-player 40, news-digest 83, chat-container 158, comment-thread 114, live-stage 37, phone-call 110, interview-block 6, images 129, cards/modals 89/89, CJK-ideograph 0, ？ total 5,961.
+
+**Delivered:** Seoul_Starting_With_Debt_Collection__Version_68.epub (V67 deleted at ship).

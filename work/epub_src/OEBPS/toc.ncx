@@ -1064,6 +1064,16 @@
       <content src="text/chapter-246.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-251" playOrder="251">
+      <navLabel><text>Chapter Two Hundred Forty-Seven · The Pretty Noona Buying Dinner</text></navLabel>
+      <content src="text/chapter-247.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-252" playOrder="252">
+      <navLabel><text>Chapter Two Hundred Forty-Eight · The Same Four-Leaf Clover, Different Hearts</text></navLabel>
+      <content src="text/chapter-248.xhtml"/>
+    </navPoint>
+
 
     
     
