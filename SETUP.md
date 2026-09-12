@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §109)
+## 6. State & next steps (from worklog §110)
 
-**SHIPPED: V60 = chapters 231–232 (corny pickup lines accepted / the invisible ex invades the marriage) + USER LAW: zero character anchors inside ANY style block (book-wide purge of 70; battery = 0; wrap script block-guarded) + ls spacing fix (explicit margins, flex-gap retired as sole rhythm).** epubcheck valid 0 messages; battery = exact 22-entry sha1 delta vs V59; only the V60 epub on disk (22,917,611 B, 391 entries).
+**SHIPPED: V61 = chapters 233–234 (the launch that sold out twice / Legends Never Fall) + the comment-block fix (comment-thread container) + the NEW `.tv-screen` block built and applied book-wide (×6) + the mission-card sv block.** epubcheck valid 0 messages; battery = exact 5-file sha1 delta + 2 new chapters; only the V61 epub on disk (22,942,547 B, 393 entries).
 
-**V61 (next batch) checklist:**
+**V62 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + `ln -sf $(python3 -c 'import jdk4py;print(jdk4py.JAVA)') /usr/local/bin/java`; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
-2. Save raws FIRST (ch233+); ？-ledger THREE numbers (§69.1); 【】 inventory (nds/captions/comments/mail/slogans all route to blocks per §71.5); narration ？ counts too (§71.6).
-3. Canon: 'We Got Married' arc live (Yook Sung-jae PLAIN); 'Jumpshot' (Feat. IRENE) secret out to the dorm; Holy Mother church arc opening (Kim Hye-soo plain); Jung Jae-joon / Hwang Soo-ah anchored in prose ONLY (§71.1).
-4. Drafts: block ledger BEFORE writing; pc-them for two-sided calls (§71.4); NO anchors in any block (§71.1); repair regexes from actual bytes (§70.4); MORE blocks — fill thin context from deep thinking.
-5. Wrap with EXPLICIT argv (block-guarded script §71.2); minidom re-parse gate (§69.4); anchors-in-blocks battery = 0 before packaging.
-6. Builder: clone build_epub_v60.py, EXPLICIT replaces, run from repo root.
-7. epubcheck 0 messages; battery via sha1 diff (§70.5) — assert delta = opf/ncx/nav + stylesheet (only if owed) + new chapters (+ owed repairs). Baselines: anchors 13,790; peek 13,632; ls 542 / sv 277 / pq 122 / ckl 48 / pc 102 / mail 11; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
+2. Save raws FIRST (ch235+); ？-ledger THREE numbers, line-by-line vs the raw list (§72.4); 【】 inventory → route to blocks (§71.5/§72.5).
+3. Canon: 'Legends Never Fall' S5 song in production (demo due mid-July); 'Sado' campaign live (Aug 3 release); LAVUE restock + factory vlog next; Kim Eun-sook friendship-price thread; 'Minions' license granted; Irene/KES chat registers set.
+4. Drafts: block ledger BEFORE writing; tv-screen for ALL broadcast/video-watching passages (§72.1); anchor pre-flight — verify card id AND image before any anchor (§72.3); plain names for Lee Sang-hyeok / Lee Eung-bok / Kim Ji-won / Moon Geun-young / Yoon So-yeon.
+5. Wrap with EXPLICIT argv (block-guarded); minidom gate; anchors-in-blocks = 0; comment-list residue = 0; invented-class audit = 0.
+6. Builder: clone build_epub_v61.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery via sha1 diff — assert delta = opf/ncx/nav + stylesheet (only if owed) + ch232-class fixes (only if owed) + new chapters. Baselines: anchors 13,896 / peek 13,738; ls 548 / sv 284 / pq 127 / ckl 53 / pc 104 / mail 13 / comment-item 623 / tv-screen 6; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
 8. Pre-package deep scan: ？ marks+lines+doubles from artifact; 20+ spot probes; doubled-word scan; OOPS residual; peek parity; misattr sweep.
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

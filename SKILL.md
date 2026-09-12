@@ -870,3 +870,15 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§71.5 Registers locked V60:** 'We Got Married' (curly quotes); "Oppa"; chart credit caps IRENE mirrored verbatim; unnie compounds fusable (Joohyun-unnie precedent → Seulgi-unnie, Seulgi as one token); X-ssi on given names (Jin-ri-ssi, Sung-jae-ssi); Yook Sung-jae plain-by-canon (×26 prior, like Jo Woo-jin); COSMAX; CJ Korea Express (2015-era name, not CJ Logistics); "the Holy Mother"; Jung Jae-joon / Hwang Soo-ah carded — anchor in PROSE ONLY; production-delay SMS → mail-block [Crew notice]; Melon chart rows → sv; broadcast captions → sv-lines; hot-search headlines → nd; comments → comment-list (floor N · up; 【……】 = "…" floor).
 
 **§71.6 Narration with ？ counts toward the ledger.** ch232's 不过分吧？ and 为什么这个男人…？ are narration lines carrying ？ — tag-strip counting catches them automatically; never budget ？ for dialogue only.
+
+## §72 — V61 laws (tv-screen block + the invented-class catch + anchor pre-flight)
+
+**§72.1 NEW BLOCK: `.tv-screen` = broadcast/video playback watched on any screen** — television news, studio monitors, video walls, film trailers, uploaded videos being played. Distinct register: `.screen-view` remains phone/app UI (charts, notices, posters, edit captions); `.tv-screen` carries tv-channel (gradient bar + live dot), tv-line rows, tv-quote (gold italic spoken/on-screen text), tv-note. TV-watching passages with quoted broadcast content must NOT stay plain dialogue-lines (ch232's half-basement news shipped as dialogue for one version — the user caught it). Battery: book-wide tv-screen count tracked from the artifact.
+
+**§72.2 Invented classes render as missing blocks.** The user-flagged "missing comment block" was present in the markup but wrapped in `comment-list` — a class with zero CSS (the real container is `comment-thread`, ch93-era). Before using ANY block container, grep stylesheet.css for the exact class; after building, run the book-wide class audit (every class attr in every chapter vs the CSS) — invented classes must be 0.
+
+**§72.3 Before anchoring a name, verify BOTH the card id and the image file.** The first V61 build failed RSC-007/012 on chr-faker/faker.jpg and chr-lee-eungbok/lee-eungbok.jpg — assumed carded, never checked; prior usage was bare ×12/×17. Pre-flight: `grep id="chr-X" character-intro.xhtml` AND `ls ../images/X.jpg`. Absent either → plain name.
+
+**§72.4 ？-ledger discipline at draft scale:** the V61 drafts produced 9 ledger defects across two chapters (CJK fragments, wrong anchor, 6 over/under-count ？, one merged double, one demoted ？, one extra chat ？). The three-count check (marks/lines/doubles) against the RAW list — line-by-line, not by total — is what finds them; totals alone hide compensating pairs (a demoted ？ here, an invented ？ there).
+
+**§72.5 Comment-thread routing:** fan receipts, forum splits, video/user questions, vlog roasts, push-comment mocks → `comment-thread` (comment-header + comment-item(comment-user/comment-floor)); floors numbered, 【……】 → "…" floor. Mailboxes (blogger declines/pleas, PR inboxes) → mail-block rows. TV-restricted news pushes stay nd.

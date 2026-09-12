@@ -7720,3 +7720,54 @@ img {
 @media (prefers-reduced-motion: reduce) {
   .search-bar .sb-caret { animation: none; }
 }
+
+/* ─────────────────────────────────────────────
+   TV / BROADCAST SCREEN  (V61 · user-mandated)
+   Television, studio monitors, video walls,
+   played-back video content. Distinct from
+   .screen-view (phone/app UI screens).
+   ───────────────────────────────────────────── */
+.tv-screen {
+  margin: 2.2rem auto 1.9rem;
+  max-width: 34em;
+  border: 1px solid #23232e;
+  border-radius: 12px;
+  background: #101018;
+  box-shadow: 0 0 0 3px #1b1b26, 0 6px 18px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+.tv-screen .tv-channel {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #ffd166;
+  background: linear-gradient(90deg, #7b2d43, #b23a5e);
+  padding: 0.6rem 1.25rem 0.55rem;
+}
+.tv-screen .tv-channel::before {
+  content: "\25CF  ";
+  color: #ff5252;
+}
+.tv-screen .tv-line {
+  display: block;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: #e8e6f0;
+  padding: 0.5rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.tv-screen .tv-quote {
+  color: #ffd166;
+  font-style: italic;
+}
+.tv-screen .tv-note {
+  display: block;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.84rem;
+  font-style: italic;
+  color: #9a94b8;
+  padding: 0.45rem 1.25rem 0.75rem;
+}

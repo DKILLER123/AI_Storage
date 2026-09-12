@@ -994,6 +994,16 @@
       <content src="text/chapter-232.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-237" playOrder="237">
+      <navLabel><text>Chapter Two Hundred Thirty-Three · The Boss Is Out, So the Company Sold Out</text></navLabel>
+      <content src="text/chapter-233.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-238" playOrder="238">
+      <navLabel><text>Chapter Two Hundred Thirty-Four · Legends Never Fall</text></navLabel>
+      <content src="text/chapter-234.xhtml"/>
+    </navPoint>
+
 
     
     
