@@ -934,6 +934,16 @@
       <content src="text/chapter-220.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-225" playOrder="225">
+      <navLabel><text>Chapter Two Hundred Twenty-One · The Consequences of Copying Your Sunbae</text></navLabel>
+      <content src="text/chapter-221.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-226" playOrder="226">
+      <navLabel><text>Chapter Two Hundred Twenty-Two · Beauty Begins With Being Seen</text></navLabel>
+      <content src="text/chapter-222.xhtml"/>
+    </navPoint>
+
 
     
     
