@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §113)
+## 6. State & next steps (from worklog §114)
 
-**SHIPPED: V64 = chapters 239–240 (the red-light invitation / the bloodless conquest).** epubcheck valid 0 messages; battery = exact 3-file sha1 delta + 2 new chapters; only the V64 epub on disk (23,002,290 B, 399 entries).
+**SHIPPED: V65 = chapters 241–242 (the Norwegian bedroom producer / three gazes at the premiere).** epubcheck valid 0; battery = exact 3-file sha1 delta + 2 new chapters; only the V65 epub on disk (23,024,958 B, 401 entries).
 
-**V65 (next batch) checklist:**
-1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + java symlink; rolled-back `.git` → fetch + reset --soft (§55.1).
-2. Save raws FIRST (ch241+); ？-ledger THREE numbers BOTH widths incl. title-embedded ？s 1:1 (§75.1), line-by-line; 【】 inventory → block routing.
-3. Canon states: WDYM #1 Bieber (his first crown; BS word+music, JJ producer; Scooter liked the "Bro why..."), SYA dethroned after ~12 wks, OMI/‘Cheerleader’ narrative collapsed; ‘Dream’ diverted to Byun Baek-hyun (PJY prepping sample + proposal; Suzy unaware); Yeongdong Expressway MF rehearsal underway (‘Leon’ w/ Park Myung-soo); ‘Sado’ premiere Aug 3 — IU invited, "we’ll see how the schedule looks"; LAVUE staff-meal account at ‘Good Days’ (₩10M, receipts); IU = tenured engineer, 23-song debt quirk (§75.3); YJS knows nothing, PJY believes nothing yet.
-4. Drafts: block ledger BEFORE writing; zero-CJK scan right after write (§75.2 — builder strings included); NO hand-anchors in blocks; anchor pre-flight (§72.3); sv for charts/credits/posts, nd for press incl. planted/imagined (§75.5).
+**V66 (next batch) checklist:**
+1. Sandbox pre-flight (§66.4): `ln -sfn /home/user/AI_Storage/work /home/user/work`; `pip install --break-system-packages epubcheck jdk4py`; java symlink; rolled-back `.git` → fetch + reset --soft (§55.1).
+2. Save raws FIRST; VERIFY THE RAWS (token sweep + probes) before anything else (§76.1); ？-ledger THREE numbers BOTH widths, one raw paragraph = one EPUB paragraph (§76.2).
+3. Canon states: Alan Walker IN Korea (remix of ‘Legends Never Die’ underway with Jung Jae-joon; met Faker; SKT jersey; rank secret); his premiere test — a European viewer’s comprehension report owed to Baek Si-on; premiere NIGHT in progress — guest list had Jin-ri + Ji-eun + RV five; Irene’s delight clocked by Jin-ri; Ji-eun’s peach-blossom story believed 99% (Baekhyun×Suzy ‘Dream’); Riot multi-version ask (Berlin S5); $10k respect wire; Eun-ah’s three seating plans; ‘Sado’ VIP premiere Aug 3, Megabox COEX, English-subtitled print.
+4. Drafts: block ledger BEFORE writing; card pre-flight AT DRAFT TIME (§72.3); sv for emails/screens/lists, ckl for briefs/eras/plans, tv for broadcast replays; NO hand-anchors in blocks.
 5. Wrap EXPLICIT argv; minidom gate; anchors-in-blocks = 0; invented-class = 0.
-6. Builder: clone build_epub_v64.py via python (NOT long CJK sed), EXPLICIT replaces, run from repo root.
-7. epubcheck 0; battery sha1: opf/ncx/nav + new chapters (+ owed repairs); CJK-ideograph sweep ALL content files. Baselines: anchors 14,269; ls 561 / sv 304 / pq 142 / ckl 65 / pc 109 / mail 13 / comment-item 642 / tv-screen 9 / lyric-block 34 / music-player 36; images 128; cards/modals 88/88; front-matter Hangul 241.
-8. Pre-package deep scan: ？ from artifact; 20+ spot probes (mind &amp; entities); doubled-word scan (whitelist title words like "La La"); OOPS residual; misattr sweep.
+6. Builder: clone build_epub_v65.py via python replaces (no CJK sed), run from repo root.
+7. epubcheck 0; battery sha1: opf/ncx/nav + new chapters (+ owed repairs); CJK-ideograph sweep ALL content files. Baselines: anchors 14,408; ls 567 / sv 314 / pq 146 / ckl 67 / pc 109 / mail 13 / comment-item 642 / tv-screen 10 / lyric-block 34 / music-player 36; images 128; cards/modals 88/88; front-matter Hangul 241.
+8. Pre-package deep scan: ？ from artifact; 20+ spot probes; doubled-word scan; OOPS residual; misattr sweep (Kim Ye-rim ban active).
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

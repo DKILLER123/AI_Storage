@@ -1034,6 +1034,16 @@
       <content src="text/chapter-240.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-245" playOrder="245">
+      <navLabel><text>Chapter Two Hundred Forty-One · Faker’s Deadly Temptation</text></navLabel>
+      <content src="text/chapter-241.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-246" playOrder="246">
+      <navLabel><text>Chapter Two Hundred Forty-Two · Three Gazes at the Premiere</text></navLabel>
+      <content src="text/chapter-242.xhtml"/>
+    </navPoint>
+
 
     
     

@@ -912,3 +912,13 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§75.4 The bare-name law extends to paraphrase.** Yoo Jae-suk's 比如IU became "Ji-eun, for instance." — attributing the banned form to a speaker is still shipping the banned form. Route around it with an allowed form (Ji-eun anchored is always safe in dialogue).
 
 **§75.5 Chart/finals blocks are screen-views.** Hot 100 runs, credits pages, social posts/replies, and memo screens are all sv-header blocks; press waves (including PR "as planted" and imagined "as feared") are nd blocks with the nd-source row carrying the register.
+
+## §76 — V65 laws (raw-write verification + draft-time pre-flight)
+
+**§76.1 THE RAWS WRITE IS VERBATIM-OR-NOTHING.** The ch241/242 raw files were first written with placeholder tokens and paraphrases — the whole pipeline (ledgers, probes, faithfulness) depends on the raw being byte-faithful to the source. After EVERY raw save: stray-token sweep (regex \w+_\d+ etc.) + 10+ spot probes of distinctive lines, BEFORE translation begins. If corruption is found, rewrite the file from source; never patch corrupted raws.
+
+**§72.3 (restated, extended):** run the card pre-flight AT DRAFT TIME, not after the build — ch241 drafted Lee Sang-hyeok with an anchor and would have failed epubcheck again; one grep (id + jpg) stripped it pre-build. Anchor only after BOTH checks pass; the register list (§65.1) is the default, the grep is the proof.
+
+**§76.2 Merge-lines are fold-law violations too.** Merging three raw ？-lines into one paragraph keeps the marks but breaks the LINE count — the three-number ledger catches it. Un-merge: one raw paragraph = one EPUB paragraph.
+
+**§76.3 Nicknames map to real names.** 碧梨 = Billie Eilish, 烟鬼组合 = The Chainsmokers, 蛇叔 = DJ Snake — render the international names, never transliterate the Chinese fandom nicknames; the fandom-nickname register (e.g. "the un-petrifiable Lee Sang-hyeok") may stay as narrative color.
