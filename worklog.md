@@ -3038,3 +3038,29 @@ Net effect: **69/69 page characters each have exactly one in-text card; no dupli
 **Deep scans:** ？ ALL EXACT (238 45/45, 239 34/34, 240 31/29, 241 29/26, 242 46/45); spot checks 67/69 (2 case-variant artifacts); doubled 0; OOPS 0; guards clean (Kim Ye-rim hyphen 0, bare IU 0, Bae Suzy ×3, Choi Jin-ri ×5).
 
 **Delivered:** Seoul_Starting_With_Debt_Collection__Version_65.epub (V64 epub deleted at ship).
+
+## §115 — V66 shipped (ch243–244: one screen maps three rules of love / the studio doesn't believe in pink) + the Alan Walker card + the ch241–242 translation repairs
+
+**Trigger (fresh-session restore):** user flagged ch242 "And which parts you understood not at all." as wrong, ordered a deep scan for grammar/translation, an Alan Walker character-intro parity check, and ch243–244 with uncompromised style blocks.
+
+**Raws first (standing rule):** archived `raw/chapter-243.txt` (25 ？) and `raw/chapter-244.txt` (32 ？) verbatim before any translation; verified via §76.1 token sweep + 17/17 distinctive spot-probes each + balanced curly quotes; one accidental duplicated clause in the 243 save was rewritten from source.
+
+**Translation repairs to SHIPPED text (the user's catch + scan):**
+- ch242 `“And which parts you understood not at all.”` → `“And which parts you didn’t understand at all.”` (raw 以及哪些地方完全没看懂。)
+- ch242 `Alan was more lost again.` → `Alan was even more puzzled.` (raw 艾伦更加不解。)
+- ch241 `his father exchange-confirmed with the Riot project contact` → `his father completed a second confirmation by email with the Riot project contact` (raw 完成了二次确认).
+Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, article/article-vowel, repeated prepositions) found only these three; the doubled-word hits elsewhere are intentional chants/lyrics/nicknames (Bang Bang, Silver Crown Crown Prince, Gimme gimme).
+
+**？-ledger discipline:** ch196–242 reconcile EXACTLY with raws once the XML declaration's two '?' are subtracted; legacy ch121–195 deltas are title-？/comment-flood artifacts, sampled (ch139/146/168) and confirmed benign — no content loss, left as shipped. New chapters exact: ch243 = 25, ch244 = 32, no merged/unfolded lines.
+
+**Alan Walker parity (user check — was absent):** real-photo law honored (Marcus Rønne 2015 hooded portrait, downscaled to 1000px/131KB) → `images/alan-walker.jpg`; new `ci-alan-walker` card + `chr-alan-walker` modal; added `Alan Walker`/`Alan` (plus `Song Kang-ho`, `Park So-dam`) to `wrap_v29_anchors.py` FORMS; wrapped ch243/244 (+114/+175 anchors). Also linked the 15 previously-plain `chi-name`s so all 89 cards now honor the page's "tap a name" promise.
+
+**Style blocks (deep-thinking conversion):** ch243 = location-stamp; screen-view ×2 (selective optics ledger; the fisherman script storyboarded); live-stage ×3 (press pit, fan zone, host greetings); tv-screen ×5 (Sado on-screen dialogue per §72 — film watched on screen is never flat prose); pullquote closing the three rules. ch244 = location-stamp ×3; live-stage (post-screening host); interview-block (first-round Q&A); music-player (‘Everytime’ demo, mp-lyric per §5); pullquote ("roses all come with thorns").
+
+**Wrap & QA:** residual-plain 0 (wrap idempotent), nested anchors 0, anchors-in-blocks 0, unknown classes 0, missing anchor targets 0, book-wide CJK 0 (chapters AND opf/ncx/nav).
+
+**Registration:** opf manifest+spine ch243/ch244 + img-alan-walker; nav li ×2; ncx np-247/np-248.
+
+**Build & battery:** 23,181,922 B, 404 entries; epubcheck 0/0/0/0. sha1 delta V65↔V66 = changed {opf, nav, ncx, ch241, ch242, character-intro} + added {alan-walker.jpg, ch243, ch244}, deleted none. New baselines: chapters 244, anchors 14,726, ls 571, sv 317, pq 153, ckl 67, pc 109, mail 13, comment-item 642, tv-screen 15, lyric-block 34, music-player 37, live-stage 36, interview-block 6, cards/modals 89/89, CJK 0.
+
+**Delivered:** Seoul_Starting_With_Debt_Collection__Version_66.epub (V65 deleted at ship).

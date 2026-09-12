@@ -95,6 +95,10 @@ FORMS = [
     ("Kobe",          "chr-kobe-bryant",   "kobe-bryant.jpg"),
     ("Taylor",        "chr-taylor",        "taylor-swift.jpg"),
     ("Adam",          "chr-adam-levine",   "adam-levine.jpg"),
+    ("Song Kang-ho",  "chr-song-kangho",   "song-kangho.jpg"),
+    ("Park So-dam",   "chr-park-sodam",    "park-sodam.jpg"),
+    ("Alan Walker",   "chr-alan-walker",   "alan-walker.jpg"),
+    ("Alan",          "chr-alan-walker",   "alan-walker.jpg"),
 ]
 ALT = "|".join(re.escape(f) for f, _, _ in FORMS)
 LOOKUP = {f: (i, img) for f, i, img in FORMS}

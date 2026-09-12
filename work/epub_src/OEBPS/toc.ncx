@@ -1044,6 +1044,16 @@
       <content src="text/chapter-242.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-247" playOrder="247">
+      <navLabel><text>Chapter Two Hundred Forty-Three · One Screen, Three Rules of Love</text></navLabel>
+      <content src="text/chapter-243.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-248" playOrder="248">
+      <navLabel><text>Chapter Two Hundred Forty-Four · The Recording Studio Doesn’t Believe in Pink</text></navLabel>
+      <content src="text/chapter-244.xhtml"/>
+    </navPoint>
+
 
     
     
