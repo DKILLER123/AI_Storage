@@ -373,6 +373,7 @@ em.beat {
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #6a5a42;
+  margin: 0 0 0.34rem;
 }
 .location-stamp .ls-time {
   display: block;
@@ -388,7 +389,7 @@ em.beat {
   border: 1px solid rgba(155, 35, 53, 0.28);
   border-radius: 0.5em;
   background: rgba(155, 35, 53, 0.05);
-  margin: 0.2rem auto 0.15rem;
+  margin: 0.36rem auto 0.38rem;
   line-height: 1.6;
   text-align: center;
   overflow-wrap: break-word;
@@ -403,6 +404,7 @@ em.beat {
   letter-spacing: 0.04em;
   color: #2c2a24;
   line-height: 1.2;
+  margin-top: 0.34rem;
 }
 .location-stamp .ls-sub {
   font-family: "Crimson Pro", Georgia, serif;

@@ -984,6 +984,16 @@
       <content src="text/chapter-230.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-235" playOrder="235">
+      <navLabel><text>Chapter Two Hundred Thirty-One · Corny Pickup Lines Are Also Accepted</text></navLabel>
+      <content src="text/chapter-231.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-236" playOrder="236">
+      <navLabel><text>Chapter Two Hundred Thirty-Two · The Invisible Ex Invades the Marriage</text></navLabel>
+      <content src="text/chapter-232.xhtml"/>
+    </navPoint>
+
 
     
     

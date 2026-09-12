@@ -121,12 +121,36 @@ def wrap_para(inner):
     parts = re.split(r'(<a class="chr-inline".*?</a>)', inner, flags=re.S)
     return "".join(p if p.startswith('<a class="chr-inline') else wrap_segment(p) for p in parts)
 
+def block_regions(src):
+    # start/end spans of every div except the root page-wrapper (V60: user law -
+    # no anchors inside ANY style block, including classless in-block narration)
+    import re as _re
+    DIV = _re.compile(r'<div(?:\s+class="([^"]*)")?[^>]*>|</div>')
+    stack, regions = [], []
+    for m in DIV.finditer(src):
+        s = m.group(0)
+        if s.startswith('</'):
+            if stack:
+                st, cls = stack.pop()
+                if cls and cls != 'page-wrapper':
+                    regions.append((st, m.end()))
+        else:
+            stack.append((m.start(), m.group(1) or ''))
+    return regions
+
+
 def wrap_file(path):
     src = open(path, encoding="utf-8").read()
     count = [0]
+    regions = block_regions(src)
+
+    def in_block(pos):
+        return any(a <= pos < b for a, b in regions)
 
     def repl(m):
         cls, inner = m.group(1), m.group(2)
+        if in_block(m.start()):
+            return m.group(0)
         # skip if paragraph is a display row (paranoia guard)
         if cls is None:  # classless
             new = wrap_para(inner)

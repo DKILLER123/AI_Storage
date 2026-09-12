@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §108)
+## 6. State & next steps (from worklog §109)
 
-**SHIPPED: V59 = chapters 229–230 (the Red Bebe set-visit day / the loophole ruling) + the user-flagged ch227 pq-wrapper bug FIXED + Kim Eun-sook / Baek Ji-young / 'Like Being Hit by a Bullet' / 'Lovers in Paris' / 'Secret Garden' / 'A Gentleman's Dignity' / "sasaeng" canonized.** epubcheck valid 0 messages; battery = exact 6-file sha1 delta vs V58; only the V59 epub on disk (22,894,421 B, 389 entries).
+**SHIPPED: V60 = chapters 231–232 (corny pickup lines accepted / the invisible ex invades the marriage) + USER LAW: zero character anchors inside ANY style block (book-wide purge of 70; battery = 0; wrap script block-guarded) + ls spacing fix (explicit margins, flex-gap retired as sole rhythm).** epubcheck valid 0 messages; battery = exact 22-entry sha1 delta vs V59; only the V60 epub on disk (22,917,611 B, 391 entries).
 
-**V60 (next batch) checklist:**
+**V61 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + `ln -sf $(python3 -c 'import jdk4py;print(jdk4py.JAVA)') /usr/local/bin/java`; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
-2. Save raws FIRST (ch231+); ？-ledger with THREE numbers (marks / lines / double-mark positions — §69.1); 【】 inventory before prose.
-3. Canon greps before drafting: 'The Three Evils' / 'Like Being Hit by a Bullet' / "Red-eh Beh-beh" now canonical; RV five short forms; Wendy = Son Seung-wan in narration + "Wendy." soft call; Kim Eun-sook OST thread continues (Seung-wan audition arc); Yook Sung-jae card pipeline if he recurs (§61.5).
-4. Drafts: block ledger BEFORE writing; wrap pass with EXPLICIT argv (§70.2 — the script defaults to ch171/172); pq trios inside div.pullquote, battery 0 bare (§70.1); display rows anchor-exempt (§70.3); pc blocks quote only the raw's quoted side (§69.3); repair regexes from the actual bytes (§70.4).
-5. Post-wrap: minidom re-parse BOTH files immediately (§69.4 hard gate), then registration (ncx np-235/np-236 playOrder 236 next batch).
-6. Builder: clone build_epub_v59.py, EXPLICIT replaces, run from repo root.
-7. epubcheck 0 messages; battery: prefer the artifact-to-artifact sha1 diff (§70.5) — exact delta = opf/ncx/nav + 2 new chapters (+ any owed repairs), everything else byte-identical. Anchors 13,691+δ; ls 535 / sv 274 / pq 119 / pc 100 / chat 150 / ckl 43 / mail 10 / naver-search 12 / search-bar 1; images 128; cards/modals 88/88; Han/fullwidth/【】 0 in chapters; front-matter Hangul 241 identical; ？ targets = the new raws' ledgers (marks AND lines AND doubles).
-8. Pre-package deep scan: spot checks 20/20, misattr sweep, doubled-word scan, OOPS residual, peek parity, framed sweep, chat-coherence (silent-owner §67.4).
+2. Save raws FIRST (ch233+); ？-ledger THREE numbers (§69.1); 【】 inventory (nds/captions/comments/mail/slogans all route to blocks per §71.5); narration ？ counts too (§71.6).
+3. Canon: 'We Got Married' arc live (Yook Sung-jae PLAIN); 'Jumpshot' (Feat. IRENE) secret out to the dorm; Holy Mother church arc opening (Kim Hye-soo plain); Jung Jae-joon / Hwang Soo-ah anchored in prose ONLY (§71.1).
+4. Drafts: block ledger BEFORE writing; pc-them for two-sided calls (§71.4); NO anchors in any block (§71.1); repair regexes from actual bytes (§70.4); MORE blocks — fill thin context from deep thinking.
+5. Wrap with EXPLICIT argv (block-guarded script §71.2); minidom re-parse gate (§69.4); anchors-in-blocks battery = 0 before packaging.
+6. Builder: clone build_epub_v60.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery via sha1 diff (§70.5) — assert delta = opf/ncx/nav + stylesheet (only if owed) + new chapters (+ owed repairs). Baselines: anchors 13,790; peek 13,632; ls 542 / sv 277 / pq 122 / ckl 48 / pc 102 / mail 11; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
+8. Pre-package deep scan: ？ marks+lines+doubles from artifact; 20+ spot probes; doubled-word scan; OOPS residual; peek parity; misattr sweep.
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.
