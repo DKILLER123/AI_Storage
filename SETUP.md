@@ -76,13 +76,17 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 **SHIPPED: V65 = chapters 241–242 (the Norwegian bedroom producer / three gazes at the premiere).** epubcheck valid 0; battery = exact 3-file sha1 delta + 2 new chapters; only the V65 epub on disk (23,024,958 B, 401 entries).
 
+**SHIPPED: V66 = chapters 243–244 (one screen, three rules of love / the recording studio doesn’t believe in pink) + the Alan Walker card.** epubcheck 0; only the V66 epub on disk (23,182,233 B, 404 entries).
+
+**SHIPPED: V67 = chapters 245–246 (Producer Lee advances step by step / ‘Sado’ opens to a smash) + the user-provided Ariana Grande & Alan Walker portraits installed over the in-book images.** epubcheck 0 (exit 0, no errors); only the V67 epub on disk (23,039,761 B, 406 entries). ？-ledger 50/30 preserved; anchors-in-blocks 0; CJK-ideograph 0.
+
 **V67 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): `ln -sfn /home/user/AI_Storage/work /home/user/work`; `pip install --break-system-packages epubcheck jdk4py`; java symlink; rolled-back `.git` → fetch + reset --soft (§55.1).
 2. Save raws FIRST; VERIFY THE RAWS (token sweep + probes) before anything else (§76.1); ？-ledger THREE numbers BOTH widths, one raw paragraph = one EPUB paragraph (§76.2).
 3. Canon states (post-ch244): ‘Sado’ premiere + Q&A DONE (Aug 3, Megabox COEX); Alan asked the onstage comprehension question and OWES Baek Si-on the European-viewer report; Alan still in the studio at night (had planned PC-bang LOL). ‘Everytime’ (= Descendants of the Sun OST, Baek Si-on × Lee Ji-eun) first-round trial vocal = Wendy, Lee Ji-eun producing hard, Irene “accompanying,” Jin-ri + Jeong Han-teuk (overtime) + Jung Jae-joon present. Three love rules read from the harem scenes: Jin-ri = true favor includes not consuming; Ji-eun = plant your name in his songs; Irene = catch the chances, don’t mistake favor for power. Baek Si-on: stage greetings upcoming, flies to America in a week. Alan Walker NOW CARDED (chr-alan-walker) — anchor every mention.
 4. Drafts: block ledger BEFORE writing; card pre-flight AT DRAFT TIME (§72.3); sv for emails/screens/lists, ckl for briefs/eras/plans, tv for broadcast replays; NO hand-anchors in blocks.
 5. Wrap EXPLICIT argv; minidom gate; anchors-in-blocks = 0; invented-class = 0.
-6. Builder: clone build_epub_v66.py via python replaces (no CJK sed), run from repo root.
-7. epubcheck 0; battery sha1: opf/ncx/nav + new chapters (+ owed repairs); CJK-ideograph sweep ALL content files. Baselines: anchors 14,726; ls 571 / sv 317 / pq 153 / ckl 67 / pc 109 / mail 13 / comment-item 642 / tv-screen 15 / lyric-block 34 / music-player 37 / live-stage 36 / interview-block 6; images 129; cards/modals 89/89.
+6. Builder: clone build_epub_v67.py via python replaces (no CJK sed), run from repo root.
+7. epubcheck 0 (JRE may need `/usr/local/lib/python3.11/dist-packages/jdk4py/java-runtime/bin` on PATH); battery sha1: opf/ncx/nav + new chapters (+ owed repairs); CJK-ideograph sweep ALL content files. Baselines: anchors 15,075; ls 573 / sv 320 / pq 156 / ckl 69 / pc 110 / mail 13 / comment-item 646 / tv-screen 15 / lyric-block 36 / music-player 38 / live-stage 37 / interview-block 6 / news-digest 81 / chat-container 157 / comment-thread 114; images 129; cards/modals 89/89.
 8. Pre-package deep scan: ？ from artifact; 20+ spot probes; doubled-word scan; OOPS residual; misattr sweep (Kim Ye-rim ban active).
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

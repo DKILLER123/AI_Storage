@@ -1054,6 +1054,16 @@
       <content src="text/chapter-244.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-249" playOrder="249">
+      <navLabel><text>Chapter Two Hundred Forty-Five · Producer Lee Advances Step by Step</text></navLabel>
+      <content src="text/chapter-245.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-250" playOrder="250">
+      <navLabel><text>Chapter Two Hundred Forty-Six · ‘Sado’ Opens to a Smash</text></navLabel>
+      <content src="text/chapter-246.xhtml"/>
+    </navPoint>
+
 
     
     

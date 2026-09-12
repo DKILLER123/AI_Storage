@@ -3064,3 +3064,21 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 **Build & battery:** 23,181,922 B, 404 entries; epubcheck 0/0/0/0. sha1 delta V65↔V66 = changed {opf, nav, ncx, ch241, ch242, character-intro} + added {alan-walker.jpg, ch243, ch244}, deleted none. New baselines: chapters 244, anchors 14,726, ls 571, sv 317, pq 153, ckl 67, pc 109, mail 13, comment-item 642, tv-screen 15, lyric-block 34, music-player 37, live-stage 36, interview-block 6, cards/modals 89/89, CJK 0.
 
 **Delivered:** Seoul_Starting_With_Debt_Collection__Version_66.epub (V65 deleted at ship).
+
+## §116 — V67 · chapters 245–246 (Producer Lee Advances Step by Step / ‘Sado’ Opens to a Smash)
+
+**Raws first (user law):** saved verbatim `raw/chapter-245.txt` (8,709 chars / 475 body lines, 50 ？) and `raw/chapter-246.txt` (9,453 chars / 467 body lines, 30 ？) before any translation. First ch246 write self-truncated; cured by a full clean rewrite, then validated (dedup/quote-balance/probes).
+
+**User portraits installed:** `uploads/Alan_Walker.jpg` → `OEBPS/images/alan-walker.jpg` (683×1024, 59,080 B) and `uploads/Ariana_grande.jpg` → `OEBPS/images/ariana-grande.jpg` (735×866, 64,977 B). Filenames unchanged, so manifest/cards/modals untouched; user-made images take priority over web photos per user law.
+
+**Deep Thinking → max style-block density (no compromise):** ch245 = location-stamp + music-player (‘Fade’ speaker playback) + screen-view (paused phone player ━━━─── 01:43) + 2 lyric-block (‘You were the shadow to my light…’ / ‘Did I lose my mind…’) + pullquote. ch246 = location-stamp + 2 screen-view (opening scores 9.17→9.32 / 7.9 / 96%; KOFIC day-one 684k / ₩5.2B / 83% / 45%) + comment-thread (4 audience) + 3 news-digest (3 negative pro reviews; the refused headline; 8 wire headlines) + live-stage (Yongsan rice-chester / memorial-portrait joke) + 2 checklist-block (exhibition adjustment 1,180+ screens / 6,200–6,700 shows / 37%→46–49%; Showbox Oscar 3-step directive) + phone-call (Damien Chazelle) + 5 chat-container (the 作业 exchange; the six minus-ten deductions + 总分四十不及格; 来现场补考) + 2 pullquote. All classes pre-existing; invented classes = 0; zero anchors inside any block (§71.1).
+
+**One-raw-para = one-EPUB-para (§76.2):** ch246 first drafted over-compressed (12 ？ vs raw 30) — caught by the ？-ledger and fully retranslated line-by-line from the raw. Final parity: ch245 50 ？/50, ch246 30 ？/30.
+
+**Wrap & registration:** `wrap_v29_anchors.py` (explicit argv) → ch245 +169 anchors, ch246 +121 (chr-peek parity exact in both). Registered opf manifest+spine ch245/ch246; ncx np-249/np-250 (playOrder 249/250); nav li ×2. Counts now 246 manifest / 246 spine / 250 navPoints / 246 nav li.
+
+**Pre-package deep scan:** book-wide XML OK; CJK ideograph/fullwidth 0 (the 20 corner-brackets 「」 in ch78’s chart are pre-existing V65 decorative punctuation, left untouched per no-bulk-fix-legacy); anchors-in-blocks 0; ？ ledger preserved. Anchor total 15,075 = V66 14,785 + 290 new (169+121); the 155 anchor/chr-peek gap is entirely legacy (excl. 245/246 → 14,785/14,630), not a V67 regression.
+
+**Build & battery:** builder cloned build_epub_v66.py → build_epub_v67.py (docstring + OUT only). Built 23,039,761 B / 406 entries (V66 404 + 2), mimetype stored first. epubcheck (bundled jdk4py JRE on PATH) exit 0, no errors/warnings. New baselines: chapters 246, anchors 15,075, ls 573, sv 320, pq 156, ckl 69, pc 110, comment-item 646, tv-screen 15, lyric-block 36, music-player 38, live-stage 37, interview-block 6, news-digest 81, chat-container 157, comment-thread 114, images 129, cards/modals 89/89, CJK 0.
+
+**Delivered:** Seoul_Starting_With_Debt_Collection__Version_67.epub (V66 deleted at ship).
