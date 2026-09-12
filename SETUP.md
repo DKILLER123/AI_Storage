@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §111)
+## 6. State & next steps (from worklog §112)
 
-**SHIPPED: V62 = chapters 235–236 (the launch that emptied to its tester sticks / chocolate for the overtime roundup) + the 'Legends Never Die' correction applied book-wide (raw-verbatim law).** epubcheck valid 0 messages; battery = exact 4-file sha1 delta + 2 new chapters; only the V62 epub on disk (22,958,352 B, 395 entries).
+**SHIPPED: V63 = chapters 237–238 (the chocolate overtime that became a twenty-six-song guitar debt / the confession hidden in the OST).** epubcheck valid 0 messages; battery = exact 3-file sha1 delta + 2 new chapters; only the V63 epub on disk (22,982,674 B, 397 entries).
 
-**V63 (next batch) checklist:**
+**V64 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + `ln -sf $(python3 -c 'import jdk4py;print(jdk4py.JAVA)') /usr/local/bin/java`; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
-2. Save raws FIRST (ch237+); ？-ledger THREE numbers, line-by-line (§72.4); 【】 inventory → block routing (§71.5/§72.5).
-3. Canon: 'Legends Never Die' canonical (demo session with IU beginning); 'Sado' campaign live (press conference within days); LAVUE sold out ×2 with factory-vlog next; Kim Ji-min PLAIN (never bare "Ji-min"); Yoon Hye-ja = the professor, carded; 'Uchiage Hanabi' register.
-4. Drafts: block ledger BEFORE writing; NO hand-anchors inside any block — the battery strips them anyway (§71.1); tv-screen for broadcast/video playback; anchor pre-flight (§72.3).
-5. Wrap with EXPLICIT argv; minidom gate; anchors-in-blocks = 0; invented-class audit = 0.
-6. Builder: clone build_epub_v62.py, EXPLICIT replaces, run from repo root.
-7. epubcheck 0 messages; battery via sha1 diff — assert delta = opf/ncx/nav + new chapters (+ owed repairs). Baselines: anchors 13,973 / peek 13,815; ls 552 / sv 290 / pq 132 / ckl 56 / pc 107 / mail 13 / comment-item 626 / tv-screen 8; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
-8. Pre-package deep scan: ？ marks+lines+doubles from artifact; 20+ spot probes; doubled-word scan; OOPS residual; peek parity; misattr sweep.
+2. Save raws FIRST (ch239+); ？-ledger THREE numbers counting BOTH widths (half-width ? hides in Latin titles — ch237 "Legends?"), line-by-line (§74.1); 【】 inventory → block routing.
+3. Canon: IU production-debt ledger running (25 songs remaining; 'Good Days?' her aunt's restaurant); 'Leon' for the 'Infinite Challenge' festival (Léon concept, Park Myung-soo wants electronics — the crew filmed the late-night session; Park believes they're dating, uncorrected); 'Sado' first promo = day after the wrap (Showbox-managed; radio declined via Eun-ah); Riot demo delivered, feedback pending; DotS OST duet owed (singer TBD); Kim Eun-sook has seen the $3M screenshot.
+4. Drafts: block ledger BEFORE writing; fold into blocks ONLY if the ？ marks survive verbatim (§74.1); sung lines → music-player mp-lyric; handwritten lyrics → lyric-block; NO hand-anchors inside any block; anchor pre-flight (§72.3).
+5. Wrap EXPLICIT argv; minidom gate; anchors-in-blocks = 0; invented-class audit = 0.
+6. Builder: clone build_epub_v63.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery via sha1 diff — assert delta = opf/ncx/nav + new chapters (+ owed repairs). Baselines: anchors 14,170; ls 556 / sv 296 / pq 138 / ckl 62 / pc 108 / mail 13 / comment-item 626 / tv-screen 8 / lyric-block 34 / music-player 36; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
+8. Pre-package deep scan: ？ marks+lines+doubles from artifact (BOTH widths); 20+ spot probes; doubled-word scan; OOPS residual; misattr sweep — locate content by RAW chapter before declaring loss.
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

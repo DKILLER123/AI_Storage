@@ -890,3 +890,13 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§73.2 Shared given names require full-name discipline.** 金智敏 (pop-up staffer) and carded Park Ji-min share "Ji-min" — the staffer ships as full "Kim Ji-min" always, never the bare token, and the FORMS list must stay free of a bare "Ji-min" form. When a new name collides with an anchored token, grep both directions post-wrap (misattr leakage battery: the wrong full name must be 0 in the new chapter).
 
 **§73.3 Yoon Hye-ja is the professor.** The carded Yoon Hye-ja (chr-yoon-hyeja) and 尹惠子教授 are the same person (corpus: her call with Choi Na-young, her house, the recommendation) — anchor her mentions in prose. Before assuming a name-collision is accidental, grep the carded character's corpus context; this book reuses its own cast deliberately.
+
+## §74 — V63 laws (the both-width ？ count + the block-fold ledger law)
+
+**§74.1 FOLD INTO BLOCKS ONLY IF THE MARKS SURVIVE.** First-pass ch237 lost five ？ by folding raw dialogue into blocks ($3M reveal, twenty-six-songs reveal) and invented one more (adding a ? to 何必 narration that has none). Law: a block conversion must carry the raw's marks VERBATIM — if a raw dialogue line is absorbed into an sv/ckl row, the row keeps the exact mark; if it can't, the dialogue stays a dialogue-line. After ANY restructure, re-run the full line-by-line ledger (three numbers), not just totals.
+
+**§74.2 Count ？ at BOTH widths.** Latin-script titles inside CJK raws carry HALF-WIDTH ? ("Legends?") that a full-width-only scan misses. The true ledger = count('?') + count('？') over the raw, lines likewise; the EPUB body uses ASCII ? so both widths converge there.
+
+**§74.3 Sung lines → music-player; page lyrics → lyric-block.** Booth/monitor singing lives in `.music-player` (mp-art/mp-title/mp-artist/mp-trackbar+filled/mp-time/mp-lyric) — never dialogue-line (§109 restated). Handwritten/in-progress lyric sheets live in `.lyric-block` (lb-header "the page, as written · first sheet" + plain <p> rows + lb-note). Frozen-at-creation rule (§509) applies: IU's DotS lyrics ('Say It! What Are You Doing?' page + chorus) are now house canon — reuse verbatim.
+
+**§74.4 Content-location discipline.** Before declaring content lost, locate it in the RAW by chapter: the doctor/soldier/Cindy/Park Ji-eun exchange greps 0 in ch238 because the raw places it in ch237. Chapter-boundary confusion wastes build cycles; check the raw first.

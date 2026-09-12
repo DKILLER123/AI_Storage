@@ -1014,6 +1014,16 @@
       <content src="text/chapter-236.xhtml"/>
     </navPoint>
 
+    <navPoint id="np-241" playOrder="241">
+      <navLabel><text>Chapter Two Hundred Thirty-Seven · One Guitar for Twenty-Six Meetings</text></navLabel>
+      <content src="text/chapter-237.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-242" playOrder="242">
+      <navLabel><text>Chapter Two Hundred Thirty-Eight · The Confession Hidden in the OST</text></navLabel>
+      <content src="text/chapter-238.xhtml"/>
+    </navPoint>
+
 
     
     
