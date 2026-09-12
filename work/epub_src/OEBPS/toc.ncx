@@ -1000,8 +1000,18 @@
     </navPoint>
 
     <navPoint id="np-238" playOrder="238">
-      <navLabel><text>Chapter Two Hundred Thirty-Four · Legends Never Fall</text></navLabel>
+      <navLabel><text>Chapter Two Hundred Thirty-Four · Legends Never Die</text></navLabel>
       <content src="text/chapter-234.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-239" playOrder="239">
+      <navLabel><text>Chapter Two Hundred Thirty-Five · A Hundred Thousand Units Isn’t Even a Snack</text></navLabel>
+      <content src="text/chapter-235.xhtml"/>
+    </navPoint>
+
+    <navPoint id="np-240" playOrder="240">
+      <navLabel><text>Chapter Two Hundred Thirty-Six · Chocolate in Hand, Off to Drag Someone Into Overtime</text></navLabel>
+      <content src="text/chapter-236.xhtml"/>
     </navPoint>
 
 

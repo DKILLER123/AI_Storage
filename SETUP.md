@@ -72,17 +72,17 @@ bash /home/user/AI_Storage/book/setup_workspace.sh --validate
 Run-from-source QA battery lives in the worklog §69/§75 method notes (fragment
 audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
-## 6. State & next steps (from worklog §110)
+## 6. State & next steps (from worklog §111)
 
-**SHIPPED: V61 = chapters 233–234 (the launch that sold out twice / Legends Never Fall) + the comment-block fix (comment-thread container) + the NEW `.tv-screen` block built and applied book-wide (×6) + the mission-card sv block.** epubcheck valid 0 messages; battery = exact 5-file sha1 delta + 2 new chapters; only the V61 epub on disk (22,942,547 B, 393 entries).
+**SHIPPED: V62 = chapters 235–236 (the launch that emptied to its tester sticks / chocolate for the overtime roundup) + the 'Legends Never Die' correction applied book-wide (raw-verbatim law).** epubcheck valid 0 messages; battery = exact 4-file sha1 delta + 2 new chapters; only the V62 epub on disk (22,958,352 B, 395 entries).
 
-**V62 (next batch) checklist:**
+**V63 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): symlink + pip epubcheck jdk4py + `ln -sf $(python3 -c 'import jdk4py;print(jdk4py.JAVA)') /usr/local/bin/java`; rolled-back `.git` → fetch + `git reset --soft origin/arena/01a08c66-ai-storage` (§55.1).
-2. Save raws FIRST (ch235+); ？-ledger THREE numbers, line-by-line vs the raw list (§72.4); 【】 inventory → route to blocks (§71.5/§72.5).
-3. Canon: 'Legends Never Fall' S5 song in production (demo due mid-July); 'Sado' campaign live (Aug 3 release); LAVUE restock + factory vlog next; Kim Eun-sook friendship-price thread; 'Minions' license granted; Irene/KES chat registers set.
-4. Drafts: block ledger BEFORE writing; tv-screen for ALL broadcast/video-watching passages (§72.1); anchor pre-flight — verify card id AND image before any anchor (§72.3); plain names for Lee Sang-hyeok / Lee Eung-bok / Kim Ji-won / Moon Geun-young / Yoon So-yeon.
-5. Wrap with EXPLICIT argv (block-guarded); minidom gate; anchors-in-blocks = 0; comment-list residue = 0; invented-class audit = 0.
-6. Builder: clone build_epub_v61.py, EXPLICIT replaces, run from repo root.
-7. epubcheck 0 messages; battery via sha1 diff — assert delta = opf/ncx/nav + stylesheet (only if owed) + ch232-class fixes (only if owed) + new chapters. Baselines: anchors 13,896 / peek 13,738; ls 548 / sv 284 / pq 127 / ckl 53 / pc 104 / mail 13 / comment-item 623 / tv-screen 6; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
+2. Save raws FIRST (ch237+); ？-ledger THREE numbers, line-by-line (§72.4); 【】 inventory → block routing (§71.5/§72.5).
+3. Canon: 'Legends Never Die' canonical (demo session with IU beginning); 'Sado' campaign live (press conference within days); LAVUE sold out ×2 with factory-vlog next; Kim Ji-min PLAIN (never bare "Ji-min"); Yoon Hye-ja = the professor, carded; 'Uchiage Hanabi' register.
+4. Drafts: block ledger BEFORE writing; NO hand-anchors inside any block — the battery strips them anyway (§71.1); tv-screen for broadcast/video playback; anchor pre-flight (§72.3).
+5. Wrap with EXPLICIT argv; minidom gate; anchors-in-blocks = 0; invented-class audit = 0.
+6. Builder: clone build_epub_v62.py, EXPLICIT replaces, run from repo root.
+7. epubcheck 0 messages; battery via sha1 diff — assert delta = opf/ncx/nav + new chapters (+ owed repairs). Baselines: anchors 13,973 / peek 13,815; ls 552 / sv 290 / pq 132 / ckl 56 / pc 107 / mail 13 / comment-item 626 / tv-screen 8; images 128; cards/modals 88/88; Han/fw/【】 0; front-matter Hangul 241.
 8. Pre-package deep scan: ？ marks+lines+doubles from artifact; 20+ spot probes; doubled-word scan; OOPS residual; peek parity; misattr sweep.
 9. Delete previous epub AFTER validation; worklog/SKILL/SETUP updates; commit + push; present_file.

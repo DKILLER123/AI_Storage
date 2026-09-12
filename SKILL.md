@@ -882,3 +882,11 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 **§72.4 ？-ledger discipline at draft scale:** the V61 drafts produced 9 ledger defects across two chapters (CJK fragments, wrong anchor, 6 over/under-count ？, one merged double, one demoted ？, one extra chat ？). The three-count check (marks/lines/doubles) against the RAW list — line-by-line, not by total — is what finds them; totals alone hide compensating pairs (a demoted ？ here, an invented ？ there).
 
 **§72.5 Comment-thread routing:** fan receipts, forum splits, video/user questions, vlog roasts, push-comment mocks → `comment-thread` (comment-header + comment-item(comment-user/comment-floor)); floors numbered, 【……】 → "…" floor. Mailboxes (blogger declines/pleas, PR inboxes) → mail-block rows. TV-restricted news pushes stay nd.
+
+## §73 — V62 laws (the verbatim-name correction + the full-name collision guard)
+
+**§73.1 When the raw supplies the ENGLISH, that is the canon.** 传奇永不陨落 was translated as 'Legends Never Fall' while the raw itself wrote 《Legends Never Die》 beside it — the coined variant shipped one full version before the raws-first re-read caught it. Whenever a CJK title carries a Latin script sibling in the raw, the Latin WINS (§69.6 verbatim law extends to names); grep the raw for Latin before coining a rendering.
+
+**§73.2 Shared given names require full-name discipline.** 金智敏 (pop-up staffer) and carded Park Ji-min share "Ji-min" — the staffer ships as full "Kim Ji-min" always, never the bare token, and the FORMS list must stay free of a bare "Ji-min" form. When a new name collides with an anchored token, grep both directions post-wrap (misattr leakage battery: the wrong full name must be 0 in the new chapter).
+
+**§73.3 Yoon Hye-ja is the professor.** The carded Yoon Hye-ja (chr-yoon-hyeja) and 尹惠子教授 are the same person (corpus: her call with Choi Na-young, her house, the recommendation) — anchor her mentions in prose. Before assuming a name-collision is accidental, grep the carded character's corpus context; this book reuses its own cast deliberately.
