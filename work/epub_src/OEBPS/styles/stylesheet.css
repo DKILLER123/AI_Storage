@@ -1408,7 +1408,7 @@ img {
 }
 .contract-block p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   color: #3a3122;
   text-align: left;
 }
@@ -1637,7 +1637,7 @@ img {
 }
 .news-digest p {
   text-indent: 0 !important;
-  margin: 0.35em 0;
+  margin: 0.5em 0;
   color: #2a1010;
   text-align: left;
   font-style: italic;
@@ -1698,7 +1698,7 @@ img {
   max-width: 100%;
   min-width: 0;
   text-indent: 0 !important;
-  margin: 0.28em 0;
+  margin: 0.5em 0;
   text-align: left;
   padding: 0.18rem 0 0.3rem;
   border-bottom: 1px dashed rgba(130, 115, 220, 0.45);
@@ -2258,7 +2258,7 @@ img {
 }
 .studio-block p {
   text-indent: 0 !important;
-  margin: 0.35em 0;
+  margin: 0.5em 0;
   color: #d0d4c8;
   text-align: left;
 }
@@ -3225,7 +3225,7 @@ img {
 }
 .award-block p {
   text-indent: 0 !important;
-  margin: 0.25em 0;
+  margin: 0.5em 0;
   text-align: center;
 }
 /* ═════════════════════════════════════════════
@@ -3441,7 +3441,7 @@ img {
 }
 .acting-block p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: left;
   color: #d8d4ca;
 }
@@ -3781,7 +3781,7 @@ img {
 }
 .official-post p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: left;
   color: #1d2933;
 }
@@ -4229,7 +4229,7 @@ img {
   letter-spacing: 0.05em;
   color: #a8a094;
   text-align: center;
-  margin: 0 0 0.15rem;
+  margin: 0 0 0.5rem;
   text-indent: 0;
 }
 .album-card .al-release {
@@ -4462,14 +4462,14 @@ img {
   font-style: italic;
   color: #c2b6c8;
   padding: 0.1rem 0.6rem;
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.5rem;
   text-indent: 0 !important;
   text-align: left;
 }
 .stage-block .st-line {
   color: #f4ead6;
   padding: 0.1rem 0.6rem;
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.5rem;
   text-indent: 0 !important;
   text-align: left;
 }
@@ -4485,7 +4485,7 @@ img {
 }
 .stage-block p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: left;
   color: #e9ddc8;
 }
@@ -4528,14 +4528,14 @@ img {
   font-style: italic;
   color: #d3b6b6;
   padding: 0.1rem 1.6rem;
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.5rem;
   text-indent: 0 !important;
   text-align: left;
 }
 .live-stage .ls-line {
   color: #f6e8e8;
   padding: 0.1rem 1.9rem;
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.5rem;
   text-indent: 0 !important;
   text-align: left;
 }
@@ -4546,13 +4546,13 @@ img {
   text-transform: uppercase;
   color: #9a7070;
   padding: 0.15rem 1.6rem;
-  margin: 0.3rem 0 0;
+  margin: 0.5rem 0 0;
   text-indent: 0 !important;
   text-align: left;
 }
 .live-stage p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: left;
   color: #f2e6e6;
 }
@@ -4593,7 +4593,7 @@ img {
 .dialogue-block .dl-line {
   color: #3d3a32;
   padding: 0.15rem 0.4rem;
-  margin: 0 0 0.3rem;
+  margin: 0 0 0.5rem;
   text-indent: 0 !important;
   text-align: left;
 }
@@ -4608,7 +4608,7 @@ img {
 }
 .dialogue-block p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: left;
 }
 
@@ -4663,7 +4663,7 @@ img {
 }
 .announcement-block p {
   text-indent: 0 !important;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
   text-align: center;
 }
 
@@ -4917,7 +4917,7 @@ img {
 }
 .mail-block p {
   text-indent: 0 !important;
-  margin: 0.25em 0;
+  margin: 0.5em 0;
   text-align: left;
 }
 .mail-block .mb-from {
@@ -5173,7 +5173,7 @@ img {
 }
 .metric-block p {
   text-indent: 0 !important;
-  margin: 0.25em 0;
+  margin: 0.5em 0;
   text-align: center;
   color: #e6e8dc;
 }
@@ -6547,7 +6547,7 @@ img {
    the step carries its own explicit light color, like .wardrobe-block p and
    .trend-block p before it. */
 .checklist-block .ckl-step {
-  margin: 0.18rem 0;
+  margin: 0.55rem 0;
   text-indent: 0 !important;
   color: #eaf4fb;
 }

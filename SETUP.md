@@ -84,6 +84,8 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 **SHIPPED: V69 = chapters 249–250 (welcome to La La Land / the bottom line of art is the insurance company).** epubcheck (EPUB 3.3) 0 fatals / 0 errors / 0 warnings / 0 infos; only the V69 epub on disk (23,097,105 B, 410 entries). ？-ledger 42/8 preserved; chr-inline anchors 15,745; anchors-in-blocks 0; CJK-ideograph 0; invented classes 0. Latent V68 nav gap (ch243–248 missing from nav.xhtml) closed — nav now complete 1–250. Builder SRC repointed to the real path (the `/home/user/work` symlink was absent at session start). Tooling reinstalled after a sandbox reset (jdk4py 25.0.2 + epubcheck 5.3.0).
 
+**SHIPPED: V70 = fix pass (no new chapters): book-wide list-block line-separation redesign (21 CSS rules), ch249 video call → facetime block, ch250 Hyundai call → phone-call block, ch78 「」 → curly quotes.** epubcheck (EPUB 3.3) 0/0/0/0; only the V70 epub on disk (23,097,231 B, 410 entries). CJK/fullwidth now 0 across all 250 chapters; fullwidth ？ 0; anchors-in-blocks 0. Damien Chazelle portrait installed (user's `uploads/Damien.jpg`, delivered via GitHub upload f521910, over `images/damien-chazelle.jpg`).
+
 **V67 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): `ln -sfn /home/user/AI_Storage/work /home/user/work`; `pip install --break-system-packages epubcheck jdk4py`; java symlink; rolled-back `.git` → fetch + reset --soft (§55.1).
 2. Save raws FIRST; VERIFY THE RAWS (token sweep + probes) before anything else (§76.1); ？-ledger THREE numbers BOTH widths, one raw paragraph = one EPUB paragraph (§76.2).
