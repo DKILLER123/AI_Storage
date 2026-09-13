@@ -3132,3 +3132,11 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 **Damien Chazelle portrait — resolved.** The user's `uploads/Damien.jpg` was initially absent locally because it had been uploaded straight to GitHub (commit f521910); after rebasing it in, I verified it is a clean studio portrait and installed it over `work/epub_src/OEBPS/images/damien-chazelle.jpg` (the file the card / character-intro already reference; CSS uses `object-fit: cover`, so the 700×1000 aspect crops cleanly). Per the standing constraint no web substitute was ever used. V70 rebuilt with the new portrait (22,988,666 B), epubcheck 0.
 
 **Build & battery:** builder cloned v69→v70 (docstring + OUT). Built 23,097,231 B / 410 entries, mimetype stored first. epubcheck (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos. V69 epub deleted at ship.
+
+## §120 — V71 · ckl-step mirrors sv-line (recoloured) + La La Land shoot slate-blocks (fix pass)
+
+**User-directed fixes:**
+1. **`.ckl-step` now mirrors the `.sv-line` bar-row implementation, recoloured.** sv-line separates rows via padding + tinted gradient background + 3px left border + rounded right edge + bottom margin (not just margin). ckl-step now has the same structure but the checklist's night-cyan instead of sv-line's gold/cream: padding 0.42rem 0.95rem; margin 0 0.15rem 0.55rem; background #101c2e + cyan gradient; border-left 3px #6fc9de; radius 0 6px 6px 0; color #eaf4fb (not #f6ecc9). So steps read as distinct bars in the checklist's own palette.
+2. **La La Land movie-shooting gets a film block (`slate-block`) where context exists.** Added 3 slate-blocks in ch250 for the actual shoots — the freeway ensemble dance (opening number, long take, day-1-fails/day-2-holds), Mia & Sebastian's first meeting (horn / middle finger / silent "K-pop" curse), and the A Lovely Night dusk duet at Cathy's Corner (magic hour, take-1-kept). Each: sl-slate / sl-title / sl-mark / sl-line×2 / sl-action "Action" / sl-note; names plain inside (§71.1); no ？ added (ledger stays 8). ch249 got none — it is arrival/rehearsal (no shooting), satisfying "if context is present."
+
+**Build & battery:** builder cloned v70→v71. Built 22,989,415 B / 410 entries, mimetype stored first. epubcheck (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos. V70 epub deleted at ship.

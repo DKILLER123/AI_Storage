@@ -6546,10 +6546,20 @@ img {
    this block, as every other dark panel in this sheet learned long ago. So
    the step carries its own explicit light color, like .wardrobe-block p and
    .trend-block p before it. */
-.checklist-block .ckl-step {
-  margin: 0.55rem 0;
+  .checklist-block .ckl-step {
+  /* Mirrors .screen-view .sv-line's bar-row implementation (padding + tinted
+     background + 3px left border + rounded right edge + clear bottom margin)
+     so each step reads as its own row — but recoloured to this block's
+     night-mode cyan instead of sv-line's gold/cream. */
+  padding: 0.42rem 0.95rem;
+  margin: 0 0.15rem 0.55rem 0.15rem;
   text-indent: 0 !important;
+  text-align: left;
   color: #eaf4fb;
+  background-color: #101c2e;
+  background-image: linear-gradient(90deg, rgba(111, 201, 222, 0.16) 0%, rgba(111, 201, 222, 0.05) 55%, rgba(111, 201, 222, 0.10) 100%);
+  border-left: 3px solid #6fc9de;
+  border-radius: 0 6px 6px 0;
 }
 .checklist-block .ckl-count {
   display: inline-block;
