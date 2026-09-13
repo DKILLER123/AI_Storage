@@ -3098,3 +3098,23 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 **Build & battery:** builder cloned build_epub_v67.py → build_epub_v68.py (docstring + OUT only). Built 23,070,930 B / 408 entries (V67 406 + 2), mimetype stored first. epubcheck exit 0, no errors. New baselines: chapters 248, anchors 15,457, ls 575, sv 325, pq 158, ckl 73, music-player 40, news-digest 83, chat-container 158, comment-thread 114, live-stage 37, phone-call 110, interview-block 6, images 129, cards/modals 89/89, CJK-ideograph 0, ？ total 5,961.
 
 **Delivered:** Seoul_Starting_With_Debt_Collection__Version_68.epub (V67 deleted at ship).
+
+## §118 — V69 · chapters 249–250 (Welcome to La La Land / The Bottom Line of Art Is the Insurance Company)
+
+**Raws:** `raw/chapter-249.txt` (第249章 欢迎来到爱乐之城) and `raw/chapter-250.txt` (第250章 艺术的底线是保险公司) saved verbatim first. ？-ledger: ch249 41 fullwidth + 1 ASCII (song title “What Do You Mean?”) = 42; ch250 8 fullwidth / 7 lines.
+
+**Deep Scan / Deep Thinking:** ch249 = LAX arrival → Scooter gift reveal → album-direction talk in car → rehearsal warehouse → meet Chazelle → Emma Stone hug-cut-to-handshake → piano lesson → Sulli video call → late-night waltz → the “Chazelle hyped them to each other” reveal. ch250 = warehouse tech-rehearsal (cardboard street) → brutal schedule + reference films → MCST invite to President Park’s China parade delegation (declined, schedule conflict) → Sado 9M → first shoot day (105/110 interchange highway dance, long take, day 1 fails / day 2 succeeds) → Mia/Sebastian first meeting (horn, middle finger, silent “K-pop” curse) → A Lovely Night at Cathy’s Corner (Emma’s off-script smile + stumble → Chazelle keeps take 1) → Genesis brand-film call (female co-star recommendation).
+
+**Style blocks (no compromise):** ch249 — location-stamp 1, checklist-block 2, music-player 2, lyric-block 1, pullquote 1. ch250 — location-stamp 3, checklist-block 5, screen-view 1 (Sado 9M), music-player 1 (A Lovely Night), pullquote 1 (“art’s bottom line = the insurance company”).
+
+**Leaks caught & fixed:** ch249 `磨合` (1 CJK leak in the waltz para → “working in”). ch250 `拆解` / `足以` / `评价` (3 CJK leaks). All → 0 CJK-ideograph.
+
+**Anchor mechanics correction (IMPORTANT):** the shipped convention is **chr-inline only** (ch247/248 have 0 `entity-card-anchor`). My ch250 draft had hand-written 129 `entity-card-anchor` spans (wrong mechanism, several inside style blocks = §71.1 violation). Fix: unwrap all `entity-card-anchor` → text, correct romanization “Baek Jung-hoon” → “Baek Jeong-hoon” (matches wrapper FORMS / card chr-baek-jeonghoon), re-run wrapper. The naive unwrap regex `<span …>(.*?)</span>` cut at nested `chr-peek` `</span>` and broke XML — repaired 98 chr-peek anchors by moving `</span>` after the `<img>`. Final: ch249 187 chr-inline, ch250 101 chr-inline, both 0 entity-card-anchor, 0 anchors-in-blocks.
+
+**Template correction (IMPORTANT):** ch250 was first drafted on a non-standard skeleton (no `<!DOCTYPE html>`, no `page-wrapper`, plain `<h1>`, `style.css`, invented block sub-classes). epubcheck RSC-007 caught the missing `style.css`. Rewrote to the house skeleton (DOCTYPE, `page-wrapper`, `chapter-header` with `chapter-number` + `chapter-title`, fonts.css + stylesheet.css) and converted every invented sub-class to canonical: location-stamp → ls-date/ls-time; checklist-block → ckl-band + `<p class="ckl-step">` (no `<ul>`/`<li>`); music-player → mp-art/mp-title/mp-artist/mp-trackbar; screen-view → sv-header/sv-line/sv-note; pullquote → pq-glyph/`<p>`/pq-cite. Invented classes now 0.
+
+**Wrap & registration:** wrap_v29_anchors.py (explicit argv) → ch249 +187, ch250 +99 (+2 after the Jeong-hoon fix). opf manifest+spine ch249/ch250; ncx np-253/np-254; nav li ×2. Discovered HEAD’s nav.xhtml was missing ch243–248 (latent V68 gap) — working copy now complete: 250 manifest / 250 spine-chapters (+characters +character-intro = 252 itemrefs) / 254 navPoints / 250 unique nav li (ch01 dup pre-existing).
+
+**Build & battery:** builder cloned build_epub_v68.py → build_epub_v69.py (docstring + OUT; SRC repointed to the real path `/home/user/AI_Storage/work/epub_src` because the `/home/user/work` symlink was absent at session start — recreated anyway). Built 23,097,105 B / 410 entries (V68 408 + 2), mimetype stored first. **epubcheck (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos** — via freshly installed jdk4py 25.0.2 + epubcheck 5.3.0 (sandbox had been reset; no java/jar present). New baselines: chapters 250, chr-inline anchors 15,745 (15,457 + 187 + 101), ？ total 6,011 (5,961 + 42 + 8), images 129, cards 89/89, CJK-ideograph 0.
+
+**Delivered:** Seoul_Starting_With_Debt_Collection__Version_69.epub (V68 deleted at ship).

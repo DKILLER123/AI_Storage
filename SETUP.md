@@ -82,6 +82,8 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 **SHIPPED: V68 = chapters 247–248 (the pretty noona buying dinner / the same four-leaf clover, different hearts) + the ch78 KakaoTalk chat-block repair.** epubcheck exit 0, no errors; only the V68 epub on disk (23,070,930 B, 408 entries). ？-ledger 61/48 preserved; anchors-in-blocks 0; CJK-ideograph 0; chat-container 157→158.
 
+**SHIPPED: V69 = chapters 249–250 (welcome to La La Land / the bottom line of art is the insurance company).** epubcheck (EPUB 3.3) 0 fatals / 0 errors / 0 warnings / 0 infos; only the V69 epub on disk (23,097,105 B, 410 entries). ？-ledger 42/8 preserved; chr-inline anchors 15,745; anchors-in-blocks 0; CJK-ideograph 0; invented classes 0. Latent V68 nav gap (ch243–248 missing from nav.xhtml) closed — nav now complete 1–250. Builder SRC repointed to the real path (the `/home/user/work` symlink was absent at session start). Tooling reinstalled after a sandbox reset (jdk4py 25.0.2 + epubcheck 5.3.0).
+
 **V67 (next batch) checklist:**
 1. Sandbox pre-flight (§66.4): `ln -sfn /home/user/AI_Storage/work /home/user/work`; `pip install --break-system-packages epubcheck jdk4py`; java symlink; rolled-back `.git` → fetch + reset --soft (§55.1).
 2. Save raws FIRST; VERIFY THE RAWS (token sweep + probes) before anything else (§76.1); ？-ledger THREE numbers BOTH widths, one raw paragraph = one EPUB paragraph (§76.2).

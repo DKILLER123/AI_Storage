@@ -1073,6 +1073,14 @@
       <navLabel><text>Chapter Two Hundred Forty-Eight · The Same Four-Leaf Clover, Different Hearts</text></navLabel>
       <content src="text/chapter-248.xhtml"/>
     </navPoint>
+    <navPoint id="np-253" playOrder="253">
+      <navLabel><text>Chapter Two Hundred Forty-Nine · Welcome to La La Land</text></navLabel>
+      <content src="text/chapter-249.xhtml"/>
+    </navPoint>
+    <navPoint id="np-254" playOrder="254">
+      <navLabel><text>Chapter Two Hundred Fifty · The Bottom Line of Art Is the Insurance Company</text></navLabel>
+      <content src="text/chapter-250.xhtml"/>
+    </navPoint>
 
 
     
