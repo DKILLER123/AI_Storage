@@ -99,4 +99,6 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 **SHIPPED: V71 = fix pass (no new chapters): `.ckl-step` restyled to mirror `sv-line`'s bar-row implementation in the checklist's own cyan palette (not sv-line's gold/cream), and three `slate-block` film blocks added to ch250's La La Land shoots (freeway ensemble dance / Mia & Sebastian first meeting / A Lovely Night).** epubcheck (EPUB 3.3) 0/0/0/0; only the V71 epub on disk (22,989,415 B, 410 entries).
 
-**SHIPPED: V72 = fix pass (no new chapters): hovering character-portrait previews (`.chr-peek`) removed from all 250 chapters (15,574 instances); `chr-inline` links kept.** epubcheck (EPUB 3.3) 0/0/0/0; only the V72 epub on disk (22,950,866 B, 410 entries).
+**SHIPPED: V72 = fix pass: hovering previews (`.chr-peek`) removed book-wide.**
+
+**SHIPPED: V73 = wardrobe-blocks for ch1–5 (7 blocks, photorealistic portrait-matched images).** Reused the existing wardrobe-block component; images registered in content.opf. epubcheck (EPUB 3.3) 0/0/0/0; only the V73 epub on disk (24,265,986 B, 417 entries).

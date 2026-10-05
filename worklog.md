@@ -3146,3 +3146,17 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 **User-directed:** remove the hovering character-portrait previews from all chapters. The preview is the `.chr-peek` span (an absolutely-positioned portrait card revealed on `.chr-inline:hover/:focus`) injected inside every `chr-inline` anchor as `<span class="chr-peek"><img src=… alt=""/></span>`. Stripped that span from **all 250 chapter files (15,574 instances)**, leaving the link intact: `<a class="chr-inline" href="character-intro.xhtml#chr-…">Name</a>`. Clicking a name still jumps to the character intro; only the hover preview is gone. 0 `chr-peek` remain in the packaged chapters.
 
 **Battery:** all 250 chapters re-validated XML-clean after the edit; epubcheck (EPUB 3.3) on V72 = 0 fatals / 0 errors / 0 warnings / 0 infos. Builder cloned v71→v72; built 22,950,866 B / 410 entries. (Sandbox had been reset again — reinstalled jdk4py 25.0.2 + epubcheck before validating.) V71 epub deleted at ship.
+
+## §122 — V73 · wardrobe-blocks for ch1–5 with photorealistic portrait-matched images
+- Reused the EXISTING `wardrobe-block` component (wd-header/wd-tag/wd-item/wd-label/wd-effect/wd-photo/wd-sub/wd-note) from later chapters; NO new CSS classes invented.
+- 7 wardrobe-blocks added across ch1–5 (ch1:1, ch2:1, ch3:1, ch4:2, ch5:2), each with one photorealistic, portrait-matched image (real backgrounds, film grain):
+  - ch1 Si-on discharge-day (charcoal bomber + camo pack) · wardrobe-sion-discharge.jpg
+  - ch2 Jeong-hun the visit (denim, worn knees, loose lace, pencil) · wardrobe-jeonghun-visit.jpg
+  - ch3 Si-on rookie (Hawaiian shirt, white slacks, pointy shoes) · wardrobe-sion-hawaiian.jpg
+  - ch4 Se-jeong off-shift (grey tee, apron) · wardrobe-sejeong-work.jpg
+  - ch4 Si-on working (floral shirt, crew cut, legs up) · wardrobe-sion-floral.jpg
+  - ch5 Bae Jong-han office (buttoned-to-throat shirt) · wardrobe-baejonghan-office.jpg
+  - ch5 Ji-eun off-stage (cream oversized sweatshirt, loose bun) · wardrobe-iu-sweatshirt.jpg
+- Each generated image was regenerated/verified against its character portrait; one defect (floating shoe on Jeong-hun) caught and regenerated with both feet grounded.
+- Registered all 7 images in content.opf manifest; builder packages by walking OEBPS, epubcheck requires manifest entries.
+- Verification: XML clean ch1–5; invented classes = 0; anchors-in-blocks = 0; CJK/fullwidth = 0; epubcheck (EPUB 3.3) 0/0/0/0. V73 = 24,265,986 B / 417 entries; only V73 kept.

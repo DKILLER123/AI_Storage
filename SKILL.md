@@ -966,3 +966,10 @@ Applied to AMAs day — couture politics, the red carpet, and the ceremony itsel
 ## §83 — V72 law (hover previews live in the .chr-peek span)
 
 The hovering character portrait is NOT CSS-generated — it is markup: every `.chr-inline` anchor carries `<span class="chr-peek"><img src="../images/….jpg" alt=""/></span>` before the name, and CSS shows it on `:hover/:focus`. To remove previews book-wide, delete that span (regex `<span class="chr-peek"><img[^>]*/></span>`), leaving `<a class="chr-inline" href="…">Name</a>` — the link to character-intro survives, only the hover card disappears. The dead `.chr-peek` CSS is harmless to leave. Verify 0 `chr-peek` in the packaged chapters afterwards.
+
+## §84 — V73 law (wardrobe-blocks: reuse the component, match the portrait, register the image)
+- wardrobe-block is an EXISTING component (see ch117+): wd-header/wd-tag/wd-item/wd-label/wd-effect/wd-photo/wd-sub/wd-note. Reuse it; never invent new classes (epubcheck won't catch invented classes — audit against stylesheet.css).
+- A wardrobe-block image MUST visually match the character's established portrait (pass the portrait as reference to generate_image) and be photorealistic with a real background (no flat/synthetic look). Verify by viewing the result; regenerate on artifacts (e.g. a floating/ungrounded shoe).
+- Names inside the block stay PLAIN (no chr-inline anchors) per §71.1. Curly typography only; zero CJK/fullwidth in block copy.
+- Every new image goes into content.opf manifest (builder walks OEBPS but epubcheck demands manifest entries), or the build fails validation.
+- Keep only the newest .epub; bump version, append worklog §NN + SKILL §NN + SETUP.
