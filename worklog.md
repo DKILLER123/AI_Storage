@@ -3140,3 +3140,9 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 2. **La La Land movie-shooting gets a film block (`slate-block`) where context exists.** Added 3 slate-blocks in ch250 for the actual shoots — the freeway ensemble dance (opening number, long take, day-1-fails/day-2-holds), Mia & Sebastian's first meeting (horn / middle finger / silent "K-pop" curse), and the A Lovely Night dusk duet at Cathy's Corner (magic hour, take-1-kept). Each: sl-slate / sl-title / sl-mark / sl-line×2 / sl-action "Action" / sl-note; names plain inside (§71.1); no ？ added (ledger stays 8). ch249 got none — it is arrival/rehearsal (no shooting), satisfying "if context is present."
 
 **Build & battery:** builder cloned v70→v71. Built 22,989,415 B / 410 entries, mimetype stored first. epubcheck (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos. V70 epub deleted at ship.
+
+## §121 — V72 · remove hovering previews book-wide (fix pass)
+
+**User-directed:** remove the hovering character-portrait previews from all chapters. The preview is the `.chr-peek` span (an absolutely-positioned portrait card revealed on `.chr-inline:hover/:focus`) injected inside every `chr-inline` anchor as `<span class="chr-peek"><img src=… alt=""/></span>`. Stripped that span from **all 250 chapter files (15,574 instances)**, leaving the link intact: `<a class="chr-inline" href="character-intro.xhtml#chr-…">Name</a>`. Clicking a name still jumps to the character intro; only the hover preview is gone. 0 `chr-peek` remain in the packaged chapters.
+
+**Battery:** all 250 chapters re-validated XML-clean after the edit; epubcheck (EPUB 3.3) on V72 = 0 fatals / 0 errors / 0 warnings / 0 infos. Builder cloned v71→v72; built 22,950,866 B / 410 entries. (Sandbox had been reset again — reinstalled jdk4py 25.0.2 + epubcheck before validating.) V71 epub deleted at ship.
