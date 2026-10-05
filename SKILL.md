@@ -973,3 +973,7 @@ The hovering character portrait is NOT CSS-generated — it is markup: every `.c
 - Names inside the block stay PLAIN (no chr-inline anchors) per §71.1. Curly typography only; zero CJK/fullwidth in block copy.
 - Every new image goes into content.opf manifest (builder walks OEBPS but epubcheck demands manifest entries), or the build fails validation.
 - Keep only the newest .epub; bump version, append worklog §NN + SKILL §NN + SETUP.
+
+## §85 — V74 law (hyperlinks off character names; wardrobe-blocks continue to ch6–10)
+- Character names in chapters are now PLAIN text: every `<a class="chr-inline">` was unwrapped to its inner name (regex sub of the anchor to group(1)). 0 chr-inline remain in chapters; the character-intro anchor TARGETS stay. If a future pass re-adds chr-inline anchors, that contradicts V74 — keep names unlinked.
+- wardrobe-block coverage now spans ch1–10. Same rules as §84: reuse component, match portrait (incl. styling, e.g. Jin-ri's pink hair), photorealistic real backgrounds, register in content.opf, verify & regenerate on artifacts.

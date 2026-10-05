@@ -3160,3 +3160,15 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 - Each generated image was regenerated/verified against its character portrait; one defect (floating shoe on Jeong-hun) caught and regenerated with both feet grounded.
 - Registered all 7 images in content.opf manifest; builder packages by walking OEBPS, epubcheck requires manifest entries.
 - Verification: XML clean ch1–5; invented classes = 0; anchors-in-blocks = 0; CJK/fullwidth = 0; epubcheck (EPUB 3.3) 0/0/0/0. V73 = 24,265,986 B / 417 entries; only V73 kept.
+
+## §123 — V74 · remove chr-inline hyperlinks book-wide + wardrobe-blocks ch6–10
+- Unwrapped all 15,729 `<a class="chr-inline" href="...">Name</a>` to plain `Name` across all 250 chapters (0 chr-inline remain; character-intro targets left intact). XML re-validated clean.
+- Added 6 wardrobe-blocks (ch6:2, ch7:1, ch8:1, ch9:1, ch10:1), reusing the existing component, each with a photorealistic portrait-matched image:
+  - ch6 Eun-ah dance-practice (loose tee/sweatpants) · wardrobe-eunah-practice.jpg
+  - ch6 Jin-ri disguise (hood to eyebrows + mask) · wardrobe-jinri-disguise.jpg
+  - ch7 Si-on midnight Mapo (floral) · wardrobe-sion-midnight.jpg
+  - ch8 Jin-ri as Yeon-hui (filthy uniform, blood at mouth) · wardrobe-jinri-yeonhui.jpg
+  - ch9 Jin-ri late-night meal (hood down, mask at chin) · wardrobe-jinri-latenight.jpg
+  - ch10 Si-on as Sang-hun poster (sunk in water, reaching hand) · wardrobe-sion-poster.jpg
+- All 6 images registered in content.opf; verified visually against portraits (pink hair kept for Jin-ri per styling-match).
+- Verification: XML clean ch6–10; invented classes 0; anchors-in-blocks 0; CJK 0; chr-inline 0 book-wide; epubcheck (EPUB 3.3) 0/0/0/0. V74 = 25,201,928 B / 423 entries; only V74 kept.

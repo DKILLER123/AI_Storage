@@ -101,4 +101,6 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 
 **SHIPPED: V72 = fix pass: hovering previews (`.chr-peek`) removed book-wide.**
 
-**SHIPPED: V73 = wardrobe-blocks for ch1–5 (7 blocks, photorealistic portrait-matched images).** Reused the existing wardrobe-block component; images registered in content.opf. epubcheck (EPUB 3.3) 0/0/0/0; only the V73 epub on disk (24,265,986 B, 417 entries).
+**SHIPPED: V73 = wardrobe-blocks for ch1–5.**
+
+**SHIPPED: V74 = chr-inline hyperlinks removed from character names book-wide (15,729 unwrapped) + wardrobe-blocks ch6–10 (6 blocks, portrait-matched images).** epubcheck (EPUB 3.3) 0/0/0/0; only the V74 epub on disk (25,201,928 B, 423 entries).
