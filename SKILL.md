@@ -977,3 +977,7 @@ The hovering character portrait is NOT CSS-generated — it is markup: every `.c
 ## §85 — V74 law (hyperlinks off character names; wardrobe-blocks continue to ch6–10)
 - Character names in chapters are now PLAIN text: every `<a class="chr-inline">` was unwrapped to its inner name (regex sub of the anchor to group(1)). 0 chr-inline remain in chapters; the character-intro anchor TARGETS stay. If a future pass re-adds chr-inline anchors, that contradicts V74 — keep names unlinked.
 - wardrobe-block coverage now spans ch1–10. Same rules as §84: reuse component, match portrait (incl. styling, e.g. Jin-ri's pink hair), photorealistic real backgrounds, register in content.opf, verify & regenerate on artifacts.
+
+## §86 — V75 law (wardrobe-blocks ch11–15; verify ACTION roles, not just faces)
+- wardrobe coverage now spans ch1–15. Same §84/§85 rules.
+- When a wardrobe image depicts an ACTION between two people (e.g. carrying), verify the ROLES match the text (who carries whom). First ch13 render had Si-on being carried; regenerated. Face-match alone is not enough — the depicted action must match the prose.

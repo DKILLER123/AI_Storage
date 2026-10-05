@@ -3172,3 +3172,13 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
   - ch10 Si-on as Sang-hun poster (sunk in water, reaching hand) · wardrobe-sion-poster.jpg
 - All 6 images registered in content.opf; verified visually against portraits (pink hair kept for Jin-ri per styling-match).
 - Verification: XML clean ch6–10; invented classes 0; anchors-in-blocks 0; CJK 0; chr-inline 0 book-wide; epubcheck (EPUB 3.3) 0/0/0/0. V74 = 25,201,928 B / 423 entries; only V74 kept.
+
+## §124 — V75 · wardrobe-blocks ch11–15 (6 blocks, portrait-matched)
+- ch11 Si-on crew jacket between takes (on set) · wardrobe-sion-crewjacket.jpg
+- ch12 Jin-ri as Yeon-hui borrowed 2002 uniform (worn cuffs, short hem, wet chest) · wardrobe-jinri-uniform2002.jpg
+- ch13 Si-on as Sang-hun carrying blood-soaked father midnight · wardrobe-sion-blood.jpg
+- ch14 Jin-ri as Yeon-hui barefoot at Han River night · wardrobe-jinri-river.jpg
+- ch15 Jin-ri as Yeon-hui black mourning dress · wardrobe-jinri-mourning.jpg
+- ch15 Eun-ah suitcase at the door (messy hair, red eyes) · wardrobe-eunah-suitcase.jpg
+- Verification caught a role-reversal defect in the ch13 image (Si-on shown being carried); regenerated with Si-on upright carrying the father.
+- All 6 registered in content.opf; XML clean, invented classes 0, anchors-in-blocks 0, CJK 0; epubcheck 0/0/0/0. V75 = 26,324,494 B / 429 entries; only V75 kept.
