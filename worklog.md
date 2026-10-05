@@ -3182,3 +3182,13 @@ Book-wide grammar sweep (inverted negation, Chinglish markers, doubled words, ar
 - ch15 Eun-ah suitcase at the door (messy hair, red eyes) · wardrobe-eunah-suitcase.jpg
 - Verification caught a role-reversal defect in the ch13 image (Si-on shown being carried); regenerated with Si-on upright carrying the father.
 - All 6 registered in content.opf; XML clean, invented classes 0, anchors-in-blocks 0, CJK 0; epubcheck 0/0/0/0. V75 = 26,324,494 B / 429 entries; only V75 kept.
+
+## §124 — V76 · wardrobe-blocks ch16–20 (6 blocks, portrait-matched images)
+- ch16 Eun-ah cut at last second (grey hoodie, key, suitcase, tears) · wardrobe-eunah-cut.jpg
+- ch17 Eun-ah blistered heels on the Seoul marathon · wardrobe-eunah-heels.jpg
+- ch18 Han-teuk borrowed church black (high collar + pinned cross) · wardrobe-hanteuk-church.jpg
+- ch19 Si-on bathhouse off-duty (fresh tee/shorts, lounge chair) · wardrobe-sion-bathhouse.jpg
+- ch19 Eun-ah new limited-edition sneakers (old sandals trashed) · wardrobe-eunah-sneakers.jpg
+- ch20 Si-on money-delivery messenger at SM (buzz cut + floral) · wardrobe-sion-smcorridor.jpg
+- Reused existing component; all 6 registered in content.opf; verified against portraits.
+- Verification: XML clean ch16–20; invented classes 0; anchors-in-blocks 0; CJK 0; epubcheck 0/0/0/0. V76 = 27,386,348 B / 435 entries; only V76 kept.

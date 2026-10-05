@@ -981,3 +981,7 @@ The hovering character portrait is NOT CSS-generated — it is markup: every `.c
 ## §86 — V75 law (wardrobe-blocks ch11–15; verify ACTION roles, not just faces)
 - wardrobe coverage now spans ch1–15. Same §84/§85 rules.
 - When a wardrobe image depicts an ACTION between two people (e.g. carrying), verify the ROLES match the text (who carries whom). First ch13 render had Si-on being carried; regenerated. Face-match alone is not enough — the depicted action must match the prose.
+
+## §86 — V76 note (wardrobe coverage now ch1–20; secondary cast get blocks too)
+- Wardrobe-blocks now span ch1–20. Secondary/manager characters (Han-teuk) get blocks when the raw gives them a distinctive described outfit (e.g. "black clothes, high collar, a cross pinned to the collar front").
+- Keep matching the portrait face AND styling; a repeated signature outfit (Si-on's floral) may recur across chapters as a running "uniform" but each block should anchor to a distinct scene/beat.

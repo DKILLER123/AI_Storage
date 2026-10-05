@@ -106,3 +106,5 @@ audit, Park `<a` check, chat-name self audit, typography, image accounting).
 **SHIPPED: V74 = chr-inline hyperlinks removed book-wide + wardrobe-blocks ch6–10.**
 
 **SHIPPED: V75 = wardrobe-blocks ch11–15 (6 blocks, portrait-matched images).** epubcheck (EPUB 3.3) 0/0/0/0; only the V75 epub on disk (26,324,494 B, 429 entries).
+
+**SHIPPED: V76 = wardrobe-blocks ch16–20 (6 blocks: Eun-ah cut/heels/sneakers, Han-teuk church black, Si-on bathhouse/SM corridor).** epubcheck (EPUB 3.3) 0/0/0/0; only the V76 epub on disk (27,386,348 B, 435 entries).
